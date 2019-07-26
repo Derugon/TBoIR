@@ -1,0 +1,44 @@
+<AnimatedActor>
+	<Info CreatedBy="robot" CreatedOn="19.04.2014 00:03:08" Version="103" Fps="30"/>
+	<Content>
+		<Spritesheets>
+			<Spritesheet Path="Door_07_DevilRoomDoor.png" Id="0"/>
+		</Spritesheets>
+		<Layers>
+			<Layer Name="layer0" Id="0" SpritesheetId="0"/>
+		</Layers>
+		<Nulls/>
+		<Events/>
+	</Content>
+	<Animations DefaultAnimation="Opened">
+		<Animation Name="Opened" FrameNum="1" Loop="false">
+			<RootAnimation>
+				<Frame XPosition="0" YPosition="0" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0"/>
+			</RootAnimation>
+			<LayerAnimations>
+				<LayerAnimation LayerId="0" Visible="true">
+					<Frame XPosition="0" YPosition="0" XPivot="31" YPivot="57" XCrop="0" YCrop="0" Width="64" Height="64" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0"/>
+				</LayerAnimation>
+			</LayerAnimations>
+			<NullAnimations/>
+			<Triggers/>
+		</Animation>
+		<Animation Name="Appear" FrameNum="42" Loop="false">
+			<RootAnimation>
+				<Frame XPosition="0" YPosition="0" XScale="100" YScale="100" Delay="42" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0"/>
+			</RootAnimation>
+			<LayerAnimations>
+				<LayerAnimation LayerId="0" Visible="true">
+					<Frame XPosition="0" YPosition="41" XPivot="32" YPivot="48" XCrop="0" YCrop="0" Width="64" Height="14" XScale="100" YScale="100" Delay="6" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0"/>
+					<Frame XPosition="0" YPosition="0" XPivot="31" YPivot="57" XCrop="0" YCrop="0" Width="64" Height="64" XScale="118" YScale="82" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0"/>
+					<Frame XPosition="0" YPosition="0" XPivot="31" YPivot="57" XCrop="0" YCrop="0" Width="64" Height="64" XScale="103" YScale="97" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0"/>
+					<Frame XPosition="1" YPosition="0" XPivot="31" YPivot="57" XCrop="0" YCrop="0" Width="64" Height="64" XScale="88" YScale="112" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0"/>
+					<Frame XPosition="0" YPosition="0" XPivot="31" YPivot="57" XCrop="0" YCrop="0" Width="64" Height="64" XScale="94" YScale="106" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0"/>
+					<Frame XPosition="0" YPosition="0" XPivot="31" YPivot="57" XCrop="0" YCrop="0" Width="64" Height="64" XScale="100" YScale="100" Delay="32" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0"/>
+				</LayerAnimation>
+			</LayerAnimations>
+			<NullAnimations/>
+			<Triggers/>
+		</Animation>
+	</Animations>
+</AnimatedActor>

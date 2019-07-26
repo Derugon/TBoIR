@@ -1,0 +1,542 @@
+<items gfxroot="gfx/items/" version="1">
+	<passive cache="firedelay" description="涙アップ&#10;" gfx="Collectibles_001_TheSadOnion.png" id="1" name="悲しみオニオン" />
+	<passive cache="firedelay" description="トリプルショット&#10;" gfx="Collectibles_002_TheInnerEye.png" id="2" name="心眼" />
+	<passive cache="speed tearcolor tearflag" description="ホーミングショット&#10;" gfx="Collectibles_003_SpoonBender.png" id="3" name="スプーン曲げ機" />
+	<passive cache="damage shotspeed" description="ダメージアップ&#10;" gfx="Collectibles_004_CricketsHead.png" id="4" name="コオロギの頭" />
+	<passive cache="tearflag shotspeed range" description="ブーメラン涙&#10;" gfx="Collectibles_005_MyReflection.png" id="5" name="リフレクション" />
+	<passive cache="firedelay range tearcolor" description="涙アップ&#10;" gfx="Collectibles_006_NumberOne.png" id="6" name="ナンバー１" />
+	<passive cache="damage" description="ダメージアップ&#10;" gfx="Collectibles_007_BloodOfTheMartyr.png" id="7" name="殉教者の血" />
+	<familiar description="最後までお友達&#10;" gfx="Collectibles_008_BrotherBobby.png" id="8" name="ボビー君" />
+	<passive description="ハエの好物&#10;" gfx="Collectibles_009_Skatole.png" id="9" name="スカトール　" />
+	<familiar description="飛び道具保険&#10;" gfx="Collectibles_010_HaloOfFlies.png" id="10" name="ハエの光輪" />
+	<familiar description="ライフ追加&#10;" gfx="Collectibles_011_1Up.png" id="11" name="１UP!" />
+	<passive cache="damage range speed" description="全てのステータスアップ&#10;" gfx="Collectibles_012_MagicMushroom.png" hearts="100" id="12" maxhearts="2" name="魔法のキノコ" />
+	<passive description="ふれたら毒&#10;" gfx="Collectibles_013_TheVirus.png" id="13" name="ウイルス" />
+	<passive cache="range speed" description="スピードと射程距離アップ&#10;" gfx="Collectibles_014_RoidRage.png" id="14" name="ロイド依存" />
+	<passive description="HPアップ&#10;" gfx="Collectibles_015_Heart.png" hearts="99" id="15" maxhearts="2" name="&lt;3" />
+	<passive description="HPアップ&#10;" gfx="Collectibles_016_RawLiver.png" hearts="99" id="16" maxhearts="4" name="生肝" />
+	<passive description="鍵９９個&#10;" gfx="Collectibles_017_SkeletonKey.png" id="17" keys="99" name="ガイコツの鍵" />
+	<passive coins="99" description="大金持ち！&#10;" gfx="Collectibles_018_ADollar.png" id="18" name="１ドル" />
+	<passive bombs="10" description="ボム１０個&#10;" gfx="Collectibles_019_Boom.png" id="19" name="ドカーン！" />
+	<passive achievement="8" cache="flying" description="空中浮遊！&#10;" gfx="Collectibles_020_Transcendence.png" id="20" name="超絶パワー" />
+	<passive description="もうすぐおわり&#10;" gfx="Collectibles_021_TheCompass.png" id="21" name="コンパス" />
+	<passive description="HPアップ&#10;" gfx="Collectibles_022_Lunch.png" hearts="2" id="22" maxhearts="2" name="昼ごはん" />
+	<passive description="HPアップ&#10;" gfx="Collectibles_023_Dinner.png" hearts="2" id="23" maxhearts="2" name="晩ごはん" />
+	<passive description="HPアップ&#10;" gfx="Collectibles_024_Dessert.png" hearts="2" id="24" maxhearts="2" name="デザート" />
+	<passive description="HPアップ&#10;" gfx="Collectibles_025_Breakfast.png" hearts="2" id="25" maxhearts="2" name="朝ごはん" />
+	<passive description="HPアップ&#10;" gfx="Collectibles_026_RottenMeat.png" hearts="2" id="26" maxhearts="2" name="腐った肉" />
+	<passive cache="speed" description="スピードアップ&#10;" gfx="Collectibles_027_WoodenSpoon.png" id="27" name="木のスプーン" />
+	<passive cache="speed" description="スピードアップ&#10;" gfx="Collectibles_028_TheBelt.png" id="28" name="ベルト" />
+	<passive cache="range" description="射程距離アップ&#10;" gfx="Collectibles_029_MomsUnderwear.png" id="29" name="ママの下着" />
+	<passive cache="range" description="射程距離アップ&#10;" gfx="Collectibles_030_MomsHeels.png" id="30" name="ママのヒール" />
+	<passive cache="range" description="射程距離アップ&#10;" gfx="Collectibles_031_MomsLipstick.png" id="31" name="ママの口紅" />
+	<passive achievement="139" cache="firedelay" description="涙アップ&#10;" gfx="Collectibles_032_WireCoatHanger.png" id="32" name="コートハンガー" />
+	<active cache="flying" description="一時的に空中浮遊&#10;" gfx="Collectibles_033_TheBible.png" id="33" maxcharges="6" name="聖書" />
+	<active cache="damage" description="一時的にダメージアップ&#10;" gfx="Collectibles_034_TheBookOfBelial.png" id="34" maxcharges="3" name="ベリアルの本" />
+	<active achievement="36" description="すべての敵にダメージ&#10;" gfx="Collectibles_035_TheNecronomicon.png" id="35" maxcharges="6" name="ネクロノミコン" />
+	<active description="ぶりぶりッ&#10;" gfx="Collectibles_036_ThePoop.png" id="36" maxcharges="1" name="うんち" />
+	<active description="再使用型ボム相棒&#10;" gfx="Collectibles_037_MrBoom.png" id="37" maxcharges="2" name="Mr.ドカーン" />
+	<active description="再使用型涙バースト&#10;" gfx="Collectibles_038_TammysHead.png" id="38" maxcharges="1" name="タミーの頭" />
+	<active cooldown="220" description="すべての敵が恐怖！&#10;" gfx="Collectibles_039_MomsBra.png" id="39" maxcharges="3" name="ママのブラ" />
+	<active cooldown="30" description="君が爆弾になれ！&#10;" gfx="Collectibles_040_Kamikaze.png" id="40" maxcharges="0" name="神風！" />
+	<active cooldown="180" description="キモっ・・・&#10;" gfx="Collectibles_041_MomsPad.png" id="41" maxcharges="3" name="ママのハンカチ" />
+	<active description="再使用型遠距離ボム&#10;" gfx="Collectibles_042_BobsRottenHead.png" id="42" maxcharges="3" name="ボブの腐った頭" />
+	
+	<active cooldown="30" description="テレポート！&#10;" gfx="Collectibles_044_Teleport.png" id="44" maxcharges="2" name="瞬間移動" />
+	<active description="再利用型再生能力&#10;" gfx="Collectibles_045_YumHeart.png" id="45" maxcharges="4" name="ひとくち心臓" />
+	<passive cache="luck" description="運勢アップ&#10;" gfx="Collectibles_046_LuckyFoot.png" id="46" name="幸せの足" />
+	<active description="再利用型航空攻撃&#10;" gfx="Collectibles_047_DoctorsRemote.png" id="47" maxcharges="2" name="ドクターのリモコン" />
+	<passive cache="tearflag" description="貫通弾&#10;" gfx="Collectibles_048_CupidsArrow.png" id="48" name="キューピッドの矢" />
+	<active description="ぐわぁぁぁ！&#10;" gfx="Collectibles_049_ShoopDaWhoop.png" id="49" maxcharges="2" name="シュープダウープ！" />
+	<passive cache="damage" description="ダメージアップ&#10;" gfx="Collectibles_050_Steven.png" id="50" name="スティーブン" />
+	<passive cache="damage" description="ダメージアップ&#10;" gfx="Collectibles_051_Pentagram.png" id="51" name="ペンタグラム" />
+	<passive achievement="11" cache="all" description="？？？&#10;" gfx="Collectibles_052_DrFetus.png" id="52" name="ドクター退治" special="true" />
+	<passive description="アイテム引き寄せ&#10;" gfx="Collectibles_053_Magneto.png" id="53" name="マグネット" />
+	<passive description="全てが明かされた地図&#10;" gfx="Collectibles_054_TreasureMap.png" id="54" name="宝の地図" />
+	<passive description="頭の後ろに目が・・・&#10;" gfx="Collectibles_055_MomsEye.png" id="55" name="ママの目" />
+	<active description="あっ・・・&#10;" gfx="Collectibles_056_LemonMishap.png" id="56" maxcharges="2" name="レモンの災い" />
+	<familiar description="はなれた所から援護&#10;" gfx="Collectibles_057_DistantAdmiration.png" id="57" name="遠隔式ハエ" />
+	<active cooldown="300" description="一時的無敵&#10;" gfx="Collectibles_058_BookOfShadows.png" id="58" maxcharges="3" name="ブックオブシャドウ" />
+	
+	<passive cache="tearflag" description="橋・・・ご？&#10;" gfx="Collectibles_060_TheLadder.png" id="60" name="ハシゴ" />
+	
+	<passive description="死んでも蘇生&#10;" gfx="Collectibles_062_CharmOfTheVampire.png" id="62" name="ヴァンパイアチャーム" />
+	<passive description="エネルギー保管&#10;" gfx="Collectibles_063_TheBattery.png" id="63" name="電池" />
+	<passive description="50%オフ&#10;" gfx="Collectibles_064_SteamSale.png" id="64" name="スチームセール" />
+	<active cooldown="35" description="ボム召喚&#10;" gfx="Collectibles_065_AnarchistCookbook.png" id="65" maxcharges="3" name="アナーキストのクックブック" />
+	<active cooldown="230" description="一時的に敵の動きを遅くする&#10;" gfx="Collectibles_066_TheHourglass.png" id="66" maxcharges="2" name="砂時計" />
+	<familiar description="最後までお友達&#10;" gfx="Collectibles_067_SisterMaggy.png" id="67" name="マギーちゃん" />
+	<passive cache="all" description="涙レーザー&#10;" gfx="Collectibles_068_Technology.png" id="68" name="テクノロジー" />
+	<passive cache="all" description="タメ射ち&#10;" gfx="Collectibles_069_ChocolateMilk.png" id="69" name="チョコレートミルク" />
+	<passive cache="damage speed" description="スピードとダメージアップ&#10;" gfx="Collectibles_070_GrowthHormones.png" id="70" name="成長ホルモン" />
+	<passive cache="speed range" description="スピードと射程距離アップ&#10;" gfx="Collectibles_071_MiniMushroom.png" id="71" name="ミニ・マッシュ" />
+	<passive description="信仰アップ&#10;" gfx="Collectibles_072_Rosary.png" id="72" name="ロザリー" soulhearts="6" />
+	<familiar achievement="6" description="ゲットだぜ！&#10;" gfx="Collectibles_073_CubeOfMeat.png" id="73" name="肉の塊" />
+	<passive achievement="10" coins="25" description=" +２５コイン&#10;" gfx="Collectibles_074_AQuarter.png" id="74" name="クォーター" />
+	<passive description="薬効果アップ&#10;" gfx="Collectibles_075_PHD.png" hearts="4" id="75" name="PHD" />
+	<passive description="&#10;" gfx="Collectibles_076_XrayVision.png" id="76" name="X線ビジョン" />
+	<active cache="speed" cooldown="180" description="一時的に暴走モード！&#10;" gfx="Collectibles_077_MyLittleUnicorn.png" id="77" maxcharges="6" name="マイリトルユニコーン" />
+	<active achievement="7" description="再利用型魂防御&#10;" gfx="Collectibles_078_BookOfRevelations.png" id="78" maxcharges="6" name="ヨハネの黙示録" />
+	<passive cache="damage speed" description="ダメージアップ&#10;" gfx="Collectibles_079_TheMark.png" id="79" name="紋章" soulhearts="2" />
+	<passive cache="damage firedelay" description="ダメージと涙アップ&#10;" devilprice="2" gfx="Collectibles_080_ThePact.png" id="80" name="契約" soulhearts="4" />
+	<familiar description="９つの命&#10;" gfx="Collectibles_081_DeadCat.png" id="81" name="ねこのしかばね" />
+	<passive cache="flying" description="悪魔の羽&#10;" devilprice="2" gfx="Collectibles_082_LordOfThePit.png" id="82" name="奈落の王" />
+	<active achievement="9" cache="speed damage" description="一時的に悪魔型に&#10;" devilprice="2" gfx="Collectibles_083_TheNail.png" id="83" maxcharges="6" name="釘" />
+	<active description="再利用型ステージスキップ&#10;" gfx="Collectibles_084_WeNeedToGoDeeper.png" id="84" maxcharges="6" name="もっと深く！" />
+	<active description="再利用型カード発行機&#10;" gfx="Collectibles_085_DeckOfCards.png" id="85" maxcharges="6" name="カードのデッキ" />
+	<active achievement="13" description="モンストロ召喚&#10;" gfx="Collectibles_086_MonstrosTooth.png" id="86" maxcharges="3" name="モンストロの歯" />
+	<passive achievement="15" description="クロス涙&#10;" gfx="Collectibles_087_LokisHorns.png" id="87" name="ロキのツノ" />
+	<familiar achievement="14" description="攻撃型相棒&#10;" gfx="Collectibles_088_LittleChubby.png" id="88" name="リトルチャビー" />
+	<passive cache="tearcolor tearflag" description="スロー効果&#10;" gfx="Collectibles_089_SpidersBite.png" id="89" name="スパイダーバイト" />
+	<passive achievement="12" cache="tearcolor damage" description="ダメージアップ&#10;" gfx="Collectibles_090_SmallRock.png" id="90" name="小岩" />
+	<passive description="扉の向こうが見える&#10;" gfx="Collectibles_091_SpelunkerHat.png" id="91" name="スペランカーの帽子" />
+	<passive achievement="19" description=" +２ハート&#10;" gfx="Collectibles_092_SuperBandage.png" hearts="2" id="92" maxhearts="2" name="スーパー包帯" soulhearts="4" />
+	<active achievement="26" cooldown="200" description="一時的にマン・パックが&#10;" gfx="Collectibles_093_TheGameKid.png" id="93" maxcharges="6" name="ゲームキッド" />
+	<familiar achievement="21" description="お金ください&#10;" gfx="Collectibles_094_SackOfPennies.png" id="94" name="ペニーの袋" />
+	<familiar description="ザザー　オトモダチ&#10;" gfx="Collectibles_095_RoboBaby.png" id="95" name="ロボベイビー" />
+	<familiar achievement="25" description="キスしてくれない？&#10;" gfx="Collectibles_096_LittleChad.png" id="96" name="リトルチャッド" />
+	<active achievement="22" description="再利用型アイテムジェネレータ&#10;" gfx="Collectibles_097_BookOfSin.png" id="97" maxcharges="4" name="罪の書" />
+	<familiar achievement="20" description="魂ジェネレーター&#10;" gfx="Collectibles_098_TheRelic.png" id="98" name="遺物" />
+	<familiar achievement="23" description="ベタベタするお友達&#10;" gfx="Collectibles_099_LittleGish.png" id="99" name="リトル・ギッシュ" />
+	<familiar achievement="24" description="サイキックなお友達&#10;" gfx="Collectibles_100_LittleSteve.png" id="100" name="リトル・スティーブン" />
+	<passive achievement="27" cache="damage firedelay range speed" description="全てのステータスがアップ&#10;" gfx="Collectibles_101_TheHalo.png" hearts="2" id="101" maxhearts="2" name="ヘイロー" />
+	<active description="再利用型薬ジェネレータ&#10;" gfx="Collectibles_102_MomsBottleOfPills.png" id="102" maxcharges="6" name="ママの薬入れ" />
+	<passive cache="tearcolor tearflag" description="毒ダメージ&#10;" gfx="Collectibles_103_TheCommonCold.png" id="103" name="流行風邪" />
+	<passive achievement="31" cache="tearcolor tearflag" description="攻撃型オプション&#10;" gfx="Collectibles_104_TheParasite.png" id="104" name="パラサイト" />
+	<active achievement="29" description="運命を変える力を・・・&#10;" gfx="Collectibles_105_Dice.png" id="105" maxcharges="6" name="D６" special="true" />
+	<passive achievement="28" bombs="5" description="爆発ダメージ&#10;" gfx="Collectibles_106_MrMega.png" id="106" name="ミスターメガ" />
+    <active cache="familiars" description="カット＆ラン！&#10;" gfx="Collectibles_107_PinkingShears.png" id="107" maxcharges="6" name="ピンキング・シアー" />
+	<passive description="防御力アップ&#10;" gfx="Collectibles_108_TheWafer.png" id="108" name="ウェイファー" />
+	<passive cache="damage" description="$$$ = ダメージ&#10;" gfx="Collectibles_109_MoneyisPower.png" id="109" name="お金は権力なり" />
+	<passive achievement="35" cache="tearcolor tearflag" description="ママのコンタクト&#10;" gfx="Collectibles_110_MomsContacts.png" id="110" name="お母さんのコンタクト" />
+	<active description="いつでも口笛&#10;" gfx="Collectibles_111_TheBean.png" id="111" maxcharges="1" name="まめ" />
+	<familiar achievement="45" description="強化型プロテクション&#10;" gfx="Collectibles_112_GuardianAngel.png" id="112" name="ガーディアンエンジェル" />
+	<familiar achievement="47" description="勝手に戦うお友達&#10;" gfx="Collectibles_113_DemonBaby.png" id="113" name="悪魔の子" />
+	<passive achievement="43" cache="all" description="グサッ！グサグサッ！&#10;" devilprice="2" gfx="Collectibles_114_MomsKnife.png" id="114" name="ママの包丁" special="true" />
+	<passive cache="tearflag tearcolor" description="スペクトル涙&#10;" gfx="Collectibles_115_OuijaBoard.png" id="115" name="ウィジャボード" />
+	<passive description="高速チャージ&#10;" gfx="Collectibles_116_9Volt.png" id="116" name="９ボルト" />
+	<passive cache="familiars" description="お守りバディー&#10;" gfx="Collectibles_117_DeadBird.png" id="117" name="鳥の死体" />
+	<passive cache="all" description="ブラッドレーザー弾幕&#10;" devilprice="2" gfx="Collectibles_118_Brimstone.png" id="118" name="ブリムストーン" special="true" />
+	<passive achievement="147" cache="speed" description="HPアップ&#10;" gfx="Collectibles_119_BloodBag.png" hearts="10" id="119" maxhearts="2" name="血液袋" />
+	<passive cache="damage firedelay speed" description="発砲頻度アップ&#10;" gfx="Collectibles_120_OddMushroomThin.png" id="120" name="変なキノコ" />
+	<passive cache="damage speed range" description="ダメージアップ&#10;" gfx="Collectibles_121_OddMushroomLarge.png" id="121" maxhearts="2" name="変なきのこ" />
+	<passive cache="damage speed" description="呪いアップ&#10;" gfx="Collectibles_122_WhoreOFBabylon.png" id="122" name="バビロンの女" />
+	<active description="即席相棒ジェネレータ&#10;" gfx="Collectibles_123_MonsterManual.png" id="123" maxcharges="3" name="モンスターマニュアル" />
+	<active description="まさにミステリー&#10;" gfx="Collectibles_124_DeadSeaScrolls.png" id="124" maxcharges="2" name="死海文書" />
+	<passive bombs="5" description="ホーミングボム&#10;" gfx="Collectibles_125_BobbyBomb.png" id="125" name="ボビーボム" />
+	<active achievement="44" cache="damage" description="我が痛み思い知れ&#10;" gfx="Collectibles_126_RazorBlade.png" id="126" maxcharges="0" name="カミソリ" />
+	<active achievement="48" description="なんだっけ。。。？&#10;" gfx="Collectibles_127_ForgetMeNow.png" id="127" maxcharges="1" name="フォーゲットミーなぅ" />
+	<familiar description="攻撃型ハエ&#10;" gfx="Collectibles_128_ForeverAlone.png" id="128" name="永遠の孤独" />
+	<passive cache="speed" description="HPアップ&#10;" gfx="Collectibles_129_BucketofLard.png" hearts="1" id="129" maxhearts="4" name="一杯の背アブラ" />
+	<active cache="flying speed" description="フライト＆ダッシュ攻撃&#10;" gfx="Collectibles_130_APony.png" id="130" maxcharges="4" name="ポニー" />
+	<familiar achievement="46" description="ボムたくさん&#10;" gfx="Collectibles_131_BombBag.png" id="131" name="ボム袋" />
+	<passive cache="damage tearflag tearcolor" description="自分へのX'masプレゼント&#10;" gfx="Collectibles_132_ALumpOfCoal.png" id="132" name="炭の塊" />
+	<active description="魂コンバーター&#10;" gfx="Collectibles_133_GuppysPaw.png" id="133" maxcharges="0" name="ガッピーの足" />
+	<passive description="呪われてる？&#10;" gfx="Collectibles_134_GuppysTail.png" id="134" name="ガッピーの尻尾" />
+	<active cooldown="15" description="携帯用血液バンク&#10;" gfx="Collectibles_135_IVBag.png" id="135" maxcharges="0" name="静脈注射" />
+	<active description="最後までお友達&#10;" gfx="Collectibles_136_BestFriend.png" id="136" maxcharges="3" name="親友" />
+	<active bombs="5" cooldown="2" description="遠距離ボム操作&#10;" gfx="Collectibles_137_RemoteDetonator.png" id="137" maxcharges="0" name="デトネーター" />
+	<passive cache="damage" description="ダメージとHPアップ&#10;" gfx="Collectibles_138_Stigmata.png" hearts="2" id="138" maxhearts="2" name="聖痕" />
+	<passive description="アクセサリがもっと持てる&#10;" gfx="Collectibles_139_MomsPurse.png" id="139" name="ママのカバン" />
+	<passive bombs="5" description=" +５ 毒ボム&#10;" gfx="Collectibles_140_BobsCurse.png" id="140" name="ボブの呪い" />
+	<passive description="究極にして至高&#10;" gfx="Collectibles_141_PageantBoy.png" id="141" name="ページェントボーイ" />
+	<passive description="あなたにご加護を&#10;" gfx="Collectibles_142_Scapular.png" id="142" name="肩甲骨" />
+	<passive cache="speed shotspeed" description="スピードと発砲頻度アップ&#10;" gfx="Collectibles_143_Speedball.png" id="143" name="スピードボール" />
+	<familiar description="欲張り&#10;" gfx="Collectibles_144_BumFriend.png" id="144" name="ろくでなしフレンド" />
+	<active description="再利用型ハエの巣&#10;" gfx="Collectibles_145_GuppysHead.png" id="145" maxcharges="1" name="ガッピーの頭" />
+	<active description="再利用型エタニティ&#10;" gfx="Collectibles_146_PrayerCard.png" id="146" maxcharges="6" name="祈りのカード" />
+	<active description="岩もいちころ&#10;" gfx="Collectibles_147_NotchedAxe.png" id="147" maxcharges="3" name="大斧" />
+	<passive description="中で何かが成長中&#10;" gfx="Collectibles_148_Infestation.png" id="148" name="感染者" />
+	<passive achievement="140" cache="all" description="爆破ショット&#10;" gfx="Collectibles_149_Ipecac.png" id="149" name="吐き気薬" />
+	<passive description="歯とばし攻撃&#10;" gfx="Collectibles_150_ToughLove.png" id="150" name="タフなラブ" />
+	<passive cache="tearflag" description="中で何かが成長中&#10;" gfx="Collectibles_151_TheMulligan.png" id="151" name="ザ・マリガン" />
+	<passive cache="weapon damage" description="レーザー&#10;" gfx="Collectibles_152_Technology2.png" id="152" name="テクノロジー２" />
+	<passive cache="firedelay" description="４方向攻撃&#10;" gfx="Collectibles_153_MutantSpider.png" id="153" name="ミュータント・スパイダー" special="true" />
+	<passive cache="damage" description="ダメージアップ&#10;" gfx="Collectibles_154_ChemicalPeel.png" id="154" name="ケミカルピール" />
+	<familiar description="ふにゃ&#10;" gfx="Collectibles_155_ThePeeper.png" id="155" name="ノゾキ魔" />
+	<passive description="殉教アイテム&#10;" gfx="Collectibles_156_Habit.png" id="156" name="悪い癖" />
+	<passive achievement="54" cache="damage" description="ブチギレ！&#10;" gfx="Collectibles_157_BloodyLust.png" id="157" name="血まみれの欲望" />
+	<active description="未来が見える&#10;" gfx="Collectibles_158_CrystalBall.png" id="158" maxcharges="6" name="水晶" />
+	<passive cache="flying tearflag tearcolor" description="こわッ！&#10;" devilprice="2" gfx="Collectibles_159_SpiritOfTheNight.png" id="159" name="夜の神霊" />
+	<active cooldown="30" description="聖なる白い死&#10;" gfx="Collectibles_160_CrackTheSky.png" id="160" maxcharges="4" name="空の轟音" />
+	<passive description="永遠の命？&#10;" gfx="Collectibles_161_Ankh.png" id="161" name="アンク" />
+	<passive achievement="50" cooldown="200" description="加護を感じて&#10;" gfx="Collectibles_162_CelticCross.png" id="162" name="ケルトの十字架" />
+	<familiar description="お化けの相棒&#10;" gfx="Collectibles_163_GhostBaby.png" id="163" name="ゴーストベイビー" />
+	<active achievement="59" description="再利用型炎&#10;" gfx="Collectibles_164_BlueCandle.png" id="164" maxcharges="110" name="キャンドル" />
+	<passive cache="shotspeed damage" description="ショットのスピードとダメージアップ&#10;" gfx="Collectibles_165_CatONineTails.png" id="165" name="九尾のネコ" />
+	<active achievement="49" description="まずは基礎から&#10;" gfx="Collectibles_166_D20.png" id="166" maxcharges="6" name="D２０" />
+	<familiar description="ダブルショットの相棒&#10;" gfx="Collectibles_167_HarlequinBaby.png" id="167" name="道化師ベイビー" />
+	<passive achievement="62" cache="all" description="呼応型航空支援攻撃&#10;" gfx="Collectibles_168_EpicFetus.png" id="168" name="素晴らしき胎児" special="true" />
+	<passive cache="damage firedelay tearflag" description="メガ涙&#10;" gfx="Collectibles_169_Polyphemus.png" id="169" name="ポリフェムス" special="true" />
+	<familiar description="パパの愛情&#10;" gfx="Collectibles_170_DaddyLonglegs.png" id="170" name="あしながおじさん" />
+	<active cooldown="120" description="敵にスロー効果、及び追加ダメージ&#10;" gfx="Collectibles_171_SpiderButt.png" id="171" maxcharges="2" name="蜘蛛のケツ" />
+	<familiar achievement="53" description="信念に守られる&#10;" gfx="Collectibles_172_SacrificialDagger.png" id="172" name="生け贄の短刀" />
+	<passive description="ご加護を受けた気分&#10;" gfx="Collectibles_173_Mitre.png" id="173" name="司教の冠" />
+	<familiar description="ランダムな相棒&#10;" gfx="Collectibles_174_RainbowBaby.png" id="174" name="レインボーベイビー" />
+	<active achievement="58" description="全ての扉を開ける&#10;" gfx="Collectibles_175_DadsKey.png" id="175" maxcharges="2" name="パパのカギ" />
+	<passive cache="shotspeed" description="HPアップ&#10;" gfx="Collectibles_176_StemCells.png" hearts="2" id="176" maxhearts="2" name="幹細胞" />
+	<active cooldown="30" description="ギャンブル24/7&#10;" gfx="Collectibles_177_PortableSlot.png" id="177" maxcharges="0" name="携帯スロットマシーン" />
+	<familiar description="スプラッシュ！ &#10;" gfx="Collectibles_178_HolyWater.png" id="178" name="聖水" />
+	<passive achievement="113" cache="flying" description="永続的空中浮遊&#10;" gfx="Collectibles_179_Fate.png" id="179" name="運命" />
+	<passive description="さわるとラッパ&#10;" gfx="Collectibles_180_BlackBean.png" id="180" name="黒豆" />
+	<active cache="flying speed" description="空中浮遊+聖なる死&#10;" gfx="Collectibles_181_WhitePony.png" id="181" maxcharges="6" name="ホワイトポニー" />
+	<passive cache="damage firedelay range shotspeed tearcolor tearflag" description="ホーミングショット+ダメージアップ&#10;" gfx="Collectibles_182_SacredHeart.png" hearts="99" id="182" maxhearts="2" name="聖なる心臓" special="true" />
+	<passive cache="shotspeed firedelay" description="涙+ショットスピードアップ&#10;" gfx="Collectibles_183_ToothPicks.png" id="183" name="つまようじ" />
+	<passive cache="flying" description="空中浮遊+HPアップ&#10;" gfx="Collectibles_184_HolyGrail.png" hearts="2" id="184" maxhearts="2" name="聖杯" />
+	<passive cache="flying tearflag tearcolor" description="空中浮遊+スペクトル涙&#10;" gfx="Collectibles_185_DeadDove.png" id="185" name="鳩の死体" />
+	<active achievement="56" description="代償を払い複数敵に大ダメージ&#10;" gfx="Collectibles_186_BloodRights.png" id="186" maxcharges="0" name="血印" />
+	<familiar achievement="65" description="振ってみな&#10;" gfx="Collectibles_187_GuppysHairball.png" id="187" name="ガッピーの毛玉" />
+	<familiar achievement="51" description="鏡のような相棒&#10;" gfx="Collectibles_188_Abel.png" id="188" name="アベル" />
+	<passive achievement="63" cache="firedelay damage speed range" description="全てのステータスがアップ&#10;" gfx="Collectibles_189_SMBSuperFan.png" hearts="99" id="189" maxhearts="2" name="SMB印回転ノコ" />
+	<passive bombs="99" description="ボム９９個&#10;" gfx="Collectibles_190_Pyro.png" id="190" name="パイロ" />
+	<passive description="レインボー涙&#10;" gfx="Collectibles_191_3DollarBill.png" id="191" name="３ドル札" />
+	<active cache="tearflag tearcolor" description="即席サイキックショット&#10;" gfx="Collectibles_192_TelepathyForDummies.png" id="192" maxcharges="2" name="初心者向けテレパシー" />
+	<passive cache="damage" description="ダメージとHPアップ&#10;" gfx="Collectibles_193_Meat.png" hearts="2" id="193" maxhearts="2" name="肉っ！" />
+	<passive cache="shotspeed" description="ショット速度アップ&#10;" gfx="Collectibles_194_Magic8Ball.png" id="194" name="魔法の８ボール" />
+	<passive description="これは・・・何だ！？&#10;" gfx="Collectibles_195_MomsCoinPurse.png" id="195" name="ママの小銭入れ" />
+	<passive cache="firedelay" description="涙アップ&#10;" gfx="Collectibles_196_Squeezy.png" id="196" name="ぷにぷに" />
+	<passive cache="damage range" description="ダメージと射程距離アップ&#10;" gfx="Collectibles_197_JesusJuice.png" id="197" name="ジーザス・ジュース" />
+	<passive description="資材入り&#10;" gfx="Collectibles_198_Box.png" id="198" name="箱" />
+	
+	<passive description="急がば回れ、＋２鍵&#10;" gfx="collectibles_199_momskey.png" id="199" keys="2" name="ママのカギ" />
+	<passive cache="tearcolor" description="チャーム涙&#10;" gfx="collectibles_200_momseyeshadow.png" id="200" name="ママのアイシャドー" />
+	<passive cache="damage" description="スタン涙&#10;" gfx="collectibles_201_ironbar.png" id="201" name="鉄の塊" />
+	<passive description="ゴールデンタッチ&#10;" gfx="collectibles_202_midastouch.png" id="202" name="マイダスタッチ" />
+	<passive description="あれこれついてお値段無料&#10;" gfx="collectibles_203_humblingbundle.png" id="203" name="ハンブリングバンドル" />
+	<passive description="良いものイッパイつまってる&#10;" gfx="collectibles_204_fannypack.png" id="204" name="ファニーパック" />
+	<passive description="血で充電&#10;" gfx="collectibles_205_sharpplug.png" id="205" name="シャーププラグ" />
+	<familiar achievement="107" cache="damage firedelay" description="タマゲる体験&#10;" gfx="collectibles_206_guillotine.png" id="206" name="ギロチン" />
+	<familiar achievement="6" description="包帯ゲットだぜ！&#10;" gfx="collectibles_207_ballofbandages.png" id="207" name="包帯ボール" />
+	<passive cache="damage" description="ダメージとチャレンジアップ&#10;" gfx="collectibles_208_championbelt.png" id="208" name="チャンピオンベルト" />
+	<passive bombs="5" description="毒ブラスト＋５ボム&#10;" gfx="collectibles_209_buttbombs.png" id="209" name="ケツ爆弾" />
+	<passive description="地蔵チェンジ！&#10;" gfx="Collectibles_210_GnawedLeaf.png" id="210" name="スーパー木の葉" />
+	<passive description="クモの逆襲&#10;" gfx="collectibles_211_spiderbaby.png" id="211" name="スパイダーベイビー" />
+	<passive description="永遠の命？&#10;" gfx="Collectibles_212_GuppysCollar.png" id="212" name="ガッピーの首輪" />
+	<passive cache="shotspeed" description="守りの涙&#10;" gfx="collectibles_213_lostcontact.png" id="213" name="失くしたコンタクト" />
+	<passive cache="range" description="有毒ブラッド&#10;" gfx="collectibles_214_anemic.png" id="214" name="貧血気味" />
+	<passive cache="damage" description="生贄は受け取られた&#10;" gfx="collectibles_215_goathead.png" id="215" name="ヤギの頭" />
+	<passive blackhearts="6" cache="damage" description="罪が増す&#10;" gfx="Collectibles_216_CeremonialRobes.png" id="216" name="儀式のローブ" />
+	<passive cache="firedelay" description="なんだか痒い・・・&#10;" gfx="collectibles_217_momswig.png" hearts="2" id="217" name="ママのウィッグ" />
+	<passive description="回復とHPアップ&#10;" gfx="collectibles_218_placenta.png" hearts="2" id="218" maxhearts="2" name="胎盤" />
+	<passive description="HPアップ&#10;" gfx="collectibles_219_oldbandage.png" id="219" maxhearts="2" name="古い絆創膏" />
+	<passive bombs="5" description="涙ブラストと、＋５ボム&#10;" gfx="collectibles_220_sadbombs.png" id="220" name="悲しい爆弾" />
+	<passive achievement="150" cache="tearcolor tearflag" description="跳ね返り涙&#10;" gfx="collectibles_221_rubbercement.png" id="221" name="ゴムセメント" />
+	<passive cache="firedelay tearflag" description="無重力涙と、涙アップ&#10;" gfx="collectibles_222_antigravity.png" id="222" name="アンチグラビティ" />
+	<passive bombs="5" description="痛いけど気持ち良い！＋５ボム&#10;" gfx="collectibles_223_pyromaniac.png" id="223" name="放火魔" special="true" />
+	<passive cache="firedelay range tearflag" description="エリアダメージと涙アップ&#10;" gfx="collectibles_224_cricketsbody.png" id="224" name="コオロギの頭" />
+	<passive description="甘い苦しみ&#10;" gfx="collectibles_225_gimpy.png" id="225" name="ギンピー" />
+	<passive blackhearts="2" description="HPアップｘ３&#10;" gfx="collectibles_226_blacklotus.png" hearts="2" id="226" maxhearts="2" name="ブラックロータス" soulhearts="2" />
+	<passive coins="3" description="生涯の稼ぎが！&#10;" gfx="collectibles_227_piggybank.png" id="227" name="貯金箱" />
+	<passive cache="firedelay tearcolor" description="恐怖ショット&#10;" gfx="collectibles_228_momsperfume.png" id="228" name="ママの香水" />
+	<passive cache="all" description="タメ攻撃&#10;" gfx="collectibles_229_monstroslung.png" id="229" name="モンストロの肺" />
+	<passive achievement="128" cache="damage speed" description="邪悪＋ダメージアップ＋恐怖ショット&#10;" devilprice="2" gfx="collectibles_230_abaddon.png" id="230" name="アバドン" />
+	<passive cache="tearcolor" description="ベトベト足&#10;" gfx="collectibles_231_balloftar.png" id="231" name="タールの塊" />
+	<passive achievement="138" cache="speed" description="ちょっとペースを下げようか&#10;" gfx="collectibles_232_stopwatch.png" id="232" name="ストップウォッチ" />
+	<passive cache="all" description="円軌道涙と、射程距離アップ&#10;" gfx="collectibles_233_tinyplanet.png" id="233" name="ちっちゃな惑星" />
+	<passive description="感染ショット&#10;" gfx="collectibles_234_infestation2.png" id="234" name="感染者2" />
+	
+	<passive description="ノロいのタッチ&#10;" gfx="collectibles_236_ecoli.png" id="236" name="大腸菌" />
+	<passive achievement="103" cache="tearflag firedelay damage" description="貫通ショット＋ダメージアップ&#10;" devilprice="2" gfx="collectibles_237_deathstouch.png" id="237" name="死神タッチ" />
+	<familiar description="？？？&#10;" gfx="collectibles_238_keypiece1.png" id="238" name="カギのかけら１" />
+	<familiar description="？？？&#10;" gfx="collectibles_239_keypiece2.png" id="239" name="カギのかけら２" />
+	<passive achievement="141" cache="all" description="全てのステータスアップ、そしてシャッフル&#10;" gfx="collectibles_240_experimentaltreatment.png" id="240" name="実験的治療方法" />
+	<passive description="大金持ち・・・だが、代償は大きい&#10;" gfx="collectibles_241_contractfrombelow.png" id="241" name="闇からの契約" />
+	<passive description="ダメージ減反&#10;" gfx="collectibles_242_infamy.png" id="242" name="悪名" />
+	<passive cache="weapon" description="三位一体守られ気分&#10;" gfx="collectibles_243_trinityshield.png" id="243" name="トリニティーシールド" />
+	<passive achievement="104" description="まだテスト中…&#10;" gfx="collectibles_244_techpointfive.png" id="244" name="テック０.５" />
+	<passive description="ダブルショット&#10;" gfx="collectibles_245_2020.png" id="245" name="視力２０／２０" />
+	<passive achievement="134" description="秘密&#10;" gfx="collectibles_246_bluemap.png" id="246" name="ブルーマップ" />
+	<passive description="友達最高&#10;" gfx="collectibles_247_bffs.png" id="247" name="ベストフレンド" />
+	<passive description="大きいクモとハエ&#10;" gfx="collectibles_248_hivemind.png" id="248" name="虫の知らせ" />
+	<passive achievement="135" description="オプション豊富&#10;" gfx="collectibles_249_theresoptions.png" id="249" name="オプションあり" />
+	<passive description="１＋１ドカーン！&#10;" gfx="collectibles_250_bogobombs.png" id="250" name="BOGOボム" />
+	<passive description="カードルーム追加&#10;" gfx="collectibles_251_starterdeck.png" id="251" name="スターターデッキ" />
+	<passive achievement="146" description="薬ルーム追加&#10;" gfx="collectibles_252_littlebaggy.png" id="252" name="こぶくろ" />
+	<passive cache="luck" description="HPと運アップ&#10;" gfx="collectibles_253_magicscab.png" hearts="2" id="253" maxhearts="2" name="魔法のかさぶた" />
+	<passive description="ダメージと射程距離アップ&#10;" gfx="collectibles_254_bloodclot.png" id="254" name="血づまり" />
+	<passive cache="firedelay shotspeed" description="涙とショットスピードアップ&#10;" gfx="collectibles_255_screw.png" id="255" name="スクリュー" />
+	<passive bombs="5" description="燃えるブラスト＋５ボム&#10;" gfx="collectibles_256_hotbombs.png" id="256" name="あつあつボム" />
+	<passive cache="tearflag" description="燃える涙&#10;" gfx="collectibles_257_firemind.png" id="257" name="ファイヤーマインド" />
+	<passive achievement="105" cache="all" description="シンタックスエラー&#10;" gfx="collectibles_258_missingno.png" id="258" name="失われた数字" />
+	<passive cache="damage" description="恐怖ショット&#10;" gfx="collectibles_259_darkmatter.png" id="259" name="ダークマター" />
+	<passive achievement="136" blackhearts="2" cache="damage" description="呪い無敵＋邪悪アップ&#10;" gfx="collectibles_260_blackcandle.png" id="260" name="ブラックキャンドル" />
+	<passive cache="tearflag damage" description="至近距離メガ涙&#10;" gfx="collectibles_261_proptosis.png" id="261" name="プロップトーシス" />
+	<passive blackhearts="2" cache="damage" description="邪悪アップ。&#10;" gfx="collectibles_262_missingpage2.png" id="262" name="失われたページ２" />
+	
+	<familiar description="ハエの復讐&#10;" gfx="collectibles_264_smartfly.png" id="264" name="スマートフライ" />
+	<familiar description="不死のフレンド&#10;" gfx="collectibles_265_drybaby.png" id="265" name="乾燥ベイビー" />
+	<familiar description="ベトベトベイビー&#10;" gfx="collectibles_266_juicysack.png" id="266" name="ジューシー袋" />
+	<familiar achievement="102" description="バグも修正済み&#10;" gfx="collectibles_267_robobaby2.png" id="267" name="ロボベイビー改" />
+	<familiar description="憑かれたフレンド&#10;" gfx="collectibles_268_rottenbaby.png" id="268" name="腐ったベイビー" />
+	<familiar description="血まみれフレンド&#10;" gfx="collectibles_269_headlessbaby.png" id="269" name="頭なしベイビー" />
+	<familiar description="吸血&#10;" gfx="collectibles_270_leech.png" id="270" name="ヒル" />
+	<familiar achievement="124" description="？&#10;" gfx="collectibles_271_mysterysack.png" id="271" name="謎の袋" />
+	<familiar description="ビッグビューティフルフライ&#10;" gfx="collectibles_272_bff.png" id="272" name="BBF" />
+	<familiar description="妄想は爆発だ&#10;" gfx="collectibles_273_bobsbrain.png" id="273" name="ボブの脳みそ" />
+	<familiar description="勇敢なる守護者&#10;" gfx="collectibles_274_bestbud.png" id="274" name="ベストバディー" />
+	<familiar description="邪悪なフレンド&#10;" devilprice="2" gfx="collectibles_275_lilbrimstone.png" id="275" name="小さなブリムストーン" />
+	<familiar achievement="129" description="守れ！&#10;" gfx="collectibles_276_isaacsheart.png" id="276" name="アイザックの心臓" />
+	<familiar description="恐れよ&#10;" gfx="collectibles_277_lilhaunt.png" id="277" name="チビホーント" />
+	<familiar description="命が目的&#10;" gfx="collectibles_278_darkbum.png" id="278" name="ダークバム" />
+	<familiar description="おデブな守護者&#10;" gfx="collectibles_279_bigfan.png" id="279" name="ビッグファン" />
+	<familiar description="君を愛してる&#10;" gfx="collectibles_280_sissylonglegs.png" id="280" name="あしなが雑魚" />
+	<familiar description="いじられ役&#10;" gfx="collectibles_281_punchingbag.png" id="281" name="サンドバッグ" />
+	<active cooldown="14" description="もうそろそろ学んでも良いかと&#10;" gfx="collectibles_282_howtojump.png" id="282" maxcharges="0" name="ジャンプの仕方" />
+	<active achievement="133" description="もう一回ガチャだぁ！&#10;" gfx="collectibles_283_d100.png" id="283" maxcharges="6" name="D１００" special="true" />
+	<active achievement="148" description="他のものにな〜れ！&#10;" gfx="collectibles_284_d4.png" id="284" maxcharges="6" name="D４" />
+	<active description="敵を差し替えろ！&#10;" gfx="collectibles_285_d10.png" id="285" maxcharges="1" name="D１０" />
+	<active achievement="121" description="カードコピー&#10;" gfx="collectibles_286_blankcard.png" id="286" maxcharges="4" name="白紙のカード" />
+	<active achievement="122" description="？？？&#10;" gfx="collectibles_287_bookofsecrets.png" id="287" maxcharges="6" name="秘儀の書" />
+	<active description="クモがいっぱい入ってます&#10;" gfx="collectibles_288_boxofspiders.png" id="288" maxcharges="2" name="スパイダーボックス" />
+	<active achievement="137" description="燃えよ！&#10;" gfx="collectibles_289_redcandle.png" id="289" maxcharges="110" name="赤いロウソク" />
+	<active description="命拾い&#10;" gfx="collectibles_290_thejar.png" id="290" maxcharges="0" name="入れ物" />
+	<active description="・・・。&#10;" gfx="collectibles_291_flush.png" id="291" maxcharges="6" name="ジャー" />
+	<active achievement="126" description="再使用型邪悪エネルギー&#10;" devilprice="2" gfx="collectibles_292_satanicbible.png" id="292" maxcharges="6" name="邪悪な聖書" />
+	<active achievement="143" description="怒りのナマハゲ&#10;" gfx="collectibles_293_headofkrampus.png" id="293" maxcharges="6" name="クランプスの頭" />
+	<active achievement="145" description="再使用型ノックバック&#10;" gfx="collectibles_294_butterbean.png" id="294" maxcharges="90" name="バタービーンズ" />
+	<active description="コインいっこいれる&#10;" gfx="collectibles_295_magicfingers.png" id="295" maxcharges="0" name="マジックフィンガー" />
+	<active description="魂を転換せよ&#10;" gfx="collectibles_296_converter.png" id="296" maxcharges="0" name="コンバーター" />
+	<active achievement="119" description="? ?&#10;" gfx="collectibles_297_bluebox.png" id="297" maxcharges="0" name="パンドラの箱" />
+	<active cache="speed" cooldown="180" description="謎だ・・・&#10;" gfx="collectibles_298_unicornstump.png" id="298" maxcharges="1" name="ユニコーンのスタンプ" />
+	<passive cache="speed" description="スピードダウン+怒り増加&#10;" gfx="collectibles_299_taurus.png" id="299" name="おうし座" />
+	<passive cache="speed" description="突進スピード&#10;" gfx="collectibles_300_aries.png" id="300" name="おひつじ座" />
+	<passive description="HPアップ+加護&#10;" gfx="collectibles_301_cancer.png" id="301" name="かに座" soulhearts="6" />
+	<passive description="足を踏み鳴らせ&#10;" gfx="collectibles_302_leo.png" id="302" name="しし座" />
+	<passive description="リフレッシュ+加護&#10;" gfx="collectibles_303_virgo.png" id="303" name="おとめ座" />
+	<passive bombs="6" cache="speed firedelay damage range" coins="6" description="バランスがいいぞ&#10;" gfx="collectibles_304_libra.png" id="304" keys="6" name="てんびん座" />
+	<passive cache="tearflag" description="毒入り涙&#10;" gfx="collectibles_305_scorpio.png" id="305" name="さそり座" />
+	<passive cache="tearflag speed" description="貫通ショット＋スピードアップ&#10;" gfx="collectibles_306_sagittarius.png" id="306" name="いて座" />
+	<passive bombs="1" cache="speed firedelay damage range" coins="1" description="全ステータスアップ&#10;" gfx="collectibles_307_capricorn.png" hearts="2" id="307" keys="1" maxhearts="2" name="やぎ座" />
+	<passive description="涙の試練&#10;" gfx="collectibles_308_aquarius.png" id="308" name="みずがめ座" />
+	<passive cache="firedelay tearflag" description="涙アップ+ノックバックショット&#10;" gfx="collectibles_309_pisces.png" id="309" name="うお座" />
+	<passive achievement="112" cache="shotspeed damage tearcolor firedelay" description="ショット減速+ダメージアップ&#10;" gfx="collectibles_310_evesmascara.png" id="310" name="イブのマスカラ" />
+	<passive achievement="108" description="復讐の時来たれり&#10;" devilprice="2" gfx="collectibles_311_judasshadow.png" id="311" name="ユダの影" />
+	<passive achievement="109" description="HPアップ＆なんだか健康な気分&#10;" gfx="collectibles_312_maggysbow.png" hearts="2" id="312" maxhearts="2" name="マギーのリボン" />
+	<passive description="神聖シールド&#10;" gfx="collectibles_313_holymantle.png" id="313" name="聖なるマント" />
+	<passive cache="speed" description="HPアップ、スピードダウン、スタンピード&#10;" gfx="collectibles_314_thunderthighs.png" hearts="2" id="314" maxhearts="2" name="サンダーもも" />
+	<passive cache="tearflag" description="マグネティック涙&#10;" gfx="collectibles_315_strangeattractor.png" id="315" name="謎の引力" />
+	<passive cache="all" description="呪いのタメ撃ち&#10;" gfx="collectibles_316_cursedeye.png" id="316" name="呪眼" />
+	<passive cache="tearflag" description="毒室エリアダメージ&#10;" gfx="collectibles_317_mysteriousliquid.png" id="317" name="謎の液体" />
+	<familiar description="結合フレンド&#10;" gfx="collectibles_318_gemini.png" id="318" name="ふたご座" />
+	<familiar achievement="110" description="近眼フレンド&#10;" gfx="collectibles_319_cainseye.png" id="319" name="ケインの予備眼" />
+	<familiar achievement="114" description="傀儡フレンド&#10;" gfx="collectibles_320_bluebabysonlyfriend.png" id="320" name="？？？唯一の友" />
+	<familiar achievement="115" description="ボール＆チェーン&#10;" gfx="collectibles_321_samsonschains.png" id="321" name="サムソンの鎖" />
+	<familiar description="モンゴフレンド&#10;" gfx="collectibles_322_mongobaby.png" id="322" name="モンゴベイビー" />
+	<active achievement="106" description="集めたナミダ&#10;" gfx="collectibles_323_isaacstears.png" id="323" maxcharges="6" name="アイザックのナミダ" />
+	<active achievement="125" description="未定義&#10;" gfx="collectibles_324_Undefined.png" id="324" maxcharges="6" name="未定義" />
+	<active achievement="30" cache="familiars" description="首が飛びます&#10;" gfx="collectibles_325_scissors.png" id="325" maxcharges="2" name="ハサミ" />
+	<active cooldown="31" description="代償は大きかれ、無敵を我が手に&#10;" gfx="collectibles_326_breathoflife.png" id="326" maxcharges="6" name="生命の息吹" />
+	<passive achievement="57" cooldown="150" description="選ばれし運命&#10;" gfx="collectibles_327_thepolaroid.png" id="327" name="ポラロイド" />
+	<passive achievement="78" description="選ばれし運命&#10;" gfx="collectibles_328_thenegative.png" id="328" name="ネガティブ" />
+	<passive cache="all" description="引き寄せ式ナミダ&#10;" gfx="collectibles_329_theludovicotechnique.png" id="329" name="ルドチーボ・テクニック" special="true" />
+	<passive cache="firedelay damage tearcolor" description="ダメージダウン、涙アップ&#10;" gfx="collectibles_330_soymilk.png" id="330" name="豆乳" />
+	<passive achievement="156" cache="tearflag shotspeed firedelay range damage" description="神のナミダ&#10;" gfx="collectibles_331_godhead.png" id="331" name="神の首" special="true" />
+	<passive achievement="116" cache="" description="永遠の命？&#10;" gfx="collectibles_332_lazarusrags.png" id="332" name="ラザラスのぼろきれ" />
+	<passive achievement="130" cache="" description="我全てを知る&#10;" gfx="collectibles_333_mind.png" id="333" name="ザ・マインド" />
+	<passive achievement="131" cache="" description="我全てを感ず&#10;" gfx="collectibles_334_body.png" hearts="6" id="334" maxhearts="6" name="ザ・ボディー" />
+	<passive achievement="132" cache="" description="我こそ全てなり&#10;" gfx="collectibles_335_soul.png" id="335" name="ザ・ソウル" soulhearts="4" />
+	<passive cache="tearcolor tearflag range shotspeed" description="毒オーラのナミダ&#10;" gfx="collectibles_336_deadonion.png" id="336" name="枯れタマネギ" />
+	<passive cache="" description="壊れてる？&#10;" gfx="collectibles_337_brokenwatch.png" id="337" name="壊れた時計" />
+	<active description="必ず戻るよ君の許に&#10;" gfx="collectibles_338_boomerang.png" id="338" maxcharges="70" name="ブーメラン" />
+	<passive blackhearts="2" cache="range shotspeed damage" description="邪悪、射程距離、ショット速度アップ&#10;" gfx="collectibles_339_SafetyPin.png" id="339" name="安全ピン" />
+	<passive cache="speed" description="スピードアップ、大きさダウン&#10;" gfx="collectibles_340_CaffeinePill.png" id="340" name="カフェイン錠" />
+	<passive cache="shotspeed firedelay" description="涙、ショット速度アップ&#10;" gfx="collectibles_341_TornPhoto.png" id="341" name="破れた写真" />
+	<passive cache="shotspeed firedelay" description="HP、涙アップ、ショット速度ダウン&#10;" gfx="collectibles_342_BlueCap.png" hearts="2" id="342" maxhearts="2" name="青い帽子" />
+	<passive cache="luck" description="運アップ&#10;" gfx="collectibles_343_LatchKey.png" id="343" name="留め具の鍵" soulhearts="2" />
+	<passive blackhearts="2" cache="damage" description="邪悪アップ。&#10;" gfx="collectibles_344_MatchBook.png" id="344" name="紙マッチ" />
+	<passive cache="damage range" description="ダメージと射程距離アップ&#10;" gfx="collectibles_345_Synthoil.png" id="345" name="合成オイル" />
+	<passive description="HPアップ&#10;" gfx="collectibles_346_ASnack.png" hearts="2" id="346" maxhearts="2" name="スナック" />
+
+	
+	<active description="アイテムがダブって見える・・・&#10;" gfx="Collectibles_347_Diplopia.png" id="347" maxcharges="0" name="複視症状" />
+	<active description="ニセ薬&#10;" gfx="Collectibles_348_Placebo.png" id="348" maxcharges="4" name="プラシーボ" />
+	<active achievement="244" description="コインが飛び出すよ！&#10;" gfx="Collectibles_349_WoodenNickel.png" id="349" maxcharges="1" name="木製硬貨" />
+	<passive description="毒がドクドク！&#10;" gfx="Collectibles_350_ToxicShock.png" id="350" name="トキシックショック" />
+	<active description="ギガ放屁！&#10;" gfx="Collectibles_351_MegaBean.png" id="351" maxcharges="3" name="メガ豆" />
+	<active description="そーっと使ってね・・・&#10;" gfx="Collectibles_352_GlassCannon.png" id="352" maxcharges="110" name="ガラスの大砲" />
+	<passive bombs="5" description="バクハツブラスト！&#10;" gfx="Collectibles_353_BomberBoy.png" id="353" name="ボンバーボーイ" />
+	<passive description="菓子と一緒におまけを飲み込まないでね&#10;" gfx="Collectibles_354_CrackJacks.png" hearts="2" id="354" maxhearts="2" name="クラックジャックス" />
+	<passive cache="luck range" description="射程距離＋運アップ&#10;" gfx="Collectibles_355_MomsPearls.png" id="355" name="ママのパール" />
+	<passive description="ダブルチャージ！&#10;" gfx="Collectibles_356_CarBattery.png" id="356" name="車のバッテリー" />
+	<active achievement="203" cache="familiars" description="お友達も２倍！&#10;" gfx="Collectibles_357_PandorasBox.png" id="357" maxcharges="4" name="おともだちボックス" />
+	<passive cache="tearflag" description="ダブルウィズショット!&#10;" gfx="Collectibles_358_TheWiz.png" id="358" name="ザ・ウィズ" />
+	<passive cache="damage tearflag" description="こいつを打ち込んでやれ！&#10;" gfx="Collectibles_359_8InchNails.png" id="359" name="８インチ釘" />
+	<familiar achievement="190" description="ミダラなお友達&#10;" devilprice="2" gfx="Collectibles_360_Incubus.png" id="360" name="インキュバス" />
+	<familiar achievement="183" description="それはいつも君のそばに&#10;" gfx="Collectibles_361_FatesReward.png" id="361" name="運命からのごほうび" />
+	<familiar achievement="192" description="箱の中身はなんだろな？&#10;" gfx="Collectibles_362_LilChest.png" id="362" name="小さな収納箱" />
+	<familiar achievement="189" description="守ってくれるお友達&#10;" gfx="Collectibles_363_SwornProtector.png" id="363" name="誓約の守護者" />
+	<familiar description="親しげなハエ&#10;" gfx="Collectibles_364_FriendZone.png" id="364" name="トモダチゾーン" />
+	<familiar description="迷子の守護者&#10;" gfx="Collectibles_365_LostFly.png" id="365" name="迷子のハエ" />
+	<passive bombs="5" description="爆弾の中に爆弾を入れてみた！&#10;" gfx="Collectibles_366_ScatterBombs.png" id="366" name="拡散ボム" />
+	<passive bombs="5" description="卵塊バクダン！&#10;" gfx="Collectibles_367_StickyBombs.png" id="367" name="ねちょねちょボム" />
+	<passive description="増強涙&#10;" gfx="Collectibles_368_Epiphora.png" id="368" name="流涙症" />
+	<passive cache="tearflag range" description="超絶涙&#10;" gfx="Collectibles_369_Continuum.png" id="369" name="連続体" />
+	<passive cache="range firedelay" description="射程距離＋涙アップ&#10;" gfx="Collectibles_370_MrDolly.png" id="370" name="Mr. ドリー" />
+	<passive description="微妙に呪われた的な気分？&#10;" gfx="Collectibles_371_CurseOfTheTower.png" id="371" name="塔の呪い" />
+	<familiar description="ピー・ピー・ピー&#10;" gfx="Collectibles_372_ChargedBaby.png" id="372" name="充電済みベイビー" />
+	<passive description="正確さは力なり&#10;" gfx="Collectibles_373_DeadEye.png" id="373" name="死者の目" />
+	<passive description="ホーリーショット！&#10;" gfx="Collectibles_374_HolyLight.png" id="374" name="聖なる光" />
+	<passive description="良い帽子だね！&#10;" gfx="Collectibles_375_HostHat.png" id="375" name="主催者の帽子" />
+	<passive description="ネバーエンディングストアーズ！&#10;" gfx="Collectibles_376_Restock.png" id="376" name="商品補充" />
+	<passive description="スパイダーラブ&#10;" gfx="Collectibles_377_BurstingSack.png" id="377" name="卵塊爆発" />
+	<passive description="やばい・・・&#10;" gfx="Collectibles_378_NumberTwo.png" id="378" name="ナンバー２" />
+	<passive cache="tearflag" description="ワイドショット&#10;" gfx="Collectibles_379_PupulaDuplex.png" id="379" name="多瞳孔症" />
+	<passive coins="5" description="地獄の沙汰も金次第&#10;" gfx="Collectibles_380_PayToPlay.png" id="380" name="ペイ・トゥー・プレイ" />
+	<passive achievement="188" cache="firedelay" description="輝けキミの未来！&#10;" gfx="Collectibles_381_EdensBlessing.png" id="381" name="エデンのご加護" />
+	<active description="トモダチ、ゲットだぜ！&#10;" gfx="Collectibles_382_FriendlyBall.png" id="382" maxcharges="3" name="フレンドリーボール" />
+	<active description="遠隔式涙デトネーター&#10;" gfx="Collectibles_383_TearDetonator.png" id="383" maxcharges="1" name="涙デトネーター" />
+	<familiar description="自分用のガード&#10;" gfx="Collectibles_384_LilGurdy.png" id="384" name="リトル　ガーディー" />
+	<familiar description="ブンボ　こいん　ホシイ&#10;" gfx="Collectibles_385_Bumbo.png" id="385" name="ブンボ" />
+	<active achievement="181" description="石を再ロール&#10;" gfx="Collectibles_386_D12.png" id="386" maxcharges="3" name="D12" />
+	<familiar achievement="193" description="そなたに平和が訪れん事を…&#10;" gfx="Collectibles_387_Censer.png" id="387" name="香炉" />
+	<familiar achievement="200" description="鍵が欲しいみたい…&#10;" gfx="Collectibles_388_KeyBum.png" id="388" name="カギクレこぞう" />
+	<familiar achievement="218" description="ルーンジェネレーター&#10;" gfx="Collectibles_389_RuneBag.png" id="389" name="ルーン袋" />
+	<familiar description="最高のお友達&#10;" gfx="Collectibles_390_Seraphim.png" id="390" name="セラフィム" />
+	<passive achievement="182" description="敵を味方に&#10;" gfx="Collectibles_391_Betrayal.png" id="391" name="裏切り" />
+	<passive achievement="202" description="天が君に変革をもたらす&#10;" gfx="Collectibles_392_Zodiac.png" id="392" name="ゾディアック" />
+	<passive achievement="220" description="死のキス&#10;" gfx="Collectibles_393_SerpentsKiss.png" id="393" name="サーペントのくちづけ" />
+	<passive cache="firedelay range" description="誘導涙&#10;" gfx="Collectibles_394_Marked.png" id="394" name="照準マーク" />
+	<passive cache="weapon" description="レーザーリング涙&#10;" gfx="Collectibles_395_TechX.png" id="395" name="テックX" />
+	<active description="ショートカッター&#10;" gfx="Collectibles_396_VentricleRazor.png" id="396" name="心臓メス" />
+	<passive cache="firedelay tearflag range shotspeed" description="追従式涙&#10;" gfx="Collectibles_397_TractorBeam.png" id="397" name="トラクタービーム" />
+	<passive cache="tearcolor" description="縮小ショット！&#10;" gfx="Collectibles_398_GodsFlesh.png" id="398" name="神肉茸" />
+	<passive achievement="186" cache="tearcolor damage" description="敵を消化せよ！&#10;" devilprice="2" gfx="Collectibles_399_MawOfTheVoid.png" id="399" name="空虚な胃袋" />
+	<passive description="君の運命&#10;" gfx="Collectibles_400_SpearOfDestiny.png" id="400" name="因縁のスピア" />
+	<passive cache="tearflag tearcolor" description="くっつくボムショット&#10;" gfx="Collectibles_401_Explosivo.png" id="401" name="エクスプロシボ" />
+	<passive description="！！！&#10;" gfx="Collectibles_402_Chaos.png" id="402" name="カオス" />
+	<familiar description="MODの相棒！&#10;" gfx="Collectibles_403_SpiderMod.png" id="403" name="スパイダーMOD" />
+	<familiar achievement="179" description="私はだれ？&#10;" gfx="collectibles_404_fartbaby.png" id="404" name="自分自身" />
+	<familiar achievement="201" description="ゲーム破損バグ！&#10;" gfx="Collectibles_405_GBBug.png" id="405" name="GBバグ" />
+	<active achievement="231" description="ステータスを再ロール&#10;" gfx="Collectibles_406_D8.png" id="406" maxcharges="4" name="Ｄ８" />
+	<passive achievement="180" cache="damage firedelay speed range" description="オーラステータスブースト&#10;" gfx="Collectibles_407_Purity.png" id="407" name="純潔" />
+	<passive achievement="184" description="虚無ヘの呼び声&#10;" gfx="Collectibles_408_Athame.png" id="408" name="儀式の刃" />
+	<passive achievement="187" blackhearts="4" cache="flying" description="からっぽの器が君への報酬&#10;" gfx="Collectibles_409_EmptyVessel.png" id="409" name="からっぽの器" />
+	<passive achievement="194" description="目ヂカラ炸裂！&#10;" gfx="Collectibles_410_EvilEye.png" id="410" name="邪眼" />
+	<passive achievement="198" cache="damage" description="その血が怒りを呼び覚ます！&#10;" gfx="Collectibles_411_LustyBlood.png" id="411" name="頑健ブラッド" />
+	<passive achievement="219" description="彼等の憎しみを感じろ&#10;" gfx="Collectibles_412_CambionConception.png" id="412" name="忌血の胎児" />
+	<passive achievement="222" description="彼等の愛を感じろ&#10;" gfx="Collectibles_413_ImmaculateConception.png" id="413" name="純血の胎児" />
+	<passive description="更にオプションが増えるぞ！&#10;" gfx="Collectibles_414_MoreOptions.png" id="414" name="オプションおかわり" />
+	<passive cache="damage shotspeed range" description="汚れなき者に更なる力を&#10;" gfx="Collectibles_415_CrownOfLight.png" id="415" name="光の冠" soulhearts="4" />
+	<passive achievement="238" description="こんなにいっぱい入るのか！&#10;" gfx="Collectibles_416_deeppockets.png" id="416" name="深いポケット" />
+	<familiar achievement="221" description="ダメージブースター&#10;" gfx="Collectibles_417_Succubus.png" id="417" name="サキュバス" />
+	
+	<passive description="レインボーエフェクト！&#10;" gfx="Collectibles_418_FruitCake.png" id="418" name="フルーツケーキ" />
+	<active description="i テレポート&#10;" gfx="Collectibles_419_Teleport20.png" id="419" maxcharges="4" name="テレポート2.0" />
+	<passive description="魔方陣を描け！&#10;" gfx="Collectibles_420_BlackPowder.png" id="420" name="黒い粉" />
+	<active description="いいニオイ！&#10;" gfx="Collectibles_421_KidneyBean.png" id="421" maxcharges="2" name="インゲン豆" />
+	<active description="時間よ、戻れ！&#10;" gfx="Collectibles_422_GlowingHourGlass.png" id="422" maxcharges="2" name="輝く砂時計" />
+	<passive description="自分から自分を守れ&#10;" gfx="Collectibles_423_CircleOfProtection.png" id="423" name="守護の輪" />
+	<passive description="もっと袋を！&#10;" gfx="Collectibles_424_SackHead.png" id="424" name="フクロ頭" />
+	<passive description="暗闇が怖いの？&#10;" gfx="Collectibles_425_NightLight.png" id="425" name="常夜灯" />
+	<familiar description="すべての動きを真似してる・・・&#10;" gfx="Collectibles_426_ObsessedFan.png" id="426" name="熱狂的ファン" />
+	<active description="どっかーーん！&#10;" gfx="Collectibles_427_MineCrafter.png" id="427" maxcharges="1" name="マインクラフター" />
+	<passive description="ぬくもりあたたか&#10;" gfx="Collectibles_428_PJs.png" hearts="24" id="428" name="パジャマ" soulhearts="8" />
+	<passive cache="tearflag" description="銅貨の涙！&#10;" gfx="Collectibles_429_HeadOfTheKeeper.png" id="429" name="キーパーの頭" />
+	<familiar description="通った道を追ってくるよ&#10;" gfx="Collectibles_430_PapaFly.png" id="430" name="パパ　バエ" />
+	<familiar description="ちだもと　ともだち&#10;" gfx="Collectibles_431_MultidimensionalBaby.png" id="431" name="多数次元ベイビー" />
+	<passive bombs="5" description="貴重な爆弾&#10;" gfx="Collectibles_432_GlitterBombs.png" id="432" name="キラキラボム" />
+	<passive achievement="195" description="ぼく！そしてぼくの影ッ！&#10;" gfx="Collectibles_433_MyShadow.png" id="433" name="ぼくの影" />
+	<active description="全部捕まえられる？&#10;" gfx="Collectibles_434_JarOfFlies.png" id="434" maxcharges="0" name="ハエの壺" />
+	<familiar description="４方向な相棒！&#10;" gfx="Collectibles_435_LilLoki.png" id="435" name="リトル　ロキ" />
+	<familiar cache="firedelay" description="泣かないで・・・&#10;" gfx="Collectibles_436_Milk.png" id="436" name="ミルク！" />
+	<active description="ごほうびを再ロール！&#10;" gfx="Collectibles_437_D7.png" id="437" maxcharges="3" name="Ｄ７" />
+	<passive cache="firedelay" description="おもひでが・・・&#10;" gfx="Collectibles_438_Binky.png" id="438" name="おしゃぶりチクビ" soulhearts="2" />
+	<active cache="all" description="中には何が・・・？&#10;" gfx="Collectibles_439_MomsBox.png" id="439" maxcharges="4" name="ママの箱" />
+	<passive achievement="233" cache="range speed firedelay" description="開発チームのマットくん謹製・・・うげぇ&#10;" gfx="Collectibles_440_KidneyStone.png" id="440" name="腎臓結石" />
+	<active achievement="276" description="レーザーブレス&#10;" gfx="collectibles_441_megasatansbreath.png" id="441" maxcharges="12" name="メガブラスト" />
+	
+	<trinket achievement="101" description="ゴクリ&#10;" gfx="trinket_001_swallowedpenny.png" id="1" name="飲み込んだペニー" />
+	<trinket description="ウンがつく？&#10;" gfx="trinket_002_petrifiedpoop.png" id="2" name="固まったうんち" />
+	<trinket description="ちょっと充電？&#10;" gfx="trinket_003_aaabattery.png" id="3" name="単４電池" />
+	<trinket description="壊れてる&#10;" gfx="trinket_004_brokenremote.png" id="4" name="壊れたリモコン" />
+	<trinket description="チャレンジアップ&#10;" gfx="trinket_005_purpleheart.png" id="5" name="パープルハート" />
+	<trinket description="まだ使えるかも・・・&#10;" gfx="trinket_006_brokenmagnet.png" id="6" name="壊れた磁石" />
+	<trinket description="信念アップ&#10;" gfx="trinket_007_rosarybead.png" id="7" name="ロザリーのビーズ" />
+	<trinket description="昔持ってた！&#10;" gfx="trinket_008_cartridge.png" id="8" name="ゲームカセット" />
+	<trinket cache="tearflag" description="ワブワブ！&#10;" gfx="trinket_009_pulseworm.png" id="9" name="パルスワーム" />
+	<trinket cache="tearflag" description="ウィグル・ワグル！&#10;" gfx="trinket_010_wiggleworm.png" id="10" name="ウィグルワーム" />
+	<trinket cache="tearflag" description="うはうは！&#10;" gfx="trinket_011_ringworm.png" id="11" name="リングワーム" />
+	<trinket cache="tearflag" description="とろとろ&#10;" gfx="trinket_012_flatworm.png" id="12" name="フラットワーム" />
+	<trinket achievement="118" description="よっしゃ！&#10;" gfx="trinket_013_storecredit.png" id="13" name="商品券" />
+	<trinket description="この足いい感じ！&#10;" gfx="trinket_014_callus.png" id="14" name="たこ足" />
+	<trinket achievement="85" description="中に何か入ってる&#10;" gfx="trinket_015_luckyrock.png" id="15" name="ラッキー・ロック" />
+	<trinket description="？？？&#10;" gfx="trinket_016_momstoenail.png" id="16" name="ママの足のつめ" />
+	<trinket achievement="111" cache="damage" description="邪悪アップ&#10;" gfx="trinket_017_blacklipstick.png" id="17" name="黒い口紅" />
+	<trinket description="信念アップ&#10;" gfx="trinket_018_bibletract.png" id="18" name="よりぬき聖書" />
+	<trinket description="カギ開けマスター&#10;" gfx="trinket_019_paperclip.png" id="19" name="ペーパークリップ" />
+	<trinket description="願いが叶う&#10;" gfx="trinket_020_monkeypaw.png" id="20" name="猿の手" />
+	<trinket achievement="123" description="？？？&#10;" gfx="trinket_021_mysteriouspaper.png" id="21" name="謎の紙" />
+	<trinket achievement="127" cache="damage" description="邪悪アップ&#10;" gfx="trinket_022_daemonstail.png" id="22" name="悪魔の尻尾" />
+	<trinket achievement="149" description="？？？&#10;" gfx="trinket_023_missingposter.png" id="23" name="行方不明ポスター" />
+	<trinket description="ガスばくはつ！？&#10;" gfx="trinket_024_buttpenny.png" id="24" name="ケツペニー" />
+	<trinket description="やばいっ・・・&#10;" gfx="trinket_025_mysteriouscandy.png" id="25" name="謎のキャンデー" />
+	<trinket cache="tearflag range" description="びゅ〜ん。&#10;" gfx="trinket_026_hookworm.png" id="26" name="フックワーム" />
+	<trinket cache="shotspeed" description="しゅわー&#10;" gfx="trinket_027_whipworm.png" id="27" name="ウィップワーム" />
+	<trinket achievement="117" description="永遠の命？&#10;" gfx="trinket_028_brokenankh.png" id="28" name="壊れたアンク" />
+	<trinket description="臭い&#10;" gfx="trinket_029_fishhead.png" id="29" name="魚の頭" />
+	<trinket description="毒ショット&#10;" gfx="trinket_030_pinkyeye.png" id="30" name="ピンキー・アイ" />
+	<trinket description="貫通ショット&#10;" gfx="trinket_031_pushpin.png" id="31" name="画鋲" />
+	<trinket description="触り心地ふわふわ、頭はぐるぐる&#10;" gfx="trinket_032_libertycap.png" id="32" name="リバティーキャップ" />
+	<trinket description="胎児のように守られて…&#10;" gfx="trinket_033_umbilicalcord.png" id="33" name="へそのお" />
+	<trinket description="そして湧き出す兄弟愛&#10;" gfx="trinket_034_childsheart.png" id="34" name="子供の心" />
+	<trinket achievement="52" cache="damage" description="ダメージアップ&#10;" gfx="trinket_035_curvedhorn.png" id="35" name="曲がった角" />
+	<trinket description="運が良さそう？&#10;" gfx="trinket_036_rustedkey.png" id="36" name="さびたカギ" />
+	<trinket cache="speed" description="スピードアップ&#10;" gfx="trinket_037_goathoof.png" id="37" name="ヤギのヒヅメ" />
+	<trinket description="純正なオーラを解き放つ&#10;" gfx="trinket_038_momspearl.png" id="38" name="ママのパール" />
+	<trinket cache="firedelay" description="ガァーーーン！&#10;" gfx="trinket_039_cancer.png" id="39" name="癌" />
+	<trinket cache="damage" description="怒りが燃え上がる&#10;" gfx="trinket_040_redpatch.png" id="40" name="赤いパッチ" />
+	<trinket description="炎みたいな味！&#10;" gfx="trinket_041_matchstick.png" id="41" name="マッチ棒" />
+	<trinket achievement="61" cache="luck" description="運アップ&#10;" gfx="trinket_042_luckytoe.png" id="42" name="幸運の足指" />
+	<trinket description="呪われた？&#10;" gfx="trinket_043_cursedskull.png" id="43" name="呪いのしゃれこうべ" />
+	<trinket description="飲み込み注意！&#10;" gfx="trinket_044_safetycap.png" id="44" name="安全キャップ" />
+	<trinket description="勝利の女神微笑む&#10;" gfx="trinket_045_aceofspades.png" id="45" name="スペードのエース" />
+	<trinket description="敵でも喰ってろ！&#10;" gfx="trinket_046_isaacsfork.png" id="46" name="アイザックのフォーク" />
+	
+	<trinket description="力が満ちている…&#10;" gfx="trinket_048_amissingpage.png" id="48" name="失くしたページ" />
+	<trinket achievement="55" description="健康イキイキ&#10;" gfx="trinket_049_bloodypenny.png" id="49" name="血まみれのペニー" />
+	<trinket achievement="60" description="混沌イッパイ&#10;" gfx="trinket_050_burntpenny.png" id="50" name="燃え尽きたペニー" />
+	<trinket description="答えあふれる&#10;" gfx="trinket_051_flatpenny.png" id="51" name="平らなペニー" />
+	<trinket achievement="64" description="富みであふれる&#10;" gfx="trinket_052_counterfeitpenny.png" id="52" name="偽造ペニー" />
+	<trinket description="取れない・・・&#10;" gfx="trinket_053_tick.png" id="53" name="ダニ" />
+	<trinket achievement="70" cache="familiars" description="死んだフレンド&#10;" gfx="trinket_054_isaacshead.png" id="54" name="アイザックの頭" />
+	<trinket achievement="71" description="信念への報酬&#10;" gfx="trinket_055_maggysfaith.png" id="55" name="マギーの信念" />
+	<trinket achievement="72" description="確かに領収しました&#10;" gfx="trinket_056_judastongue.png" id="56" name="ユダの舌" />
+	<trinket achievement="73" cache="familiars" description="想像上のフレンド&#10;" gfx="trinket_057_qmarkssoul.png" id="57" name="？？？の魂" />
+	<trinket achievement="74" cache="damage" description="怒りに燃えよ&#10;" gfx="trinket_058_samsonslock.png" id="58" name="サムソンの髷" />
+	<trinket achievement="75" description="行く末が見える…&#10;" gfx="trinket_059_cainseye.png" id="59" name="ケインの目" />
+	<trinket achievement="76" cache="familiars" description="闇からの復讐&#10;" gfx="trinket_060_evesbirdfoot.png" id="60" name="イブの鳥足" />
+	<trinket achievement="77" description="左手の道には暗黒の褒美&#10;" gfx="trinket_061_thelefthand.png" id="61" name="左手" />
+	
+	
+	<trinket description="その輝きは同胞のため&#10;" gfx="trinket_062_ShinyRock.png" id="62" name="テカテカ石" />
+	<trinket description="ヒューズカッター&#10;" gfx="trinket_063_SafetyScissors.png" id="63" name="安全バサミ" />
+	<trinket cache="range shotspeed tearflag firedelay" description="ピッ　ポッ　パッ&#10;" gfx="trinket_064_RainbowWorm.png" id="64" name="なないろワーム" />
+	<trinket cache="range" description="うねうねうねうね！&#10;" gfx="trinket_065_TapeWorm.png" id="65" name="さなだワーム" />
+	<trinket cache="range shotspeed" description="ちっ&#10;" gfx="trinket_066_LazyWorm.png" id="66" name="なまけワーム" />
+	<trinket achievement="196" description="多少呪われた的な気分・・・みたいな？&#10;" gfx="trinket_067_CrackedDice.png" id="67" name="割れたダイス" />
+	<trinket description="引っぱれー&#10;" gfx="trinket_068_SuperMagnet.png" id="68" name="スーパー磁石" />
+	<trinket description="なんか薄くなってない？&#10;" gfx="trinket_069_FadedPolaroid.png" id="69" name="消えかけインスタント写真" />
+	<trinket description="かゆい・・・うま&#10;" gfx="trinket_070_Louse.png" id="70" name="寄生虫" />
+	<trinket description="キモ過ぎ爆弾&#10;" gfx="trinket_071_BobsBladder.png" id="71" name="ボブの膀胱" />
+	<trinket description="ややチャージ&#10;" gfx="trinket_072_WatchBattery.png" id="72" name="時計の電池" />
+	<trinket description="ポン！ポン！&#10;" gfx="trinket_073_BlastingCap.png" id="73" name="キャップ飛ばし" />
+	<trinket achievement="230" description="足の下に感じる殺気・・・&#10;" gfx="trinket_074_StudFinder.png" id="74" name="びょうファインダー" />
+	<trinket cache="all" description="これ効果なくない？&#10;" gfx="trinket_075_Error.png" id="75" name="エラー" />
+	<trinket achievement="229" description="さぁダブルダウンの時間だ！&#10;" gfx="trinket_076_PokerChip.png" id="76" name="ポーカーチップ" />
+	<trinket cache="tearflag" description="跳ね返る！&#10;" gfx="trinket_077_Blister.png" id="77" name="水泡" />
+	<trinket description="ステータス効果時間延長&#10;" gfx="trinket_078_SecondHand.png" id="78" name="第二の掌" />
+	<trinket description="ぼく・・・無限ループにハマってね？&#10;" gfx="trinket_079_EndlessNameless.png" id="79" name="エンドレスネームレス" />
+	<trinket achievement="197" cache="damage" description="闇と共に力がみなぎる・・・&#10;" gfx="trinket_080_BlackFeather.png" id="80" name="漆黒の羽根" />
+	<trinket achievement="185" description="ダメージも見えない&#10;" gfx="trinket_081_BlindRage.png" id="81" name="見えない憤怒" />
+	<trinket description="今日の運勢はどうかな？&#10;" gfx="trinket_082_GoldenHorseShoe.png" id="82" name="金の蹄鉄" />
+	
+	<trinket achievement="249" description="ショップに入り放題！？&#10;" gfx="trinket_083_storekey.png" id="83" name="店の鍵" />
+	<trinket achievement="204" description="なんか欲張りになった気分&#10;" gfx="trinket_084_ribofgreed.png" id="84" name="強欲アバラ骨" />
+	<trinket achievement="239" description="カルマ　アップ&#10;" gfx="trinket_085_karma.png" id="85" name="カルマ" />
+	
+	<trinket description="うんちが動いてる・・・&#10;" gfx="Trinket_086_LilLarva.png" id="86" name="リトル幼虫" />
+	<trinket description="彼女の愛を感じて&#10;" gfx="Trinket_087_MomsLocket.png" id="87" name="ママのロケット" />
+	<trinket description="二度とやらない！&#10;" gfx="Trinket_088_NO.png" id="88" name="NO！" />
+	<trinket description="ほら、離れないで。&#10;" gfx="Trinket_089_ChildLeash.png" id="89" name="子供用リード" />
+	<trinket description="ブッカーン！&#10;" gfx="Trinket_090_BrownCap.png" id="90" name="茶色いキャップ" />
+</items>

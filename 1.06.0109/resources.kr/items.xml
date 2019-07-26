@@ -1,0 +1,530 @@
+<items gfxroot="gfx/items/" version="1">
+	<active cache="flying" description="일시적 비행 능력" gfx="Collectibles_033_TheBible.png" id="33" maxcharges="6" name="성경" />
+	<active cache="damage" description="일시적 공격력 증가" gfx="Collectibles_034_TheBookOfBelial.png" id="34" maxcharges="3" name="벨리알의 서" />
+	<active description="방 전체 공격" gfx="Collectibles_035_TheNecronomicon.png" id="35" maxcharges="6" name="네크로노미콘" achievement="36" />
+	<active description="푸직!" gfx="Collectibles_036_ThePoop.png" id="36" maxcharges="1" name="떵" />
+	<active description="충전식 폭탄 친구" gfx="Collectibles_037_MrBoom.png" id="37" maxcharges="2" name="미스터 붐" />
+	<active description="충전식 눈물 폭탄" gfx="Collectibles_038_TammysHead.png" id="38" maxcharges="1" name="태미의 머리" />
+	<active description="방 전체 마비 효과!" gfx="Collectibles_039_MomsBra.png" id="39" maxcharges="3" name="엄마의 브래지어" cooldown="220" />
+	<active description="폭탄이 되어라!" gfx="Collectibles_040_Kamikaze.png" id="40" maxcharges="0" name="가미카제!" cooldown="30" />
+	<active description="기분 나빠…" gfx="Collectibles_041_MomsPad.png" id="41" maxcharges="3" name="엄마의 생리대" cooldown="180" />
+	<active description="충전식 투척 폭탄" gfx="Collectibles_042_BobsRottenHead.png" id="42" maxcharges="3" name="밥의 썩은 머리통" />
+	<active description="텔레포트!" gfx="Collectibles_044_Teleport.png" id="44" maxcharges="2" name="순간이동" cooldown="30" />
+	<active description="충전식 회복 아이템" gfx="Collectibles_045_YumHeart.png" id="45" maxcharges="4" name="맛있는 심장" />
+	<active description="충전식 미사일 공격" gfx="Collectibles_047_DoctorsRemote.png" id="47" maxcharges="2" name="박사의 원격 조종기" />
+	<active description="뿌아아아아아!" gfx="Collectibles_049_ShoopDaWhoop.png" id="49" maxcharges="2" name="모두 다 사라져빔!!" />
+	<active description="앗…" gfx="Collectibles_056_LemonMishap.png" id="56" maxcharges="2" name="레몬빛 사고" />
+	<active description="일시적 무적 상태" gfx="Collectibles_058_BookOfShadows.png" id="58" maxcharges="3" name="그림자의 서" cooldown="300" />
+	<active description="폭탄 소환" gfx="Collectibles_065_AnarchistCookbook.png" id="65" maxcharges="3" name="무정부주의자의 요리책" cooldown="35" />
+	<active description="일시적 둔화 효과" gfx="Collectibles_066_TheHourglass.png" id="66" maxcharges="2" name="모래시계" cooldown="230" />
+	<active cache="speed" description="일시적 무적 모드!" gfx="Collectibles_077_MyLittleUnicorn.png" id="77" maxcharges="6" name="나의 작은 유니콘" cooldown="180" />
+	<active description="충전식 영혼 보호막" gfx="Collectibles_078_BookOfRevelations.png" id="78" maxcharges="6" name="요한묵시록" achievement="7" />
+	<active cache="speed damage" description="일시적 악마 변신" gfx="Collectibles_083_TheNail.png" id="83" maxcharges="6" name="대못" achievement="9" devilprice="2" />
+	<active description="충전식 다락문" gfx="Collectibles_084_WeNeedToGoDeeper.png" id="84" maxcharges="6" name="아래로 내려가자!" />
+	<active description="충전식 카드 생성기" gfx="Collectibles_085_DeckOfCards.png" id="85" maxcharges="6" name="카드 덱" />
+	<active description="몬스트로 소환" gfx="Collectibles_086_MonstrosTooth.png" id="86" maxcharges="3" name="몬스트로의 이빨" achievement="13" />
+	<active description="일시적 맨팩 변신" gfx="Collectibles_093_TheGameKid.png" id="93" maxcharges="6" name="게임키드" achievement="26" cooldown="200" />
+	<active description="충전식 아이템 생성기" gfx="Collectibles_097_BookOfSin.png" id="97" maxcharges="4" name="죄악의 서" achievement="22" />
+	<active description="충전식 알약 생성기" gfx="Collectibles_102_MomsBottleOfPills.png" id="102" maxcharges="6" name="엄마의 약병" />
+	<active description="운명을 바꾸는 능력" gfx="Collectibles_105_Dice.png" id="105" maxcharges="6" name="주사위" achievement="29" special="true" />
+	<active cache="familiars" description="컷 앤 런" gfx="Collectibles_107_PinkingShears.png" id="107" maxcharges="6" name="핑킹 가위" />
+	<active description="방귀를 뿡" gfx="Collectibles_111_TheBean.png" id="111" maxcharges="1" name="콩" />
+	<active description="일시적 친구 소환" gfx="Collectibles_123_MonsterManual.png" id="123" maxcharges="3" name="몬스터 도감" />
+	<active description="불가사의한 것" gfx="Collectibles_124_DeadSeaScrolls.png" id="124" maxcharges="2" name="사해사본" />
+	<active cache="damage" description="나의 고통을 느껴라" gfx="Collectibles_126_RazorBlade.png" id="126" maxcharges="0" name="면도날" achievement="44" />
+	<active description="모두 잊어버렸어…" gfx="Collectibles_127_ForgetMeNow.png" id="127" maxcharges="1" name="잊어줘 알약" achievement="48" />
+	<active cache="flying speed" description="비행 능력 + 돌진 공격" gfx="Collectibles_130_APony.png" id="130" maxcharges="4" name="조랑말" />
+	<active description="영혼 변환기" gfx="Collectibles_133_GuppysPaw.png" id="133" maxcharges="0" name="구피의 발" />
+	<active description="휴대용 혈액 은행" gfx="Collectibles_135_IVBag.png" id="135" maxcharges="0" name="수혈 팩" cooldown="15" />
+	<active description="영원한 친구들" gfx="Collectibles_136_BestFriend.png" id="136" maxcharges="3" name="최고의 친구" />
+	<active description="원격으로 폭탄 폭파" gfx="Collectibles_137_RemoteDetonator.png" id="137" maxcharges="0" name="원격 폭파기" cooldown="2" bombs="5" />
+	<active description="충전식 파리" gfx="Collectibles_145_GuppysHead.png" id="145" maxcharges="1" name="구피의 머리" />
+	<active description="충전식 이터널 하트" gfx="Collectibles_146_PrayerCard.png" id="146" maxcharges="6" name="기도자 카드" />
+	<active description="채굴 개시!" gfx="Collectibles_147_NotchedAxe.png" id="147" maxcharges="3" name="각진 곡괭이" />
+	<active description="미래가 보인다" gfx="Collectibles_158_CrystalBall.png" id="158" maxcharges="6" name="수정 구슬" />
+	<active description="성스러운 죽음" gfx="Collectibles_160_CrackTheSky.png" id="160" maxcharges="4" name="하늘을 가르다" cooldown="30" />
+	<active description="충전식 불꽃" gfx="Collectibles_164_BlueCandle.png" id="164" maxcharges="110" name="양초" achievement="59" />
+	<active description="기초를 바꾸다" gfx="Collectibles_166_D20.png" id="166" maxcharges="6" name="20면 주사위" achievement="49" />
+	<active description="방 전체 둔화 효과 + 공격" gfx="Collectibles_171_SpiderButt.png" id="171" maxcharges="2" name="거미 궁둥이" cooldown="120" />
+	<active description="모든 문을 여는 열쇠" gfx="Collectibles_175_DadsKey.png" id="175" maxcharges="2" name="아빠의 열쇠" achievement="58" />
+	<active description="연중무휴 도박장" gfx="Collectibles_177_PortableSlot.png" id="177" maxcharges="0" name="휴대용 슬롯머신" cooldown="30" />
+	<active cache="flying speed" description="비행 능력 + 성스러운 죽음" gfx="Collectibles_181_WhitePony.png" id="181" maxcharges="6" name="흰 조랑말" />
+	<active description="대가를 바쳐 방 전체에 공격" gfx="Collectibles_186_BloodRights.png" id="186" maxcharges="0" name="피의 권리" achievement="56" />
+	<active cache="tearflag tearcolor" description="일시적 유도 공격" gfx="Collectibles_192_TelepathyForDummies.png" id="192" maxcharges="2" name="텔레파시 입문서" />
+	<active description="뛰어보자!" gfx="collectibles_282_howtojump.png" id="282" maxcharges="0" name="점프 교본" cooldown="14" />
+	<active description="주사위를 굴려어어어!" gfx="collectibles_283_d100.png" id="283" maxcharges="6" name="100면 주사위" achievement="133" special="true" />
+	<active description="소지한 것을 바꾸는 능력" gfx="collectibles_284_d4.png" id="284" maxcharges="6" name="4면 주사위" achievement="148" />
+	<active description="적들을 바꾸는 능력" gfx="collectibles_285_d10.png" id="285" maxcharges="1" name="10면 주사위" />
+	<active description="따라쟁이 카드" gfx="collectibles_286_blankcard.png" id="286" maxcharges="4" name="백지 카드" achievement="121" />
+	<active description="???" gfx="collectibles_287_bookofsecrets.png" id="287" maxcharges="6" name="비밀의 서" achievement="122" />
+	<active description="거미네 가족이 살고있어요" gfx="collectibles_288_boxofspiders.png" id="288" maxcharges="2" name="거미 상자" />
+	<active description="불이야!" gfx="collectibles_289_redcandle.png" id="289" maxcharges="110" name="붉은 양초" achievement="137" />
+	<active description="생명 금고" gfx="collectibles_290_thejar.png" id="290" maxcharges="0" name="유리병" />
+	<active description="…" gfx="collectibles_291_flush.png" id="291" maxcharges="6" name="쏴아!" />
+	<active description="충전식 악마화" gfx="collectibles_292_satanicbible.png" id="292" maxcharges="6" name="사탄경" achievement="126" devilprice="2" />
+	<active description="크람푸스의 분노" gfx="collectibles_293_headofkrampus.png" id="293" maxcharges="6" name="크람푸스의 머리" achievement="143" />
+	<active description="충전식 넉백 발생기" gfx="collectibles_294_butterbean.png" id="294" maxcharges="90" name="흰강낭콩" achievement="145" />
+	<active description="1센트를 넣어주세요" gfx="collectibles_295_magicfingers.png" id="295" maxcharges="0" name="유료 안마기" />
+	<active description="영혼을 변환하다" gfx="collectibles_296_converter.png" id="296" maxcharges="0" name="변환기" />
+	<active description="? ?" gfx="collectibles_297_bluebox.png" id="297" maxcharges="0" name="판도라의 상자" achievement="119" />
+	<active cache="speed" description="앞길이 막막할 때" gfx="collectibles_298_unicornstump.png" id="298" maxcharges="1" name="유니콘의 잘린 뿔" cooldown="180" />
+	<active description="눈물 모은 것" gfx="collectibles_323_isaacstears.png" id="323" maxcharges="6" name="아이작의 눈물" achievement="106" />
+	<active description="오류" gfx="collectibles_324_Undefined.png" id="324" maxcharges="6" name="오류" achievement="125" />
+	<active cache="familiars" description="머리 잘랐어?" gfx="collectibles_325_scissors.png" id="325" maxcharges="6" name="가위" achievement="30" />
+	<active description="무적의 능력에는 대가가 따른다" gfx="collectibles_326_breathoflife.png" id="326" maxcharges="6" name="생명의 숨결" cooldown="31" />
+	<active description="돌아오는거야!" gfx="collectibles_338_boomerang.png" id="338" maxcharges="70" name="부메랑" />
+	<active description="아이템이 둘로 보여!" gfx="Collectibles_347_Diplopia.png" id="347" maxcharges="0" name="복시" />
+	<active description="따라쟁이 알약" gfx="Collectibles_348_Placebo.png" id="348" maxcharges="4" name="위약" />
+	<active description="동전을 튕겨보세요" gfx="Collectibles_349_WoodenNickel.png" id="349" maxcharges="1" name="나무 동전 " achievement="244" />
+	<active description="폭탄 방귀!" gfx="Collectibles_351_MegaBean.png" id="351" maxcharges="3" name="대빵 큰 콩" />
+	<active description="조심해서 다루세요…" gfx="Collectibles_352_GlassCannon.png" id="352" maxcharges="110" name="유리 대포" />
+	<active description="친구를 복사해!" gfx="Collectibles_357_PandorasBox.png" id="357" maxcharges="2" name="친구 상자 " achievement="203" />
+	<active description="넌 내 거야!" gfx="Collectibles_382_FriendlyBall.png" id="382" maxcharges="4" name="친절한 공" />
+	<active description="눈물의 폭발을 제어하세요" gfx="Collectibles_383_TearDetonator.png" id="383" maxcharges="1" name="눈물 기폭제" />
+	<active description="장애물을 바꾸는 능력" gfx="Collectibles_386_D12.png" id="386" maxcharges="3" name="12면체 주사위 " achievement="181" />
+	<active description="짧은 커터" gfx="Collectibles_396_VentricleRazor.png" id="396" name="심실 절단기" />
+	<active description="능력치를 바꾸는 능력" gfx="Collectibles_406_D8.png" id="406" maxcharges="4" name="8면체 주사위 " achievement="231" />
+	<active description="이것이 바로 완전히 새로운 i텔레포트" gfx="Collectibles_419_Teleport20.png" id="419" maxcharges="4" name="텔레포트 2.0" />
+	<active description="방귀 사랑해!" gfx="Collectibles_421_KidneyBean.png" id="421" maxcharges="2" name="강낭콩" />
+	<active description="시간을 돌리다" gfx="Collectibles_422_GlowingHourGlass.png" id="422" maxcharges="2" name="빛나는 모래시계" />
+	<active description="꽈앙!" gfx="Collectibles_427_MineCrafter.png" id="427" maxcharges="1" name="마인크래프터" />
+	<active description="다 내 거야?" gfx="Collectibles_434_JarOfFlies.png" id="434" maxcharges="0" name="파리 담은 병" />
+	<active description="보상을 바꾸는 능력" gfx="Collectibles_437_D7.png" id="437" maxcharges="1" name="7면체 주사위" />
+	<active cache="all" description="뭐가 들었지?" gfx="Collectibles_439_MomsBox.png" id="439" maxcharges="4" name="엄마의 상자" />
+	<active description="레이저 숨결" gfx="collectibles_441_megasatansbreath.png" id="441" maxcharges="12" name="거대 돌풍" />
+
+	<familiar description="영원한 친구" gfx="Collectibles_008_BrotherBobby.png" id="8" name="보비 형" />
+	<familiar description="투사체 방어" gfx="Collectibles_010_HaloOfFlies.png" id="10" name="파리 떼" />
+	<familiar description="목숨 추가" gfx="Collectibles_011_1Up.png" id="11" name="1up!" />
+	<familiar description="파리 공격" gfx="Collectibles_057_DistantAdmiration.png" id="57" name="짝사랑" />
+	<familiar description="영원한 친구" gfx="Collectibles_067_SisterMaggy.png" id="67" name="매기 누나" />
+	<familiar description="넌 내 고기야!" gfx="Collectibles_073_CubeOfMeat.png" id="73" name="고기조각" achievement="6" />
+	<familiar description="아홉 목숨" gfx="Collectibles_081_DeadCat.png" id="81" name="죽은 고양이" />
+	<familiar description="공격적인 친구" gfx="Collectibles_088_LittleChubby.png" id="88" name="리틀 처비" achievement="14" />
+	<familiar description="돈이다!" gfx="Collectibles_094_SackOfPennies.png" id="94" name="동전 주머니" achievement="21" />
+	<familiar description="삐비빅 친구" gfx="Collectibles_095_RoboBaby.png" id="95" name="로보베이비" />
+	<familiar description="키스를 해줄 테야" gfx="Collectibles_096_LittleChad.png" id="96" name="리틀 차드" achievement="25" />
+	<familiar description="영혼 생성기" gfx="Collectibles_098_TheRelic.png" id="98" name="성유물" achievement="20" />
+	<familiar description="끈적끈적한 친구" gfx="Collectibles_099_LittleGish.png" id="99" name="리틀 기쉬" achievement="23" />
+	<familiar description="초능력자 친구" gfx="Collectibles_100_LittleSteve.png" id="100" name="리틀 스티븐" achievement="24" />
+	<familiar description="보호" gfx="Collectibles_112_GuardianAngel.png" id="112" name="수호천사" achievement="45" />
+	<familiar description="마음대로 싸우는 친구" gfx="Collectibles_113_DemonBaby.png" id="113" name="악마 아기" achievement="47" />
+	<familiar description="공격하는 파리" gfx="Collectibles_128_ForeverAlone.png" id="128" name="영원한 솔로" />
+	<familiar description="폭탄 한가득!" gfx="Collectibles_131_BombBag.png" id="131" name="폭탄 주머니" achievement="46" />
+	<familiar description="욕심쟁이" gfx="Collectibles_144_BumFriend.png" id="144" name="거지 친구" />
+	<familiar description="퐁!" gfx="Collectibles_155_ThePeeper.png" id="155" name="엿보기" />
+	<familiar description="유령 친구" gfx="Collectibles_163_GhostBaby.png" id="163" name="유령 아기" />
+	<familiar description="더블 샷 친구" gfx="Collectibles_167_HarlequinBaby.png" id="167" name="할리퀸 아기" />
+	<familiar description="아버지의 사랑" gfx="Collectibles_170_DaddyLonglegs.png" id="170" name="장님거미" />
+	<familiar description="운명에게 보호받다" gfx="Collectibles_172_SacrificialDagger.png" id="172" name="제례용 단검" achievement="53" />
+	<familiar description="랜덤 친구" gfx="Collectibles_174_RainbowBaby.png" id="174" name="무지개 아기" />
+	<familiar description="철썩!" gfx="Collectibles_178_HolyWater.png" id="178" name="성수" />
+	<familiar description="뱉어버려" gfx="Collectibles_187_GuppysHairball.png" id="187" name="구피의 털뭉치" achievement="65" />
+	<familiar description="거꾸로 친구" gfx="Collectibles_188_Abel.png" id="188" name="아벨" achievement="51" />
+	<familiar description="유체이탈 체험" gfx="collectibles_206_guillotine.png" id="206" name="단두대" achievement="107" cache="damage firedelay" />
+	<familiar description="모두 핥아 버리자!" gfx="collectibles_207_ballofbandages.png" id="207" name="밴드 덩어리" achievement="6" />
+	<familiar description="???" gfx="collectibles_238_keypiece1.png" id="238" name="첫번째 열쇠 조각" />
+	<familiar description="???" gfx="collectibles_239_keypiece2.png" id="239" name="두번째 열쇠 조각" />
+	<familiar description="복수 파리" gfx="collectibles_264_smartfly.png" id="264" name="똑똑한 파리" />
+	<familiar description="불멸의 친구" gfx="collectibles_265_drybaby.png" id="265" name="말라빠진 아기" />
+	<familiar description="끈적한 아기들" gfx="collectibles_266_juicysack.png" id="266" name="축축한 알집" />
+	<familiar description="버그를 모두 잡아냈습니다!" gfx="collectibles_267_robobaby2.png" id="267" name="로봇 아기 2.0" achievement="102" />
+	<familiar description="감염된 친구" gfx="collectibles_268_rottenbaby.png" id="268" name="썩은 아기" />
+	<familiar description="피 흘리는 친구" gfx="collectibles_269_headlessbaby.png" id="269" name="머리 없는 아기" />
+	<familiar description="피빨이" gfx="collectibles_270_leech.png" id="270" name="거머리" />
+	<familiar description="?" gfx="collectibles_271_mysterysack.png" id="271" name="신비한 주머니" achievement="124" />
+	<familiar description="크고 아름다운 파리" gfx="collectibles_272_bff.png" id="272" name="베프" />
+	<familiar description="폭발적인 아이디어" gfx="collectibles_273_bobsbrain.png" id="273" name="밥의 뇌" />
+	<familiar description="충실한 수호자" gfx="collectibles_274_bestbud.png" id="274" name="최고의 짝꿍" />
+	<familiar description="악마 친구" gfx="collectibles_275_lilbrimstone.png" id="275" name="작은 유황불" devilprice="2" />
+	<familiar description="꼭 보호해!" gfx="collectibles_276_isaacsheart.png" id="276" name="아이작의 심장" achievement="129" />
+	<familiar description="겁주기" gfx="collectibles_277_lilhaunt.png" id="277" name="리틀 헌트" />
+	<familiar description="당신의 생명을 원합니다" gfx="collectibles_278_darkbum.png" id="278" name="악마 거지" />
+	<familiar description="덩치 큰 보호자" gfx="collectibles_279_bigfan.png" id="279" name="왕팬" />
+	<familiar description="누님은 널 사랑한단다" gfx="collectibles_280_sissylonglegs.png" id="280" name="누님거미" />
+	<familiar description="희생양" gfx="collectibles_281_punchingbag.png" id="281" name="샌드백" />
+	<familiar description="꼭 붙어다니는 친구" gfx="collectibles_318_gemini.png" id="318" name="쌍둥이자리" />
+	<familiar description="근시 친구" gfx="collectibles_319_cainseye.png" id="319" name="카인의 왼쪽 눈" achievement="110" />
+	<familiar description="귀신들린 친구" gfx="collectibles_320_bluebabysonlyfriend.png" id="320" name="???의 하나뿐인 친구" achievement="114" />
+	<familiar description="전통적인 금속 공예" gfx="collectibles_321_samsonschains.png" id="321" name="삼손의 쇠사슬" achievement="115" />
+	<familiar description="누더기 친구" gfx="collectibles_322_mongobaby.png" id="322" name="누더기 아기" />
+	<familiar description="어둠의 친구" gfx="Collectibles_360_Incubus.png" id="360" name="악몽 " achievement="190" devilprice="2" />
+	<familiar description="운명과 함께" gfx="Collectibles_361_FatesReward.png" id="361" name="운명의 보상 " achievement="183" />
+	<familiar description="무엇이 들어있을까?" gfx="Collectibles_362_LilChest.png" id="362" name="작은 상자" achievement="192" />
+	<familiar description="지켜주는 친구" gfx="Collectibles_363_SwornProtector.png" id="363" name="수호자" achievement="189" />
+	<familiar description="친절한 파리" gfx="Collectibles_364_FriendZone.png" id="364" name="사랑과 우정 사이" />
+	<familiar description="길 잃은 보호자" gfx="Collectibles_365_LostFly.png" id="365" name="길 잃은 파리" />
+	<familiar description="삐비비빅!" gfx="Collectibles_372_ChargedBaby.png" id="372" name="충전완료 아기" />
+	<familiar description="당신만의 역류성식도염!" gfx="Collectibles_384_LilGurdy.png" id="384" name="리틀 거디" />
+	<familiar description="범보 동전 원한다!" gfx="Collectibles_385_Bumbo.png" id="385" name="범보" />
+	<familiar description="평화가 함께할 지어니" gfx="Collectibles_387_Censer.png" id="387" name="향로" achievement="193" />
+	<familiar description="열쇠 주세요!" gfx="Collectibles_388_KeyBum.png" id="388" name="열쇠 거지" achievement="200" />
+	<familiar description="룬 생성기" gfx="Collectibles_389_RuneBag.png" id="389" name="룬 가방" achievement="218" />
+	<familiar description="막역한 친구" gfx="Collectibles_390_Seraphim.png" id="390" name="세라핌" />
+	<familiar description="놀아보자고 친구!" gfx="Collectibles_403_SpiderMod.png" id="403" name="거미 모드" />
+	<familiar description="방귀쟁이!" gfx="collectibles_404_fartbaby.png" id="404" name="방귀쟁이 아기" achievement="179" />
+	<familiar description="게임 고장내는 버그!" gfx="Collectibles_405_GBBug.png" id="405" name="게임 버그 " achievement="201" />
+	<familiar description="공격력 부스터" gfx="Collectibles_417_Succubus.png" id="417" name="서큐버스 " achievement="221" />
+	<familiar description="어디든 따라갈게요…" gfx="Collectibles_426_ObsessedFan.png" id="426" name="홀려버린 추종자" />
+	<familiar description="포탑 친구" gfx="Collectibles_430_PapaFly.png" id="430" name="파리 아저씨" />
+	<familiar description="구친 친구" gfx="Collectibles_431_MultidimensionalBaby.png" id="431" name="다차원 아기" />
+	<familiar description="네 갈래 친구!" gfx="Collectibles_435_LilLoki.png" id="435" name="리틀 로키" />
+	<familiar description="엎질러진 건 어쩔 수 없어…" gfx="Collectibles_436_Milk.png" id="436" name="우유! " cache="firedelay" />
+
+	<passive cache="firedelay" description="공격 속도 증가" gfx="Collectibles_001_TheSadOnion.png" id="1" name="눈물나는 양파" />
+	<passive cache="firedelay" description="트리플 샷" gfx="Collectibles_002_TheInnerEye.png" id="2" name="내면의 눈" />
+	<passive cache="speed tearcolor tearflag" description="유도 공격" gfx="Collectibles_003_SpoonBender.png" id="3" name="초능력자" />
+	<passive cache="damage shotspeed" description="공격력 증가" gfx="Collectibles_004_CricketsHead.png" id="4" name="크리켓의 머리" />
+	<passive cache="tearflag shotspeed range" description="부메랑 공격" gfx="Collectibles_005_MyReflection.png" id="5" name="거울상" />
+	<passive cache="firedelay range tearcolor" description="공격 속도 증가" gfx="Collectibles_006_NumberOne.png" id="6" name="오줌싸개" />
+	<passive cache="damage" description="공격력 증가" gfx="Collectibles_007_BloodOfTheMartyr.png" id="7" name="순교자의 피" />
+	<passive description="파리 사랑" gfx="Collectibles_009_Skatole.png" id="9" name="스카톨" />
+	<passive cache="damage range speed" description="모든 능력치 증가!" gfx="Collectibles_012_MagicMushroom.png" id="12" name="요술 버섯" hearts="100" maxhearts="2" />
+	<passive description="맹독 묻히기" gfx="Collectibles_013_TheVirus.png" id="13" name="바이러스" />
+	<passive cache="range speed" description="이동 속도와 사거리 증가" gfx="Collectibles_014_RoidRage.png" id="14" name="불량 스테로이드" />
+	<passive description="체력 증가" gfx="Collectibles_015_Heart.png" id="15" name="&lt;3" hearts="99" maxhearts="2" />
+	<passive description="체력 증가" gfx="Collectibles_016_RawLiver.png" id="16" name="생간" hearts="99" maxhearts="4" />
+	<passive description="열쇠 99개" gfx="Collectibles_017_SkeletonKey.png" id="17" name="해골 열쇠" maxkeys="99" />
+	<passive description="$$$" gfx="Collectibles_018_ADollar.png" id="18" name="1달러" coins="99" />
+	<passive description="폭탄 10개" gfx="Collectibles_019_Boom.png" id="19" name="꽈광!" bombs="10" />
+	<passive cache="flying" description="이젠 떠가는 거야…" gfx="Collectibles_020_Transcendence.png" id="20" name="초월" achievement="8" />
+	<passive description="끝이 멀지 않았다" gfx="Collectibles_021_TheCompass.png" id="21" name="나침반" />
+	<passive description="체력 증가" gfx="Collectibles_022_Lunch.png" id="22" name="점심밥" hearts="2" maxhearts="2" />
+	<passive description="체력 증가" gfx="Collectibles_023_Dinner.png" id="23" name="저녁밥" hearts="2" maxhearts="2" />
+	<passive description="체력 증가" gfx="Collectibles_024_Dessert.png" id="24" name="간식" hearts="2" maxhearts="2" />
+	<passive description="체력 증가" gfx="Collectibles_025_Breakfast.png" id="25" name="아침밥" hearts="2" maxhearts="2" />
+	<passive description="체력 증가" gfx="Collectibles_026_RottenMeat.png" id="26" name="썩은 고기" hearts="2" maxhearts="2" />
+	<passive cache="speed" description="이동 속도 증가" gfx="Collectibles_027_WoodenSpoon.png" id="27" name="나무 숟가락" />
+	<passive cache="speed" description="이동 속도 증가" gfx="Collectibles_028_TheBelt.png" id="28" name="벨트" />
+	<passive cache="range" description="사거리 증가" gfx="Collectibles_029_MomsUnderwear.png" id="29" name="엄마의 속옷" />
+	<passive cache="range" description="사거리 증가" gfx="Collectibles_030_MomsHeels.png" id="30" name="엄마의 하이힐" />
+	<passive cache="range" description="사거리 증가" gfx="Collectibles_031_MomsLipstick.png" id="31" name="엄마의 립스틱" />
+	<passive cache="firedelay" description="공격 속도 증가" gfx="Collectibles_032_WireCoatHanger.png" id="32" name="철제 옷걸이" achievement="139" />
+	<passive cache="luck" description="행운 증가" gfx="Collectibles_046_LuckyFoot.png" id="46" name="행운의 발목" />
+	<passive cache="tearflag" description="관통 공격" gfx="Collectibles_048_CupidsArrow.png" id="48" name="큐피드의 화살" />
+	<passive cache="damage" description="공격력 증가" gfx="Collectibles_050_Steven.png" id="50" name="스티븐" />
+	<passive cache="damage" description="공격력 증가" gfx="Collectibles_051_Pentagram.png" id="51" name="오망성" />
+	<passive cache="all" description="???" gfx="Collectibles_052_DrFetus.png" id="52" name="태아 박사" achievement="11" special="true" />
+	<passive description="아이템 끌어오기" gfx="Collectibles_053_Magneto.png" id="53" name="자석" />
+	<passive description="지도 밝히기" gfx="Collectibles_054_TreasureMap.png" id="54" name="보물 지도" />
+	<passive description="뒤통수에 달린 눈알" gfx="Collectibles_055_MomsEye.png" id="55" name="엄마의 눈알" />
+	<passive cache="tearflag" description="다리 만들기" gfx="Collectibles_060_TheLadder.png" id="60" name="사다리" />
+	<passive description="체력 흡수" gfx="Collectibles_062_CharmOfTheVampire.png" id="62" name="흡혈귀의 부적" />
+	<passive description="과충전" gfx="Collectibles_063_TheBattery.png" id="63" name="충전지" />
+	<passive description="반값 할인" gfx="Collectibles_064_SteamSale.png" id="64" name="스팀 세일" />
+	<passive cache="all" description="레이저 공격" gfx="Collectibles_068_Technology.png" id="68" name="기계 장치" />
+	<passive cache="all" description="모아 쏘기" gfx="Collectibles_069_ChocolateMilk.png" id="69" name="초코 우유" />
+	<passive cache="damage speed" description="이동 속도와 공격력 증가" gfx="Collectibles_070_GrowthHormones.png" id="70" name="성장 호르몬" />
+	<passive cache="speed range" description="이동 속도와 사거리 증가" gfx="Collectibles_071_MiniMushroom.png" id="71" name="미니 버섯" />
+	<passive description="신앙심 증가" gfx="Collectibles_072_Rosary.png" id="72" name="묵주" soulhearts="6" />
+	<passive description="동전 25개" gfx="Collectibles_074_AQuarter.png" id="74" name="쿼터" coins="25" achievement="10" />
+	<passive description="나쁜 알약은 필요없어" gfx="Collectibles_075_PHD.png" id="75" name="박사학위" hearts="4" />
+	<passive description="다 보인다" gfx="Collectibles_076_XrayVision.png" id="76" name="투시 안경" />
+	<passive cache="damage speed" description="공격력 증가" gfx="Collectibles_079_TheMark.png" id="79" name="낙인" soulhearts="2" />
+	<passive cache="damage firedelay" description="공격력과 공격 속도 증가" gfx="Collectibles_080_ThePact.png" id="80" name="계약" soulhearts="4" devilprice="2" />
+	<passive cache="flying" description="악마의 날개" gfx="Collectibles_082_LordOfThePit.png" id="82" name="구덩이의 제왕" souldevilprice="2" />
+	<passive description="십자가 공격" gfx="Collectibles_087_LokisHorns.png" id="87" name="로키의 뿔" achievement="15" />
+	<passive cache="tearcolor tearflag" description="둔화 효과" gfx="Collectibles_089_SpidersBite.png" id="89" name="물어버리는 거미" />
+	<passive cache="tearcolor damage" description="공격력 증가" gfx="Collectibles_090_SmallRock.png" id="90" name="돌멩이" achievement="12" />
+	<passive description="문 투시" gfx="Collectibles_091_SpelunkerHat.png" id="91" name="광부 모자" />
+	<passive description="하트 2개" gfx="Collectibles_092_SuperBandage.png" id="92" name="슈퍼 밴디지" hearts="2" maxhearts="2" achievement="19" soulhearts="4" />
+	<passive cache="damage firedelay range speed" description="모든 능력치 증가" gfx="Collectibles_101_TheHalo.png" id="101" name="광륜" hearts="2" maxhearts="2" achievement="27" />
+	<passive cache="tearcolor tearflag" description="독 공격" gfx="Collectibles_103_TheCommonCold.png" id="103" name="감기" />
+	<passive cache="tearcolor tearflag" description="갈라지는 눈물" gfx="Collectibles_104_TheParasite.png" id="104" name="기생 생물" achievement="31" />
+	<passive description="폭발 대미지" gfx="Collectibles_106_MrMega.png" id="106" name="미스터 메가" bombs="5" achievement="28" />
+	<passive description="받는 대미지 감소" gfx="Collectibles_108_TheWafer.png" id="108" name="밀빵" />
+	<passive cache="damage" description="$$$ = 공격력" gfx="Collectibles_109_MoneyisPower.png" id="109" name="돈의 힘" />
+	<passive cache="tearcolor tearflag" description="마비 효과" gfx="Collectibles_110_MomsContacts.png" id="110" name="엄마의 렌즈" achievement="35" />
+	<passive cache="all" description="찌르자 찌르자 찌르자" gfx="Collectibles_114_MomsKnife.png" id="114" name="엄마의 식칼" achievement="43" special="true" souldevilprice="2" />
+	<passive cache="tearflag tearcolor" description="유령같은 눈물" gfx="Collectibles_115_OuijaBoard.png" id="115" name="분신사바" />
+	<passive description="충전을 빠르게" gfx="Collectibles_116_9Volt.png" id="116" name="9볼트 건전지" />
+	<passive cache="familiars" description="지켜주는 친구" gfx="Collectibles_117_DeadBird.png" id="117" name="죽은 새" />
+	<passive cache="all" description="혈사포" gfx="Collectibles_118_Brimstone.png" id="118" name="유황" special="true" souldevilprice="2" />
+	<passive cache="speed" description="체력 증가" gfx="Collectibles_119_BloodBag.png" id="119" name="혈액 주머니" hearts="10" maxhearts="2" achievement="147" />
+	<passive cache="damage firedelay speed" description="발사 속도 증가" gfx="Collectibles_120_OddMushroomThin.png" id="120" name="수상한 버섯" />
+	<passive cache="damage speed range" description="공격력 증가" gfx="Collectibles_121_OddMushroomLarge.png" id="121" name="수상한 버섯" maxhearts="2" />
+	<passive cache="damage speed" description="저주 증가" gfx="Collectibles_122_WhoreOFBabylon.png" id="122" name="바빌론의 창녀" />
+	<passive description="유도 폭탄" gfx="Collectibles_125_BobbyBomb.png" id="125" name="보비 폭탄" bombs="5" />
+	<passive cache="speed" description="체력 증가" gfx="Collectibles_129_BucketofLard.png" id="129" name="돼지기름" hearts="1" maxhearts="4" />
+	<passive cache="damage tearflag tearcolor" description="크리스마스 선물" gfx="Collectibles_132_ALumpOfCoal.png" id="132" name="석탄 한 덩이" />
+	<passive description="저주?" gfx="Collectibles_134_GuppysTail.png" id="134" name="구피의 꼬리" />
+	<passive cache="damage" description="공격력 + 체력 증가" gfx="Collectibles_138_Stigmata.png" id="138" name="성흔" hearts="2" maxhearts="2" />
+	<passive description="장신구 주머니" gfx="Collectibles_139_MomsPurse.png" id="139" name="엄마의 지갑" />
+	<passive description="폭탄 5개 + 독 효과" gfx="Collectibles_140_BobsCurse.png" id="140" name="밥의 저주" bombs="5" />
+	<passive description="너무 멋져!" gfx="Collectibles_141_PageantBoy.png" id="141" name="분장 소년" />
+	<passive description="축복받다" gfx="Collectibles_142_Scapular.png" id="142" name="성의" />
+	<passive cache="speed shotspeed" description="이동 속도와 발사 속도 증가" gfx="Collectibles_143_Speedball.png" id="143" name="스피드볼 마약" />
+	<passive description="안에서부터 자라나다" gfx="Collectibles_148_Infestation.png" id="148" name="감염" />
+	<passive cache="all" description="폭탄 눈물" gfx="Collectibles_149_Ipecac.png" id="149" name="구토제" achievement="140" />
+	<passive description="치아 발사!" gfx="Collectibles_150_ToughLove.png" id="150" name="사랑의 매" />
+	<passive cache="tearflag" description="안에서부터 자라나다" gfx="Collectibles_151_TheMulligan.png" id="151" name="멀리건" />
+	<passive cache="weapon damage" description="레이저" gfx="Collectibles_152_Technology2.png" id="152" name="기계 장치 2" />
+	<passive cache="firedelay" description="쿼드 샷" gfx="Collectibles_153_MutantSpider.png" id="153" name="돌연변이 거미" special="true" />
+	<passive cache="damage" description="공격력 증가" gfx="Collectibles_154_ChemicalPeel.png" id="154" name="화학 박피제" />
+	<passive description="아이템을 위한 희생" gfx="Collectibles_156_Habit.png" id="156" name="수녀복" />
+	<passive cache="damage" description="분노!" gfx="Collectibles_157_BloodyLust.png" id="157" name="피의 욕망" achievement="54" />
+	<passive cache="flying tearflag tearcolor" description="공포" gfx="Collectibles_159_SpiritOfTheNight.png" id="159" name="밤의 영혼" souldevilprice="2" />
+	<passive description="영원한 생명?" gfx="Collectibles_161_Ankh.png" id="161" name="앙크" />
+	<passive description="축복받다" gfx="Collectibles_162_CelticCross.png" id="162" name="켈트 십자가" achievement="50" soulcooldown="200" />
+	<passive cache="shotspeed damage" description="발사 속도와 공격력 증가" gfx="Collectibles_165_CatONineTails.png" id="165" name="아홉 가닥 채찍" />
+	<passive cache="all" description="공대지 공격" gfx="Collectibles_168_EpicFetus.png" id="168" name="굉장한 태아" achievement="62" special="true" />
+	<passive cache="damage firedelay tearflag" description="대왕 눈물" gfx="Collectibles_169_Polyphemus.png" id="169" name="폴리페무스" special="true" />
+	<passive description="축복받다" gfx="Collectibles_173_Mitre.png" id="173" name="미트라" />
+	<passive cache="shotspeed" description="체력 증가" gfx="Collectibles_176_StemCells.png" id="176" name="줄기세포" hearts="2" maxhearts="2" />
+	<passive cache="flying" description="영원한 비행" gfx="Collectibles_179_Fate.png" id="179" name="운명" achievement="113" />
+	<passive description="방귀를 뿡" gfx="Collectibles_180_BlackBean.png" id="180" name="검은 콩" />
+	<passive cache="damage firedelay range shotspeed tearcolor tearflag" description="유도 공격 + 공격력 증가" gfx="Collectibles_182_SacredHeart.png" id="182" name="성스러운 심장" hearts="99" maxhearts="2" special="true" />
+	<passive cache="shotspeed firedelay" description="공격 속도와 발사 속도 증가" gfx="Collectibles_183_ToothPicks.png" id="183" name="이쑤시개" />
+	<passive cache="flying" description="비행 능력 + 체력 증가" gfx="Collectibles_184_HolyGrail.png" id="184" name="성배" hearts="2" maxhearts="2" />
+	<passive cache="flying tearflag tearcolor" description="비행 능력 + 지형을 무시하고 공격" gfx="Collectibles_185_DeadDove.png" id="185" name="죽은 비둘기" />
+	<passive cache="firedelay damage speed range" description="모든 능력치 증가" gfx="Collectibles_189_SMBSuperFan.png" id="189" name="슈미보 광팬" hearts="99" maxhearts="2" achievement="63" />
+	<passive description="폭탄 99개" gfx="Collectibles_190_Pyro.png" id="190" name="폭탄마" bombs="99" />
+	<passive description="무지갯빛 눈물" gfx="Collectibles_191_3DollarBill.png" id="191" name="3달러 지폐" />
+	<passive cache="damage" description="공격력과 체력 증가" gfx="Collectibles_193_Meat.png" id="193" name="고기!" hearts="2" maxhearts="2" />
+	<passive cache="shotspeed" description="공격 속도 증가" gfx="Collectibles_194_Magic8Ball.png" id="194" name="마법의 8번 공" />
+	<passive description="이게 다 뭐지…?" gfx="Collectibles_195_MomsCoinPurse.png" id="195" name="엄마의 동전 지갑" />
+	<passive cache="firedelay" description="공격 속도 증가" gfx="Collectibles_196_Squeezy.png" id="196" name="쥐어짜기" />
+	<passive cache="damage range" description="공격력과 사거리 증가" gfx="Collectibles_197_JesusJuice.png" id="197" name="예수 음료수" />
+	<passive description="잡동사니" gfx="Collectibles_198_Box.png" id="198" name="상자" />
+	<passive description="단순한 것이 좋아 +2 열쇠" gfx="collectibles_199_momskey.png" id="199" name="엄마의 열쇠" maxkeys="2" />
+	<passive cache="tearcolor" description="매혹 공격" gfx="collectibles_200_momseyeshadow.png" id="200" name="엄마의 아이섀도우" />
+	<passive cache="damage" description="스턴 공격" gfx="collectibles_201_ironbar.png" id="201" name="철괴" />
+	<passive description="황금으로!" gfx="collectibles_202_midastouch.png" id="202" name="미다스의 손길" />
+	<passive description="원 플러스 원" gfx="collectibles_203_humblingbundle.png" id="203" name="험블링 번들" />
+	<passive description="잡동사니 가방" gfx="collectibles_204_fannypack.png" id="204" name="작은 주머니" />
+	<passive description="혈류충전" gfx="collectibles_205_sharpplug.png" id="205" name="플러그" />
+	<passive cache="damage" description="공격력 + 도전 정신" gfx="collectibles_208_championbelt.png" id="208" name="챔피언 벨트" />
+	<passive description="독 폭발 +5 폭탄" gfx="collectibles_209_buttbombs.png" id="209" name="궁둥이 폭탄" bombs="5" />
+	<passive description="금강불괴" gfx="Collectibles_210_GnawedLeaf.png" id="210" name="벌레 먹은 잎사귀" />
+	<passive description="복수하는 거미" gfx="collectibles_211_spiderbaby.png" id="211" name="새끼 거미" />
+	<passive description="영원한 생명?" gfx="Collectibles_212_GuppysCollar.png" id="212" name="구피의 목걸이" />
+	<passive cache="shotspeed" description="눈물 방패" gfx="collectibles_213_lostcontact.png" id="213" name="잃어버린 렌즈" />
+	<passive cache="range" description="맹독 피" gfx="collectibles_214_anemic.png" id="214" name="빈혈증" />
+	<passive cache="damage" description="그에게 바치는 제물" gfx="collectibles_215_goathead.png" id="215" name="염소 머리" />
+	<passive cache="damage" description="죄악 증가" gfx="Collectibles_216_CeremonialRobes.png" id="216" name="의식용 예복" soulblackhearts="6" />
+	<passive cache="firedelay" description="머리가 가려워…" gfx="collectibles_217_momswig.png" id="217" name="엄마의 가발" hearts="2" />
+	<passive description="체력 재생 + 체력 증가" gfx="collectibles_218_placenta.png" id="218" name="태반" hearts="2" maxhearts="2" />
+	<passive description="체력 증가" gfx="collectibles_219_oldbandage.png" id="219" name="낡은 밴드" maxhearts="2" />
+	<passive description="눈물 폭발 +5폭탄" gfx="collectibles_220_sadbombs.png" id="220" name="눈물 폭탄" bombs="5" />
+	<passive cache="tearcolor tearflag" description="튕기는 눈알" gfx="collectibles_221_rubbercement.png" id="221" name="고무풀" achievement="150" />
+	<passive cache="firedelay tearflag" description="반중력 눈물 + 공격 속도 증가" gfx="collectibles_222_antigravity.png" id="222" name="반중력" />
+	<passive description="폭발은 기분 좋아 +5 폭탄" gfx="collectibles_223_pyromaniac.png" id="223" name="폭파광" bombs="5" special="true" />
+	<passive cache="firedelay range tearflag" description="갈라지는 눈물 + 공격 속도 증가" gfx="collectibles_224_cricketsbody.png" id="224" name="크리켓의 몸뚱이" />
+	<passive description="고통은 달콤해" gfx="collectibles_225_gimpy.png" id="225" name="김피" />
+	<passive description="체력 증가 x3" gfx="collectibles_226_blacklotus.png" id="226" name="검은 연꽃" hearts="2" maxhearts="2" soulhearts="2" blackhearts="2" />
+	<passive description="비상금" gfx="collectibles_227_piggybank.png" id="227" name="돼지저금통" coins="3" />
+	<passive cache="firedelay tearcolor" description="공포의 눈물" gfx="collectibles_228_momsperfume.png" id="228" name="엄마의 향수" />
+	<passive cache="all" description="모아 쏘기" gfx="collectibles_229_monstroslung.png" id="229" name="몬스트로의 폐" />
+	<passive cache="damage speed" description="악마화 + 공격력 증가 + 공포의 눈물" gfx="collectibles_230_abaddon.png" id="230" name="아바돈" achievement="128" souldevilprice="2" />
+	<passive cache="tearcolor" description="발이 끈적끈적" gfx="collectibles_231_balloftar.png" id="231" name="타르 덩어리" />
+	<passive cache="speed" description="조금 느리게 해보자" gfx="collectibles_232_stopwatch.png" id="232" name="스톱워치" achievement="138" special="true" />
+	<passive cache="all" description="궤도 공격 + 사거리 증가" gfx="collectibles_233_tinyplanet.png" id="233" name="소행성" />
+	<passive description="감염 공격" gfx="collectibles_234_infestation2.png" id="234" name="감염 2" />
+	<passive description="응가 묻은 손" gfx="collectibles_236_ecoli.png" id="236" name="대장균" />
+	<passive cache="tearflag firedelay damage" description="관통 공격 + 공격력 증가" gfx="collectibles_237_deathstouch.png" id="237" name="죽음의 손길" achievement="103" souldevilprice="2" />
+	<passive cache="all" description="모든 능력치 증가… 그리고 섞기!" gfx="collectibles_240_experimentaltreatment.png" id="240" name="임상시험" achievement="141" />
+	<passive description="부유해졌지만… 그 대가는?" gfx="collectibles_241_contractfrombelow.png" id="241" name="악마의 계약" />
+	<passive description="피격 확률 감소" gfx="collectibles_242_infamy.png" id="242" name="악명" />
+	<passive cache="weapon" description="가호받다" gfx="collectibles_243_trinityshield.png" id="243" name="삼위일체 방패" />
+	<passive description="베타 테스트 중" gfx="collectibles_244_techpointfive.png" id="244" name="기계 0.5" achievement="104" />
+	<passive description="더블 샷" gfx="collectibles_245_2020.png" id="245" name="시력 2.0" />
+	<passive description="비밀들" gfx="collectibles_246_bluemap.png" id="246" name="파란 지도" achievement="134" />
+	<passive description="친구가 최고야!" gfx="collectibles_247_bffs.png" id="247" name="최고의 친구들!" />
+	<passive description="왕거미와 왕파리" gfx="collectibles_248_hivemind.png" id="248" name="군체 의식" />
+	<passive description="하나 고르기" gfx="collectibles_249_theresoptions.png" id="249" name="선택권" achievement="135" />
+	<passive description="원 플러스 원!" gfx="collectibles_250_bogobombs.png" id="250" name="1+1 폭탄" />
+	<passive description="카드 주머니" gfx="collectibles_251_starterdeck.png" id="251" name="스타터 덱" />
+	<passive description="알약 주머니" gfx="collectibles_252_littlebaggy.png" id="252" name="작은 주머니" achievement="146" />
+	<passive cache="luck" description="체력과 행운 증가" gfx="collectibles_253_magicscab.png" id="253" name="요술 딱지" hearts="2" maxhearts="2" />
+	<passive description="공격력과 사거리 증가" gfx="collectibles_254_bloodclot.png" id="254" name="응혈" />
+	<passive cache="firedelay shotspeed" description="발사 속도와 공격 속도 증가" gfx="collectibles_255_screw.png" id="255" name="나사못" />
+	<passive description="화염 폭발 +5 폭탄" gfx="collectibles_256_hotbombs.png" id="256" name="불 폭탄" bombs="5" />
+	<passive cache="tearflag" description="화염 공격" gfx="collectibles_257_firemind.png" id="257" name="불타는 마음" />
+	<passive cache="all" description="구문 오류" gfx="collectibles_258_missingno.png" id="258" name="미싱노" achievement="105" />
+	<passive cache="damage" description="공포의 눈물" gfx="collectibles_259_darkmatter.png" id="259" name="암흑물질" />
+	<passive cache="damage" description="저주 면역 + 악함 증가" gfx="collectibles_260_blackcandle.png" id="260" name="검은 양초" achievement="136" soulblackhearts="2" />
+	<passive cache="tearflag damage" description="근거리 최강 눈물" gfx="collectibles_261_proptosis.png" id="261" name="안구 돌출증" />
+	<passive cache="damage" description="악함 증가. 적들은 대가를 치르리라!" gfx="collectibles_262_missingpage2.png" id="262" name="찢어진 페이지 2" soulblackhearts="2" />
+	<passive cache="speed" description="이동 속도 감소 + 분노 충전" gfx="collectibles_299_taurus.png" id="299" name="황소자리" />
+	<passive cache="speed" description="이동 속도 증가 + 들이받기" gfx="collectibles_300_aries.png" id="300" name="양자리" />
+	<passive description="체력 증가 + 보호받음" gfx="collectibles_301_cancer.png" id="301" name="게자리" soulhearts="6" />
+	<passive description="부수기" gfx="collectibles_302_leo.png" id="302" name="사자자리" />
+	<passive description="정화와 보호" gfx="collectibles_303_virgo.png" id="303" name="처녀자리" />
+	<passive cache="speed firedelay damage range" description="균형잡힘" gfx="collectibles_304_libra.png" id="304" name="천칭자리" maxkeys="6" coins="6" bombs="6" />
+	<passive cache="tearflag" description="독성 공격" gfx="collectibles_305_scorpio.png" id="305" name="전갈자리" />
+	<passive cache="tearflag speed" description="관통 공격 + 이동 속도 증가" gfx="collectibles_306_sagittarius.png" id="306" name="궁수자리" />
+	<passive cache="speed firedelay damage range" description="모든 능력치 증가" gfx="collectibles_307_capricorn.png" id="307" name="염소자리" hearts="2" maxhearts="2" keys="1" coins="1" bombs="1" />
+	<passive description="눈물자국" gfx="collectibles_308_aquarius.png" id="308" name="물병자리" />
+	<passive cache="firedelay tearflag" description="공격 속도 증가 + 넉백 공격" gfx="collectibles_309_pisces.png" id="309" name="물고기자리" />
+	<passive cache="shotspeed damage tearcolor firedelay" description="공격 속도 감소 + 공격력 증가" gfx="collectibles_310_evesmascara.png" id="310" name="이브의 마스카라" achievement="112" />
+	<passive description="복수는 달콤한 것" gfx="collectibles_311_judasshadow.png" id="311" name="유다의 그림자" achievement="108" souldevilprice="2" />
+	<passive description="체력 증가 + 건강해짐" gfx="collectibles_312_maggysbow.png" id="312" name="매기의 리본" hearts="2" maxhearts="2" achievement="109" />
+	<passive description="성스러운 방패" gfx="collectibles_313_holymantle.png" id="313" name="신성한 망토" />
+	<passive cache="speed" description="체력 증가 + 이동 속도 감소 + 쿵쾅쿵쾅" gfx="collectibles_314_thunderthighs.png" id="314" name="살찐 허벅지" hearts="2" maxhearts="2" />
+	<passive cache="tearflag" description="자석 눈물" gfx="collectibles_315_strangeattractor.png" id="315" name="이상한 끌개" />
+	<passive cache="all" description="저주의 모아쏘기" gfx="collectibles_316_cursedeye.png" id="316" name="저주받은 눈알" />
+	<passive cache="tearflag" description="맹독 튀기기" gfx="collectibles_317_mysteriousliquid.png" id="317" name="이상한 액체" />
+	<passive description="운명 선택" gfx="collectibles_327_thepolaroid.png" id="327" name="즉석사진" achievement="57" soulcooldown="150" />
+	<passive description="운명 선택" gfx="collectibles_328_thenegative.png" id="328" name="네거티브" achievement="78" />
+	<passive cache="all" description="눈물 조종" gfx="collectibles_329_theludovicotechnique.png" id="329" name="루도비코 요법" special="true" />
+	<passive cache="firedelay damage tearcolor" description="공격력 감소 + 공격 속도 수직 상승" gfx="collectibles_330_soymilk.png" id="330" name="두유" />
+	<passive cache="tearflag shotspeed firedelay range damage" description="신의 눈물" gfx="collectibles_331_godhead.png" id="331" name="신" achievement="156" special="true" />
+	<passive description="영원한 생명?" gfx="collectibles_332_lazarusrags.png" id="332" name="나사로의 누더기" achievement="116" />
+	<passive description="모두 알게 되다" gfx="collectibles_333_mind.png" id="333" name="정신" achievement="130" />
+	<passive description="모두 느끼게 되다" gfx="collectibles_334_body.png" id="334" name="신체" hearts="6" maxhearts="6" achievement="131" />
+	<passive description="모두가 되다" gfx="collectibles_335_soul.png" id="335" name="영혼" achievement="132" soulhearts="4" />
+	<passive cache="tearcolor tearflag range shotspeed" description="독성 공격" gfx="collectibles_336_deadonion.png" id="336" name="죽은 양파" />
+	<passive description="망가진 것 같다" gfx="collectibles_337_brokenwatch.png" id="337" name="고장난 손목시계" />
+	<passive cache="range shotspeed damage" description="악함 + 사거리와 공격 속도 증가" gfx="collectibles_339_SafetyPin.png" id="339" name="안전핀" soulblackhearts="2" />
+	<passive cache="speed" description="이동 속도 증가 + 크기 작게" gfx="collectibles_340_CaffeinePill.png" id="340" name="카페인 정" />
+	<passive cache="shotspeed firedelay" description="발사 속도와 공격 속도 증가" gfx="collectibles_341_TornPhoto.png" id="341" name="찢어진 사진" />
+	<passive cache="shotspeed firedelay" description="체력과 공격 속도 증가 + 발사 속도 감소" gfx="collectibles_342_BlueCap.png" id="342" name="파란 환각버섯" hearts="2" maxhearts="2" />
+	<passive cache="luck" description="행운 증가" gfx="collectibles_343_LatchKey.png" id="343" name="현관 열쇠" soulhearts="2" />
+	<passive cache="damage" description="악함 증가" gfx="collectibles_344_MatchBook.png" id="344" name="종이 성냥" soulblackhearts="2" />
+	<passive cache="damage range" description="공격력과 사거리 증가" gfx="collectibles_345_Synthoil.png" id="345" name="합성 스테로이드" />
+	<passive description="체력 증가" gfx="collectibles_346_ASnack.png" id="346" name="과자" hearts="2" maxhearts="2" />
+	<passive description="어마어마한 독" gfx="Collectibles_350_ToxicShock.png" id="350" name="독성 쇼크" />
+	<passive description="폭발적인 폭발!" gfx="Collectibles_353_BomberBoy.png" id="353" name="폭탄 소년 " bombs="5" />
+	<passive description="상품까지 먹지는 마세요!" gfx="Collectibles_354_CrackJacks.png" id="354" name="식품 완구" hearts="2" maxhearts="2" />
+	<passive cache="luck range" description="거리 + 행운 증가" gfx="Collectibles_355_MomsPearls.png" id="355" name="엄마의 진주" />
+	<passive description="효과가 두 배!" gfx="Collectibles_356_CarBattery.png" id="356" name="자동차 배터리" />
+	<passive cache="tearflag" description="띠용이 더블!" gfx="Collectibles_358_TheWiz.png" id="358" name="법사" />
+	<passive cache="damage tearflag" description="박살내 버려!" gfx="Collectibles_359_8InchNails.png" id="359" name="8 인치 대못" />
+	<passive description="네 폭탄 속에 폭탄을 넣어줄게!" gfx="Collectibles_366_ScatterBombs.png" id="366" name="분산형 폭탄" bombs="5" />
+	<passive description="알주머니 폭탄!" gfx="Collectibles_367_StickyBombs.png" id="367" name="끈끈이 폭탄" bombs="5" />
+	<passive description="격렬해지는 눈물" gfx="Collectibles_368_Epiphora.png" id="368" name="유루증" />
+	<passive cache="tearflag range" description="초월적 눈물" gfx="Collectibles_369_Continuum.png" id="369" name="연속체" />
+	<passive cache="range firedelay" description="공격 속도와 사거리 증가" gfx="Collectibles_370_MrDolly.png" id="370" name="인형 아저씨" />
+	<passive description="저주받은 느낌이야…" gfx="Collectibles_371_CurseOfTheTower.png" id="371" name="타워의 저주" />
+	<passive description="정확함은 힘을 가져다주지!" gfx="Collectibles_373_DeadEye.png" id="373" name="죽은 눈" />
+	<passive description="신성한 공격!" gfx="Collectibles_374_HolyLight.png" id="374" name="성스러운 빛" />
+	<passive description="모자 멋진데!" gfx="Collectibles_375_HostHat.png" id="375" name="호스트 모자" />
+	<passive description="쇼핑은 계속되어야 한다!" gfx="Collectibles_376_Restock.png" id="376" name="재입고" />
+	<passive description="거미야 사랑해!" gfx="Collectibles_377_BurstingSack.png" id="377" name="터진 알주머니" />
+	<passive description="어 음…" gfx="Collectibles_378_NumberTwo.png" id="378" name="떵싸개" />
+	<passive cache="tearflag" description="넓은 공격" gfx="Collectibles_379_PupulaDuplex.png" id="379" name="두 개의 눈동자" />
+	<passive description="돈 내세요" gfx="Collectibles_380_PayToPlay.png" id="380" name="페이 투 플레이" coins="5" />
+	<passive cache="firedelay" description="미래가 밝게 빛나리라" gfx="Collectibles_381_EdensBlessing.png" id="381" name="에덴의 축복 " achievement="188" />
+	<passive description="적을 유혹하다" gfx="Collectibles_391_Betrayal.png" id="391" name="배신" achievement="182" />
+	<passive description="천국이 너를 변하게 하리라" gfx="Collectibles_392_Zodiac.png" id="392" name="황도대" achievement="202" />
+	<passive description="죽음의 키스" gfx="Collectibles_393_SerpentsKiss.png" id="393" name="악마의 키스" achievement="220" />
+	<passive cache="firedelay range" description="조준 발사" gfx="Collectibles_394_Marked.png" id="394" name="조준" />
+	<passive cache="weapon" description="레이저 고리 눈물" gfx="Collectibles_395_TechX.png" id="395" name="기술 X" />
+	<passive cache="firedelay tearflag range shotspeed" description="조종된 눈물" gfx="Collectibles_397_TractorBeam.png" id="397" name="조종빔" />
+	<passive description="줄어드는 공격!" gfx="Collectibles_398_GodsFlesh.png" id="398" name="신의 살점" />
+	<passive cache="tearcolor damage" description="적을 흡수해버리세요!" gfx="Collectibles_399_MawOfTheVoid.png" id="399" name="공허의 구렁텅이" achievement="186" souldevilprice="2" />
+	<passive description="당신의 운명" gfx="Collectibles_400_SpearOfDestiny.png" id="400" name="운명의 창" />
+	<passive cache="tearflag tearcolor" description="끈끈이 폭탄 공격!" gfx="Collectibles_401_Explosivo.png" id="401" name="아주 강하게!" />
+	<passive description="!!!" gfx="Collectibles_402_Chaos.png" id="402" name="혼돈" />
+	<passive cache="damage firedelay speed range" description="아우라 상태 증폭" gfx="Collectibles_407_Purity.png" id="407" name="순도" achievement="180" />
+	<passive description="공허로 불리리" gfx="Collectibles_408_Athame.png" id="408" name="마법 단검" achievement="184" />
+	<passive cache="flying" description="빈 그릇을 보상하다" gfx="Collectibles_409_EmptyVessel.png" id="409" name="빈 그릇" achievement="187" soulblackhearts="4" />
+	<passive description="눈알 쏘기" gfx="Collectibles_410_EvilEye.png" id="410" name="악마의 눈" achievement="194" />
+	<passive cache="damage" description="그들의 피가 분노를 가져오리니!" gfx="Collectibles_411_LustyBlood.png" id="411" name="건강한 피" achievement="198" />
+	<passive description="미움을 주세요" gfx="Collectibles_412_CambionConception.png" id="412" name="몽마의 자식들" achievement="219" />
+	<passive description="사랑을 주세요" gfx="Collectibles_413_ImmaculateConception.png" id="413" name="원죄 없는 잉태" achievement="222" />
+	<passive description="마음대로 선택하세요!" gfx="Collectibles_414_MoreOptions.png" id="414" name="더 많은 선택권" />
+	<passive cache="damage shotspeed range" description="순수함이 힘을 모으리라" gfx="Collectibles_415_CrownOfLight.png" id="415" name="빛의 왕관" soulhearts="4" />
+	<passive description="더 많이 들고다니자!" gfx="Collectibles_416_deeppockets.png" id="416" name="넓은 가방" achievement="238" />
+	<passive description="무지개 효과!" gfx="Collectibles_418_FruitCake.png" id="418" name="과일 케이크" />
+	<passive description="검은 원을 그려라" gfx="Collectibles_420_BlackPowder.png" id="420" name="흑색 가루" />
+	<passive description="나 자신으로부터 보호하다" gfx="Collectibles_423_CircleOfProtection.png" id="423" name="보호의 고리" />
+	<passive description="자루를 많이많이" gfx="Collectibles_424_SackHead.png" id="424" name="자루 머리" />
+	<passive description="어둠이 무서워?" gfx="Collectibles_425_NightLight.png" id="425" name="휴대용 손전등" />
+	<passive description="흔들리지 않는 편안함" gfx="Collectibles_428_PJs.png" id="428" name="잠옷" hearts="24" soulhearts="8" />
+	<passive cache="tearflag" description="동전 눈물!" gfx="Collectibles_429_HeadOfTheKeeper.png" id="429" name="주인의 머리통" />
+	<passive description="선물 폭탄!" gfx="Collectibles_432_GlitterBombs.png" id="432" name="반짝이 폭탄" bombs="5" />
+	<passive description="나! 그리고 내 그으림자!" gfx="Collectibles_433_MyShadow.png" id="433" name="나의 그림자" achievement="195" />
+	<passive cache="firedelay" description="추억들…" gfx="Collectibles_438_Binky.png" id="438" name="아기처럼 " soulhearts="2" />
+	<passive cache="range speed firedelay" description="매트의 것" gfx="Collectibles_440_KidneyStone.png" id="440" name="신장결석 " achievement="233" />
+	
+	<trinket achievement="101" description="꿀꺽!" gfx="trinket_001_swallowedpenny.png" id="1" name="삼킨 동전" />
+	<trinket description="운이 좋은 건가?" gfx="trinket_002_petrifiedpoop.png" id="2" name="굳은 떵" />
+	<trinket description="세류충전" gfx="trinket_003_aaabattery.png" id="3" name="AAA 건전지" />
+	<trinket description="고장났다" gfx="trinket_004_brokenremote.png" id="4" name="고장난 조종기" />
+	<trinket description="도전 정신" gfx="trinket_005_purpleheart.png" id="5" name="퍼플 하트 훈장" />
+	<trinket description="반은 멀쩡해" gfx="trinket_006_brokenmagnet.png" id="6" name="깨진 자석" />
+	<trinket description="신앙심 증가" gfx="trinket_007_rosarybead.png" id="7" name="묵주 구슬" />
+	<trinket description="추억의 물건" gfx="trinket_008_cartridge.png" id="8" name="카트리지" />
+	<trinket description="꿀렁꿀렁!" gfx="trinket_009_pulseworm.png" id="9" name="파동벌레" cache="tearflag" />
+	<trinket description="씰룩씰룩!" gfx="trinket_010_wiggleworm.png" id="10" name="씰룩벌레" cache="tearflag" />
+	<trinket description="둥글둥글!" gfx="trinket_011_ringworm.png" id="11" name="둥글벌레" cache="tearflag" />
+	<trinket description="납작납작!" gfx="trinket_012_flatworm.png" id="12" name="납작벌레" cache="tearflag" />
+	<trinket achievement="118" description="좋습니다!" gfx="trinket_013_storecredit.png" id="13" name="외상 증서" />
+	<trinket description="강해진 듯한 기분" gfx="trinket_014_callus.png" id="14" name="굳은살" />
+	<trinket achievement="85" description="속에 뭔가가 있다" gfx="trinket_015_luckyrock.png" id="15" name="행운의 돌조각" />
+	<trinket description="???" gfx="trinket_016_momstoenail.png" id="16" name="엄마의 발톱" />
+	<trinket achievement="111" description="악함 증가" gfx="trinket_017_blacklipstick.png" id="17" name="검은 립스틱" cache="damage" />
+	<trinket description="신앙심 증가" gfx="trinket_018_bibletract.png" id="18" name="주보" />
+	<trinket description="잠금해제의 달인" gfx="trinket_019_paperclip.png" id="19" name="종이 클립" />
+	<trinket description="소원이 이루어지다" gfx="trinket_020_monkeypaw.png" id="20" name="원숭이 손" />
+	<trinket achievement="123" description="???" gfx="trinket_021_mysteriouspaper.png" id="21" name="신비한 종이" />
+	<trinket achievement="127" description="악함 증가" gfx="trinket_022_daemonstail.png" id="22" name="악마 꼬리" cache="damage" />
+	<trinket achievement="149" description="???" gfx="trinket_023_missingposter.png" id="23" name="실종 포스터" />
+	<trinket description="가스 부자" gfx="trinket_024_buttpenny.png" id="24" name="똥전" />
+	<trinket description="으엑!" gfx="trinket_025_mysteriouscandy.png" id="25" name="이상한 초콜릿" />
+	<trinket description="지그재그!" gfx="trinket_026_hookworm.png" id="26" name="꺾기벌레" cache="tearflag range" />
+	<trinket description="찰싹찰싹!" gfx="trinket_027_whipworm.png" id="27" name="채찍벌레" cache="shotspeed" />
+	<trinket achievement="117" description="영원한 생명?" gfx="trinket_028_brokenankh.png" id="28" name="부서진 앙크" />
+	<trinket description="썩은 냄새" gfx="trinket_029_fishhead.png" id="29" name="물고기 머리" />
+	<trinket description="독성 공격" gfx="trinket_030_pinkyeye.png" id="30" name="분홍 눈알" />
+	<trinket description="관통 공격" gfx="trinket_031_pushpin.png" id="31" name="압핀" />
+	<trinket description="근질근질 어질어질" gfx="trinket_032_libertycap.png" id="32" name="환각버섯" />
+	<trinket description="태아 보호" gfx="trinket_033_umbilicalcord.png" id="33" name="탯줄" />
+	<trinket description="형제들을 소리쳐 부르고 있다" gfx="trinket_034_childsheart.png" id="34" name="아이의 심장" />
+	<trinket achievement="52" description="공격력 증가" gfx="trinket_035_curvedhorn.png" id="35" name="휘어진 뿔" cache="damage" />
+	<trinket description="운이 좋은 것 같아?" gfx="trinket_036_rustedkey.png" id="36" name="녹슨 열쇠" />
+	<trinket description="이동 속도 증가" gfx="trinket_037_goathoof.png" id="37" name="염소 발굽" cache="speed" />
+	<trinket description="순수함을 발하고 있다" gfx="trinket_038_momspearl.png" id="38" name="엄마의 진주" />
+	<trinket description="우와 암이다!" gfx="trinket_039_cancer.png" id="39" name="암" cache="firedelay" />
+	<trinket description="분노 충전 중" gfx="trinket_040_redpatch.png" id="40" name="빨간 누더기" cache="damage" />
+	<trinket description="타는 듯한 맛" gfx="trinket_041_matchstick.png" id="41" name="성냥개비" />
+	<trinket achievement="61" description="행운 증가!" gfx="trinket_042_luckytoe.png" id="42" name="행운의 발가락" cache="luck" />
+	<trinket description="저주라고?" gfx="trinket_043_cursedskull.png" id="43" name="저주받은 해골" />
+	<trinket description="삼키지 마시오" gfx="trinket_044_safetycap.png" id="44" name="안전 마개" />
+	<trinket description="카드 뽑기의 행운" gfx="trinket_045_aceofspades.png" id="45" name="스페이드 10" />
+	<trinket description="적들은 맛있어" gfx="trinket_046_isaacsfork.png" id="46" name="아이작의 포크" />
+	<trinket description="힘을 지니고 있다" gfx="trinket_048_amissingpage.png" id="48" name="찢어진 페이지" />
+	<trinket achievement="55" description="피부자" gfx="trinket_049_bloodypenny.png" id="49" name="피 묻은 동전" />
+	<trinket achievement="60" description="폭탄 부자" gfx="trinket_050_burntpenny.png" id="50" name="타버린 동전" />
+	<trinket description="열쇠 부자" gfx="trinket_051_flatpenny.png" id="51" name="납작한 동전" />
+	<trinket achievement="64" description="동전 부자" gfx="trinket_052_counterfeitpenny.png" id="52" name="가짜 동전" />
+	<trinket description="안 떨어져…" gfx="trinket_053_tick.png" id="53" name="진드기" />
+	<trinket achievement="70" description="죽은 친구" gfx="trinket_054_isaacshead.png" id="54" name="아이작의 머리" cache="familiars" />
+	<trinket achievement="71" description="믿음의 보상" gfx="trinket_055_maggysfaith.png" id="55" name="매기의 믿음" />
+	<trinket achievement="72" description="대가는 이미 받았다" gfx="trinket_056_judastongue.png" id="56" name="유다의 혀" />
+	<trinket achievement="73" description="상상 속의 친구" gfx="trinket_057_qmarkssoul.png" id="57" name="???의 영혼" cache="familiars" />
+	<trinket achievement="74" description="분노가 차오르다" gfx="trinket_058_samsonslock.png" id="58" name="삼손의 머리채" cache="damage" />
+	<trinket achievement="75" description="네 운명이 보이리라" gfx="trinket_059_cainseye.png" id="59" name="카인의 오른쪽 눈" />
+	<trinket achievement="76" description="저 세상에서 온 복수" gfx="trinket_060_evesbirdfoot.png" id="60" name="이브의 새 다리" cache="familiars" />
+	<trinket achievement="77" description="어둠의 보상을 거두어들이다" gfx="trinket_061_thelefthand.png" id="61" name="왼손목" />
+	<trinket description="형제들을 위하여 빛낼지어다" gfx="trinket_062_ShinyRock.png" id="62" name="빛나는 돌" />
+	<trinket description="도화선 자르기" gfx="trinket_063_SafetyScissors.png" id="63" name="안전 가위" />
+	<trinket description="둥글슈욱지그재그" gfx="trinket_064_RainbowWorm.png" id="64" name="무지개 벌레" cache="range shotspeed tearflag firedelay" />
+	<trinket description="찌이이이이익!" gfx="trinket_065_TapeWorm.png" id="65" name="테이프 벌레" cache="range" />
+	<trinket description="하암" gfx="trinket_066_LazyWorm.png" id="66" name="게으른 벌레 " cache="range shotspeed" />
+	<trinket achievement="196" description="저주에 걸린 것…같다" gfx="trinket_067_CrackedDice.png" id="67" name="갈라진 주사위" />
+	<trinket description="끌어당기기" gfx="trinket_068_SuperMagnet.png" id="68" name="슈퍼 자석" />
+	<trinket description="흐려진 기분" gfx="trinket_069_FadedPolaroid.png" id="69" name="흐려진 폴라로이드" />
+	<trinket description="가려워, 가려워…" gfx="trinket_070_Louse.png" id="70" name="이" />
+	<trinket description="오싹한 폭탄" gfx="trinket_071_BobsBladder.png" id="71" name="밥의 방광" />
+	<trinket description="약한 충전" gfx="trinket_072_WatchBattery.png" id="72" name="손목시계용 전지" />
+	<trinket description="펑! 펑!" gfx="trinket_073_BlastingCap.png" id="73" name="폭파용 뇌관" />
+	<trinket achievement="230" description="아래에 빈 공간이 있는 것 같아…" gfx="trinket_074_StudFinder.png" id="74" name="벽체 탐지기" />
+	<trinket description="효과를 찾을 수 없습니다?" gfx="trinket_075_Error.png" id="75" name="오류" cache="all" />
+	<trinket achievement="229" description="더블 다운할 시간이다!" gfx="trinket_076_PokerChip.png" id="76" name="포커 칩" />
+	<trinket description="사라져라!" gfx="trinket_077_Blister.png" id="77" name="물집" cache="tearflag" />
+	<trinket description="효과 지속 시간 증가!" gfx="trinket_078_SecondHand.png" id="78" name="초침" />
+	<trinket description="루프에 열중하고 있어…" gfx="trinket_079_EndlessNameless.png" id="79" name="엔들리스 네임리스" />
+	<trinket achievement="197" description="어둠과 함께라면 힘이 오리라" gfx="trinket_080_BlackFeather.png" id="80" name="검은 깃털" cache="damage" />
+	<trinket achievement="185" description="눈에 뵈는 게 없다" gfx="trinket_081_BlindRage.png" id="81" name="눈 먼 분노" />
+	<trinket description="운 좋은 것 같아?" gfx="trinket_082_GoldenHorseShoe.png" id="82" name="황금 말 신발" />
+	<trinket achievement="249" description="상점은 언제나 열려있습니다" gfx="trinket_083_storekey.png" id="83" name="상점 열쇠" />
+	<trinket achievement="204" description="탐욕스러워" gfx="trinket_084_ribofgreed.png" id="84" name="탐욕의 늑골" />
+	<trinket achievement="239" description="업보 증가" gfx="trinket_085_karma.png" id="85" name="업보" />
+	<trinket description="응가가 움직여" gfx="Trinket_086_LilLarva.png" id="86" name="리틀 라바" />
+	<trinket description="엄마의 사랑이 느껴집니다" gfx="Trinket_087_MomsLocket.png" id="87" name="엄마의 심장" />
+	<trinket description="필요없어!" gfx="Trinket_088_NO.png" id="88" name="아니!" />
+	<trinket description="친구들과 긴밀한 관계를 유지하세요" gfx="Trinket_089_ChildLeash.png" id="89" name="미아 방지끈" />
+	<trinket description="뿌릉꽝!" gfx="Trinket_090_BrownCap.png" id="90" name="갈색 마개" />
+</items>
