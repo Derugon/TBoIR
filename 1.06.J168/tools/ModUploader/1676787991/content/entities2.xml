@@ -1,0 +1,304 @@
+<entities anm2root="gfx/" version="5">
+
+    <entity anm2path="projectile_stone.anm2" baseHP="10" boss="0" champion="0" collisionDamage="0" collisionMass="8" collisionRadius="5" friction="1" id="9" shutdoors="false" name="Stone Projectile" numGridCollisionPoints="60" shadowSize="10" stageHP="0" variant="9" subtype="1000">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity anm2path="projectile_delirium.anm2" baseHP="10" boss="0" champion="0" collisionDamage="0" collisionMass="8" collisionRadius="5" friction="1" id="9" shutdoors="false" name="Delirium Projectile" numGridCollisionPoints="60" shadowSize="10" stageHP="0" variant="10">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity anm2path="projectile_blue flame.anm2" baseHP="10" boss="0" champion="0" collisionDamage="0" collisionMass="8" collisionRadius="5" friction="1" id="9" shutdoors="false" name="Blue Flame Projectile" numGridCollisionPoints="60" shadowSize="0" stageHP="0" variant="11">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity anm2path="big_knife_thrown.anm2" baseHP="10" boss="0" champion="0" collisionDamage="0" collisionMass="8" collisionRadius="5" friction="1" id="9" shutdoors="false" name="Knife Projectile" numGridCollisionPoints="60" shadowSize="10" stageHP="0" variant="12">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity anm2path="026.003_blue maw.anm2" reroll="true" baseHP="35" boss="0" champion="1" collisionDamage="1" collisionMass="7" collisionRadius="13" friction="1" id="26" name="Blue Maw" numGridCollisionPoints="0" shadowSize="16" stageHP="0" variant="3" portrait="184" bestiary="true" bestiaryTransform="0,5,1" bestiaryAnim="Idle">
+        <gibs amount="6" blood="1" bone="0" eye="0" gut="1" large="0" worm="1" />
+        <preload-snd id="146" />
+        <!-- SOUND_SHAKEY_KID_ROAR -->
+    </entity>
+
+    <entity anm2path="knife_big.anm2" baseHP="40" boss="0" champion="0" collisionDamage="0" collisionMass="8" collisionRadius="10" friction="1" id="70" portrait="214" shutdoors="false" name="Big Knife" numGridCollisionPoints="60" shadowSize="0" stageHP="0" variant="70" gridCollision="walls">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity anm2path="monser_spider_hush.anm2" reroll="true" baseHP="13" boss="0" champion="0" collisionDamage="1" collisionMass="5" collisionRadius="13" friction="1" id="85" name="Hush Spider" numGridCollisionPoints="12" shadowSize="11" stageHP="0" variant="402" portrait="53" bestiary="true" bestiaryTransform="0,0,1" bestiaryAnim="Walk">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity anm2path="monster_greedfatty.anm2" baseHP="20" boss="0" champion="1" collisionDamage="1" collisionMass="10" collisionRadius="13" friction="1" id="208" name="Greed Fatty" numGridCollisionPoints="12" shadowSize="16" stageHP="0" variant="10" portrait="181" bestiary="true" bestiaryTransform="0,0,1" bestiaryAnim="WalkVert">
+        <gibs amount="12" blood="1" bone="1" eye="0" gut="1" large="0" />
+    </entity>
+
+    <entity anm2path="Mom_hardmode.anm2" baseHP="750" boss="1" bossID="6" champion="0" collisionDamage="0" collisionMass="70" collisionRadius="35" friction="1" id="396" name="Mom (Hard)" numGridCollisionPoints="0" shadowSize="0" stageHP="0" variant="0" portrait="9">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity anm2path="Mom Stomp.anm2" baseHP="750" boss="1" bossID="6" champion="0" collisionDamage="0" collisionMass="70" collisionRadius="35" friction="1" id="396" name="Mom Stomp (Hard)" numGridCollisionPoints="0" shadowSize="70" stageHP="0" variant="10" portrait="9">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity anm2path="Mom Stomp.anm2" baseHP="300" boss="1" bossID="6" champion="0" collisionDamage="1" collisionMass="70" collisionRadius="35" friction="1" id="396" name="Mom Stomp (Last Ditch)" numGridCollisionPoints="0" shadowSize="70" stageHP="0" variant="20" portrait="9">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity anm2path="078.000_moms heart2.anm2" baseHP="700" boss="1" bossID="71" champion="0" collisionDamage="0" collisionMass="10" collisionRadius="35" friction="1" id="397" name="Mom's Heart 2" numGridCollisionPoints="35" shadowSize="20" stageHP="0" variant="0" portrait="47" bestiary="true" bestiaryTransform="0,0,.7" bestiaryAnim="Heartbeat1">
+        <gibs amount="25" blood="1" bone="0" eye="0" gut="0" large="1" />
+    </entity>
+
+    <entity anm2path="078.001_it lives2.anm2" baseHP="700" boss="1" bossID="72" champion="0" collisionDamage="2" collisionMass="70" collisionRadius="35" friction="1" id="398" name="It Lives 2" numGridCollisionPoints="35" shadowSize="27" stageHP="0" variant="0" portrait="96" bestiary="true" bestiaryTransform="0,0,.7" bestiaryAnim="WalkDown1">
+        <gibs amount="25" blood="1" bone="1" eye="1" gut="1" large="1" />
+    </entity>
+
+    <entity anm2path="boss_itliveshead.anm2" baseHP="250" boss="1" bossID="90" champion="0" collisionDamage="2" collisionMass="7" collisionRadius="27" friction="1" id="398" name="Head of Lives" numGridCollisionPoints="27" shadowSize="20" stageHP="0" variant="10" portrait="97" bestiary="true" bestiaryTransform="0,0,1" bestiaryAnim="Idle">
+        <gibs amount="17" blood="0" bone="1" eye="1" gut="0" large="1" />
+    </entity>
+
+    <entity id="399" variant="1" name="Mega Satan 2's Right Hand(Hard)" baseHP="600" boss="1" bossID="55" champion="0" collisionDamage="2" collisionMass="400" shutdoors="false" collisionRadius="45" gridCollision="walls" friction="1" numGridCollisionPoints="12" shadowSize="0" portrait="77" anm2path="275.001_megasatan2hand.anm2">
+        <gibs amount="18" blood="0" bone="1" eye="0" gut="0" large="1" />
+    </entity>
+    <entity id="399" variant="2" name="Mega Satan 2's Left Hand(Hard)" baseHP="600" boss="1" bossID="55" champion="0" collisionDamage="2" collisionMass="400" shutdoors="false" collisionRadius="45" gridCollision="walls" friction="1" numGridCollisionPoints="12" shadowSize="0" portrait="77" anm2path="275.001_megasatan2hand.anm2">
+        <gibs amount="18" blood="0" bone="1" eye="0" gut="0" large="1" />
+    </entity>
+
+    <entity id="400" variant="0" name="Lamb Body(Hard)" baseHP="550" boss="1" bossID="54" champion="0" collisionDamage="2" collisionMass="100" collisionRadius="13" friction="1" numGridCollisionPoints="12" shadowSize="22" anm2path="273.002_TheLamb.anm2">
+        <gibs amount="18" blood="0" bone="1" eye="0" gut="0" large="1" />
+    </entity>
+
+    <entity id="400" variant="1" name="Lamb Body(Hard and Dead)" baseHP="0" boss="0" bossID="0" champion="0" collisionDamage="0" collisionMass="100" collisionRadius="13" friction="1" shutdoors="false" numGridCollisionPoints="12" shadowSize="22" anm2path="273.002_TheLamb.anm2">
+        <gibs amount="18" blood="0" bone="1" eye="0" gut="0" large="1" />
+    </entity>
+
+    <entity id="506" variant="0" name="Hush's Left Hand" baseHP="20" stageHP="0" boss="0" champion="0" collisionDamage="0" collisionMass="16" collisionRadius="40" gridCollision="walls" friction="1" numGridCollisionPoints="12" shadowSize="42" anm2path="monster_hushs hand.anm2">
+        <gibs amount="8" blood="1" bone="1" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity id="506" variant="1" name="Hush's Right Hand" baseHP="20" stageHP="0" boss="0" champion="0" collisionDamage="0" collisionMass="16" collisionRadius="40" gridCollision="walls" friction="1" numGridCollisionPoints="12" shadowSize="42" anm2path="monster_hushs hand.anm2">
+        <gibs amount="8" blood="1" bone="1" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity id="507" variant="0" name="Lamb Stomp" baseHP="0" stageHP="0" boss="0" champion="0" collisionDamage="0" collisionMass="70" collisionRadius="30" friction="1" numGridCollisionPoints="0" shadowSize="0" anm2path="lamb_stomp.anm2">
+        <gibs amount="20" blood="0" bone="1" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity anm2path="monster_memories1.anm2" reroll="true" baseHP="125" boss="0" champion="1" collisionDamage="1" collisionMass="10" collisionRadius="13" friction="1" id="514" name="Memories I" numGridCollisionPoints="12" shadowSize="14" stageHP="0" variant="0" portrait="175" bestiary="true" bestiaryTransform="0,0,1" bestiaryAnim="WalkVert" bestiaryOverlay="Head">
+        <gibs amount="6" blood="1" bone="1" eye="1" gut="1" large="1" worm="1" />
+    </entity>
+
+    <entity anm2path="monster_crying gaper.anm2" reroll="true" baseHP="30" boss="0" champion="1" collisionDamage="1" collisionMass="3" collisionRadius="13" friction="1" id="523" name="Crying Gaper" numGridCollisionPoints="12" shadowSize="14" stageHP="0" variant="0" portrait="185" bestiary="true" bestiaryTransform="0,0,1" bestiaryAnim="WalkVert" bestiaryOverlay="Head">
+        <gibs amount="6" blood="1" bone="1" eye="1" gut="1" large="0" />
+    </entity>
+
+    <entity anm2path="monster_memories_u.anm2" reroll="true" baseHP="200" boss="0" champion="1" collisionDamage="0" collisionMass="1" collisionRadius="13" gridCollision="walls" friction="1" id="542" name="Memories Unknown" numGridCollisionPoints="12" shadowSize="14" stageHP="0" variant="0" portrait="176" bestiary="true" bestiaryTransform="0,0,1" bestiaryAnim="Rotate">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity anm2path="monster_memories2.anm2" reroll="true" baseHP="125" boss="0" champion="1" collisionDamage="1" collisionMass="10" collisionRadius="13" friction="1" id="543" name="Memories II" numGridCollisionPoints="12" shadowSize="14" stageHP="0" variant="0" portrait="177" bestiary="true" bestiaryTransform="0,0,1" bestiaryAnim="WalkDown">
+        <gibs amount="6" blood="0" bone="1" eye="0" gut="0" large="1" />
+    </entity>
+
+    <entity anm2path="monster_memories3.anm2" reroll="true" baseHP="125" boss="0" champion="0" collisionDamage="1" collisionMass="16" collisionRadius="20" friction="1" id="544" name="Memories III" numGridCollisionPoints="12" shadowSize="0" stageHP="0" variant="0" portrait="178" bestiary="true" bestiaryTransform="0,0,1" bestiaryAnim="Idle">
+        <gibs amount="6" blood="1" bone="1" eye="0" gut="0" large="1" worm="1" />
+    </entity>
+
+    <entity anm2path="monster_memories3.anm2" reroll="true" baseHP="125" boss="0" champion="0" collisionDamage="1" collisionMass="16" collisionRadius="20" friction="1" id="544" name="Memories III (Disposable)" numGridCollisionPoints="12" shadowSize="0" stageHP="0" variant="0" portrait="178" subtype="1">
+        <gibs amount="6" blood="1" bone="1" eye="0" gut="0" large="1" worm="1" />
+    </entity>
+
+    <entity anm2path="deliriumhands.anm2" baseHP="0" boss="0" champion="0" collisionDamage="1" collisionMass="0" collisionRadius="13" gridCollision="walls" shutdoors="false" friction="1" id="545" name="Delirium's Hand" numGridCollisionPoints="12" shadowSize="14" stageHP="0" variant="0">
+        <gibs amount="6" blood="1" bone="0" eye="0" gut="0" large="1" />
+    </entity>
+
+    <entity anm2path="deliriumhands_cord.anm2" baseHP="0" boss="0" champion="0" collisionDamage="1" collisionMass="0" collisionRadius="13" gridCollision="walls" shutdoors="false" friction="1" id="545" name="Delirium's Hand Cord" numGridCollisionPoints="12" shadowSize="14" stageHP="0" variant="1">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity anm2path="monster_delirium_triplet.anm2" baseHP="0" boss="0" champion="0" collisionDamage="0" collisionMass="1" collisionRadius="18" gridCollision="walls" shutdoors="false" friction="1" id="546" name="Delirium's Triplets" shutdoors="false" numGridCollisionPoints="12" shadowSize="17" stageHP="0" variant="0">
+        <gibs amount="6" blood="1" bone="0" eye="0" gut="0" large="1" />
+    </entity>
+
+    <entity anm2path="monster_hushling.anm2" baseHP="30" boss="0" champion="1" collisionDamage="1" collisionMass="30" collisionRadius="13" friction="1" id="547" name="Hushling" numGridCollisionPoints="12" shadowSize="0" stageHP="0" variant="0" portrait="180" bestiary="true" bestiaryTransform="0,0,1" bestiaryAnim="Shake">
+        <gibs amount="6" blood="1" bone="0" eye="1" gut="1" large="0" />
+    </entity>
+
+    <entity anm2path="mom_delirious.anm2" baseHP="0" boss="0" bossID="0" champion="0" collisionDamage="0" collisionMass="0" collisionRadius="0" friction="1" id="548" name="Mom (Delirium)" numGridCollisionPoints="0" shadowSize="0" stageHP="0" variant="0">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity anm2path="monster_cloatty.anm2" baseHP="15" boss="0" bossID="0" champion="1" collisionDamage="1" collisionMass="1" collisionRadius="13" friction="1" id="549" name="Cloatty" gridCollision="walls" numGridCollisionPoints="13" shadowSize="15" stageHP="0" variant="0" portrait="186" bestiary="true" bestiaryTransform="0,-10,1" bestiaryAnim="Idle">
+        <gibs amount="6" blood="1" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity anm2path="monster_deliriumfly.anm2" baseHP="0" boss="0" champion="0" collisionDamage="0" collisionMass="1" collisionRadius="13" gridCollision="walls" shutdoors="false" friction="1" id="550" name="Delirium Fly" shutdoors="false" numGridCollisionPoints="12" shadowSize="10" stageHP="0" variant="0">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity anm2path="godhead_delirium.anm2" baseHP="0" boss="0" champion="0" collisionDamage="0" collisionMass="1" collisionRadius="1" friction="1" id="551" name="GodHead (Delirium)" numGridCollisionPoints="1" shadowSize="10" stageHP="0" variant="0">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity anm2path="pupula projectile.anm2" baseHP="10" boss="0" champion="0" collisionDamage="0" collisionMass="8" collisionRadius="5" friction="1" id="552" shutdoors="false" name="Pupula Projectile" numGridCollisionPoints="60" shadowSize="10" stageHP="0" variant="0" subtype="0">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity anm2path="pupula projectile (tear).anm2" baseHP="10" boss="0" champion="0" collisionDamage="0" collisionMass="8" collisionRadius="5" friction="1" id="552" shutdoors="false" name="Pupula Projectile (Tear)" numGridCollisionPoints="60" shadowSize="10" stageHP="0" variant="1" subtype="0">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity anm2path="monster_greediergaper.anm2" baseHP="20" boss="0" champion="1" collisionDamage="1" collisionMass="10" collisionRadius="13" friction="1" id="553" name="Greedier Gaper" numGridCollisionPoints="12" shadowSize="14" stageHP="0" variant="0" portrait="183" bestiary="true" bestiaryTransform="0,0,1" bestiaryAnim="WalkVert" bestiaryOverlay="Head">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity anm2path="monster_greedierfatty.anm2" baseHP="40" boss="0" champion="1" collisionDamage="1" collisionMass="10" collisionRadius="13" friction="1" id="554" name="Greedier Fatty" numGridCollisionPoints="12" shadowSize="16" stageHP="0" variant="0" portrait="182" bestiary="true" bestiaryTransform="0,0,1" bestiaryAnim="WalkVert">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity id="555" variant="0" name="The Lamb II" baseHP="1066.6" boss="1" bossID="54" champion="0" collisionDamage="2" collisionMass="45" collisionRadius="13" friction="1" numGridCollisionPoints="13" shadowSize="22" portrait="95" anm2path="273.000_TheLamb2.anm2" bestiary="true" bestiaryTransform="0,0,1" bestiaryAnim="HeadIdle">
+        <gibs amount="18" blood="1" bone="0" eye="0" gut="0" large="1" />
+    </entity>
+
+    <entity id="555" variant="10" name="Lamb II Clone" baseHP="0" boss="0" champion="0" collisionDamage="2" collisionMass="45" collisionRadius="13" friction="1" numGridCollisionPoints="13" shadowSize="22" anm2path="273.000_TheLamb2.anm2">
+        <gibs amount="18" blood="1" bone="0" eye="0" gut="0" large="1" />
+    </entity>
+
+    <entity id="556" variant="0" name="Delirium II B (incomplete)" baseHP="2000" boss="1" bossID="100" champion="0" collisionDamage="2" collisionMass="45" collisionRadius="30" friction="1" numGridCollisionPoints="30" shadowSize="30" portrait="95" anm2path="boss_delirium2_b.anm2" bestiary="true" bestiaryTransform="0,0,1" bestiaryAnim="Idle">
+        <gibs amount="24" blood="1" bone="0" eye="0" gut="0" large="1" />
+    </entity>
+
+    <entity id="556" variant="10" name="Delirium II B's Mouth (incomplete)" baseHP="0" boss="0" champion="0" collisionDamage="1" collisionMass="30" collisionRadius="13" friction="1" numGridCollisionPoints="12" shadowSize="18" anm2path="boss_delirium2_b.anm2">
+        <gibs amount="18" blood="1" bone="0" eye="0" gut="0" large="1" />
+    </entity>
+
+    <entity id="556" variant="11" name="Delirium II B's Mouth 2 (incomplete)" baseHP="0" boss="0" champion="0" collisionDamage="1" collisionMass="30" collisionRadius="13" friction="1" numGridCollisionPoints="12" shadowSize="18" anm2path="boss_delirium2_b.anm2">
+        <gibs amount="18" blood="1" bone="0" eye="0" gut="0" large="1" />
+    </entity>
+
+    <entity id="556" variant="12" name="Delirium II B's Mouth 3 (incomplete)" baseHP="0" boss="0" champion="0" collisionDamage="1" collisionMass="50" collisionRadius="32" friction="1" numGridCollisionPoints="12" shadowSize="0" anm2path="boss_delirium2_b.anm2">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity id="557" variant="0" name="Lil Fallen's Skull" baseHP="0" boss="0" champion="0" collisionDamage="0" collisionMass="50" collisionRadius="10" friction="1" shutdoors="false" numGridCollisionPoints="10" shadowSize="10" anm2path="lfallensskull.anm2">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity anm2path="monster_lilfallen.anm2" reroll="true" baseHP="35" boss="0" champion="1" collisionDamage="1" collisionMass="10" collisionRadius="13" friction="1" id="558" name="Little Fallen" numGridCollisionPoints="0" shadowSize="16" stageHP="0" variant="0" portrait="187" bestiary="true" bestiaryTransform="0,3,1" bestiaryAnim="Move">
+        <gibs amount="6" blood="1" bone="1" eye="1" gut="1" large="0" />
+    </entity>
+
+    <entity anm2path="monster_babybone.anm2" reroll="true" baseHP="14" boss="0" champion="1" collisionDamage="1" collisionMass="10" collisionRadius="13" friction="1" id="558" name="Baby Bone" numGridCollisionPoints="0" shadowSize="16" stageHP="0" variant="1" portrait="188" bestiary="true" bestiaryTransform="0,3,1" bestiaryAnim="Move">
+        <gibs amount="6" blood="0" bone="1" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity anm2path="monster_babybone_fallen.anm2" reroll="true" baseHP="14" boss="0" champion="1" collisionDamage="1" collisionMass="10" collisionRadius="13" friction="1" id="558" name="Fallen Baby Bone" numGridCollisionPoints="0" shadowSize="16" stageHP="0" variant="2" portrait="189">
+        <gibs amount="6" blood="0" bone="1" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity id="608" variant="0" name="Hush's BloodVessel" baseHP="0" boss="0" bossID="0" champion="0" collisionDamage="0" collisionMass="1" shutdoors="false" collisionRadius="30" friction="1" numGridCollisionPoints="0" shadowSize="0" anm2path="bloodvessel_hush.anm2">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity id="1000" variant="350" name="brimstoneswirl2" baseHP="0" boss="0" bossID="0" champion="0" collisionDamage="0" collisionMass="100" collisionRadius="0" friction="1" numGridCollisionPoints="12" shadowSize="0" anm2path="brimstoneswirl2.anm2">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity anm2path="megablastdown.anm2" baseHP="0" boss="0" champion="0" collisionDamage="0" collisionMass="0" collisionRadius="0" friction="1" id="1000" name="Beamwave" numGridCollisionPoints="0" shadowSize="0" stageHP="0" variant="351">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity anm2path="effect_feather_particle.anm2" baseHP="0" boss="0" champion="0" collisionDamage="0" collisionMass="0" collisionRadius="0" friction="1" id="1000" name="Feather Particle" numGridCollisionPoints="0" shadowSize="0" stageHP="0" variant="352">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity anm2path="ultigreedcoin_burst.anm2" baseHP="0" boss="0" champion="0" collisionDamage="0" collisionMass="0" collisionRadius="0" friction="1" id="1000" name="Ultra Greed Coin (Burst)" numGridCollisionPoints="0" shadowSize="0" stageHP="0" variant="353">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity anm2path="effect_blackcirclewarn.anm2" baseHP="0" boss="0" champion="0" collisionDamage="0" collisionMass="0" collisionRadius="0" friction="1" id="1000" name="Black Circle Warn" numGridCollisionPoints="0" shadowSize="0" stageHP="0" variant="354">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity id="1000" variant="355" name="HolyBeam Warn" baseHP="0" boss="0" bossID="0" champion="0" collisionDamage="0" collisionMass="100" collisionRadius="0" friction="1" numGridCollisionPoints="0" shadowSize="0" anm2path="holybeamwarn.anm2">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity anm2path="megablastdown.anm2" baseHP="0" boss="0" champion="0" collisionDamage="0" collisionMass="0" collisionRadius="0" friction="1" id="1000" name="MegaBlast Down" numGridCollisionPoints="0" shadowSize="0" stageHP="0" variant="356">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity anm2path="effect_impact_circular.anm2" baseHP="0" boss="0" champion="0" collisionDamage="0" collisionMass="0" collisionRadius="0" friction="1" id="1000" name="Circular Impact" numGridCollisionPoints="0" shadowSize="0" stageHP="0" variant="357">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity anm2path="megablastdown.anm2" baseHP="0" boss="0" champion="0" collisionDamage="0" collisionMass="0" collisionRadius="0" friction="1" id="1000" name="Beamwave (Radial)" numGridCollisionPoints="0" shadowSize="0" stageHP="0" variant="358">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity anm2path="effect_piecesoflamb.anm2" baseHP="0" boss="0" champion="0" collisionDamage="0" collisionMass="0" collisionRadius="0" friction="1" id="1000" name="Pieces of Lamb" numGridCollisionPoints="0" shadowSize="0" stageHP="0" variant="359">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity id="1000" variant="360" name="Black Polaroid" baseHP="0" boss="0" bossID="0" champion="0" collisionDamage="0" collisionMass="0" collisionRadius="0" friction="1" numGridCollisionPoints="0" shadowSize="0" anm2path="effect_polaroid_black.anm2">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity anm2path="trapdoor_teleport.anm2" baseHP="0" boss="0" bossID="0" collisionMass="0" collisionRadius="13" friction="1" id="1000" name="Escape Trapdoor" numGridCollisionPoints="0" shadowSize="0" variant="361">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity anm2path="lamblaser.anm2" baseHP="0" boss="0" bossID="0" collisionMass="0" collisionRadius="13" friction="1" id="1000" name="Lamb Laser Down" numGridCollisionPoints="0" shadowSize="0" variant="362">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity anm2path="megasatan2head_side.anm2" baseHP="0" boss="0" bossID="0" collisionMass="0" collisionRadius="13" friction="1" id="1000" name="Mega Satan 2's Head (Side)" numGridCollisionPoints="0" shadowSize="0" variant="363">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity id="1000" variant="364" name="The Lamb II's Clone2" baseHP="0" boss="0" champion="0" collisionDamage="0" collisionMass="0" collisionRadius="13" friction="1" numGridCollisionPoints="0" shadowSize="22" anm2path="273.000_TheLamb2.anm2">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity id="1000" variant="365" name="Wall Hole" baseHP="0" boss="0" champion="0" collisionDamage="0" collisionMass="0" collisionRadius="0" friction="1" numGridCollisionPoints="0" shadowSize="0" anm2path="effect_wallhole.anm2">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity id="1000" variant="366" name="Afterimage" baseHP="0" boss="0" champion="0" collisionDamage="0" collisionMass="0" collisionRadius="0" friction="1" numGridCollisionPoints="0" shadowSize="0" anm2path="273.000_TheLamb2.anm2">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity id="1000" variant="367" name="Danger Mark" baseHP="0" boss="0" champion="0" collisionDamage="0" collisionMass="0" collisionRadius="0" friction="1" numGridCollisionPoints="0" shadowSize="0" anm2path="effect_mark_black.anm2">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity id="1000" variant="367" subtype="1" name="Golden Ground Break" baseHP="0" boss="0" champion="0" collisionDamage="0" collisionMass="0" collisionRadius="0" friction="1" numGridCollisionPoints="0" shadowSize="0" anm2path="groundbreak_golden.anm2">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity id="1000" variant="368" name="Coin Wave" baseHP="0" boss="0" champion="0" collisionDamage="0" collisionMass="0" collisionRadius="0" friction="1" numGridCollisionPoints="0" shadowSize="0" anm2path="effect_mark_black.anm2">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity id="1000" variant="369" name="Player Mod Anim" baseHP="0" boss="0" bossID="0" champion="0" collisionDamage="0" collisionMass="0" collisionRadius="0" friction="1" numGridCollisionPoints="0" shadowSize="16" anm2path="mod_player_anim.anm2">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity id="1000" variant="370" name="Golden Wave (Radial)" baseHP="0" boss="0" champion="0" collisionDamage="0" collisionMass="0" collisionRadius="0" friction="1" numGridCollisionPoints="0" shadowSize="0" anm2path="effect_mark_black.anm2">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity id="1000" variant="371" name="Golden CrackWave" baseHP="0" boss="0" champion="0" collisionDamage="0" collisionMass="0" collisionRadius="0" friction="1" numGridCollisionPoints="0" shadowSize="0" anm2path="effect_mark_black.anm2">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity anm2path="poof_deliriumbullet.anm2" baseHP="0" boss="0" champion="0" collisionDamage="0" collisionMass="0" collisionRadius="0" friction="1" id="1000" name="Bullet Poof(Delirium)" numGridCollisionPoints="1" shadowSize="0" stageHP="0" variant="412">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+    <entity id="1000" variant="3500" name="brimstoneswirl2" baseHP="0" boss="0" bossID="0" champion="0" collisionDamage="0" collisionMass="100" collisionRadius="0" friction="1" numGridCollisionPoints="12" shadowSize="0" anm2path="brimstoneswirl2.anm2">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0" />
+    </entity>
+
+</entities>
