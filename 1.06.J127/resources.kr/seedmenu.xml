@@ -1,0 +1,110 @@
+<!-- Protip: Go to the easter eggs menu and press Q+E+Tab or LB+RB+X 
+     if you want to remove an unlocked easter egg from the menu. 
+     Retype the code in the seed entry to get it back. -->
+
+<entryDialog unlock="이스터 에그 발견!" enable="이스터 에그 활성화됨"/>
+
+<seedmenu>
+	<confirm name="총 {numseeds} 개의 시드가 활성화됨"/>
+	<reset name="모든 선택 해제"/>
+	<spacer />
+	
+	<seed id="16" name="무한 지하실"/>
+	<seed id="11" name="나를 따르라"/>
+	<seed id="33" name="F2P 버전"/>
+	<seed id="25" name="평화주의"/>
+	<seed id="32" name="적들이 부활함"/>
+	<seed id="24" name="똥 기차"/>
+	<seed id="55" name="아이들의 협동 모드"/>
+	<spacer />
+	
+	<seed id="56" name="영원한 어둠"/>
+	<seed id="57" name="벗어날 수 없는 미로"/>
+	<seed id="58" name="절망적인 길 잃음"/>
+	<seed id="59" name="영원한 미지"/>
+	<seed id="60" name="끝없는 미로"/>
+	<seed id="61" name="치료할 수 없는 실명"/>
+	<seed id="62" name="끔찍한 저주"/>
+	<spacer />
+	
+	<seed id="63" name="어둠을 빛내리"/>
+	<seed id="64" name="미로를 탈출"/>
+	<seed id="65" name="더 이상 길 잃지 않아"/>
+	<seed id="66" name="모름을 알게됨"/>
+	<seed id="67" name="미궁을 빠져나가자"/>
+	<seed id="68" name="보이지 않음을 치료"/>
+	<seed id="70" name="모든 저주 면제"/>
+	<spacer />
+	
+	<seed id="47" name="모든 심장 피해"/>
+	<seed id="48" name="열두 심장 피해"/>
+	<seed id="26" name="움직임을 멈추지 마라"/>
+	<seed id="27" name="타이머가 망가짐"/>
+	<seed id="28" name="30 분 제한"/>
+	<spacer />
+	
+	<seed id="12" name="반전된 조작"/>
+	<seed id="52" name="얼음 물리" />
+	<spacer />
+	
+	<seed id="3" name="위장한 플레이어"/>
+	<seed id="4" name="위장한 적"/>
+	<seed id="5" name="위장한 물품"/>
+	<seed id="6" name="모든것이 위장됨!"/>
+	<seed id="14" name="투명한 플레이어"/>
+	<seed id="15" name="투명한 적"/>
+	<spacer />
+	
+	<seed id="46" name="비어있음"/>
+	<seed id="53" name="그레이 스케일"/>
+	<seed id="54" name="크리스마스"/>
+	<seed id="35" name="대두 모드"/>
+	<seed id="36" name="소두 모드"/>
+	<seed id="37" name="검은 몸"/>
+	<spacer />
+	
+	<seed id="38" name="빛나는 눈물"/>
+	<seed id="23" name="엑스트라 고어"/>
+	<spacer />
+
+	<seed id="8" name="음극선!"/>
+	<seed id="9" name="난독증"  implemented="0"/>
+	<seed id="10" name="HUD 없음"/>
+	<seed id="29" name="불가사의한 알약"/>
+	<seed id="30" name="불가사의한 카드"/>
+	<spacer />
+
+	<seed id="13" name="챔피언 적"/>
+	<seed id="17" name="매혹적인 적"/>
+	<seed id="18" name="혼란스러운 적"/>
+	<seed id="19" name="겁쟁이 적"/>
+	<seed id="20" name="개구쟁이 적"/>
+	<seed id="21" name="비 사교적인 적"/>
+	<spacer />
+	
+	<seed id="7" name="방귀스런 소리"/>
+	<spacer />
+
+	<seed id="1" name="움직임 템포"/>
+	<seed id="2" name="치료 템포"/>
+	<seed id="41" name="다운 템포"/>
+	<seed id="42" name="다운 템포--"/>
+	<seed id="43" name="업 템포"/>
+	<seed id="44" name="업 템포++"/>
+	
+	
+	<!-- Changing the "implemented" flag won't make these seeds 
+	do anything, by the way. They don't have codes to unlock 
+	them or any game logic. They are just here for technical 
+	reasons. Just thought I'd save you some time. -->
+	<seed id="22" name="구현되지 않음" implemented="0"/>
+	<seed id="31" name="구현되지 않음" implemented="0"/>
+	<seed id="34" name="구현되지 않음" implemented="0"/>
+	<seed id="39" name="구현되지 않음" implemented="0"/>
+	<seed id="40" name="구현되지 않음" implemented="0"/>
+	<seed id="45" name="구현되지 않음" implemented="0"/>
+	<seed id="49" name="구현되지 않음" implemented="0"/>
+	<seed id="50" name="구현되지 않음" implemented="0"/>
+	<seed id="51" name="구현되지 않음" implemented="0"/>
+	<seed id="69" name="구현되지 않음" implemented="0"/>
+</seedmenu>
