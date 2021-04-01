@@ -11,3 +11,4 @@ The compiled files are not included.
 * 1.06.J127 (Afterbirth+, Booster Pack 4 patch 3)
 * 1.06.J150 (Afterbirth+, Booster Pack 5)
 * 1.06.J168 (Afterbirth+, Booster Pack 5 patch)
+* 1.06.J787 (Repentance)
