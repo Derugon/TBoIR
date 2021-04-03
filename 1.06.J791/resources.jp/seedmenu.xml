@@ -1,0 +1,116 @@
+<!-- Protip: Go to the easter eggs menu and press Q+E+Tab or LB+RB+X 
+     if you want to remove an unlocked easter egg from the menu. 
+     Retype the code in the seed entry to get it back. -->
+
+<entryDialog unlock="いーすたー　えっぐを発見！" enable="いーすたー　えっぐ作動"/>
+
+<seedmenu>
+	<confirm name="決定 ({numseeds} 動作中)"/>
+	<reset name="全て非選択"/>
+	<spacer />
+	
+	<seed id="16" name="無限地下"/>
+	<seed id="11" name="トリッキー　ピックアップ"/>
+	<seed id="72" name="ピックアップ　タイムアウト"/>
+	<seed id="33" name="F2Pバージョン"/>
+	<seed id="25" name="平和主義"/>
+	<seed id="32" name="敵リスポーン"/>
+	<seed id="71" name="反転不能"/>
+	<seed id="24" name="うんこ道"/>
+	<seed id="73" name="ドッグモード"/>
+	<seed id="55" name="子供用協力モード"/>
+	<spacer />
+	
+	<seed id="56" name="永遠の闇"/>
+	<seed id="57" name="逃げられない迷宮"/>
+	<seed id="58" name="信じられないほど迷った"/>
+	<seed id="59" name="永遠にアンノウン"/>
+	<seed id="60" name="終わらない迷路"/>
+	<seed id="61" name="回復不能の盲目"/>
+	<seed id="62" name="酷い呪い"/>
+	<spacer />
+	
+	<seed id="63" name="暗闇に光を"/>
+	<seed id="64" name="迷宮脱出"/>
+	<seed id="65" name="私も何時ぞやは迷うもの"/>
+	<seed id="66" name="アンノウンを知れ"/>
+	<seed id="67" name="迷路に踏み入れるな"/>
+	<seed id="68" name="盲目に癒しを"/>
+	<seed id="70" name="完全呪い無効"/>
+	<spacer />
+	
+	<seed id="47" name="ハートフル　ダメージ"/>
+	<seed id="48" name="１２ハートダメージ"/>
+	<seed id="26" name="止まるな！"/>
+	<seed id="27" name="タイマーでダメージ"/>
+	<seed id="28" name="３０分リミット"/>
+	<spacer />
+	
+	<seed id="52" name="氷物理" />
+	<seed id="74" name="勇敢"/>
+	<seed id="75" name="臆病者"/>
+	<seed id="12" name="コントロール反転"/>
+	<seed id="76" name="軸に沿ったコントロール"/>
+	<spacer />
+	
+	<seed id="3" name="プレイヤーをカモフラージュ"/>
+	<seed id="4" name="敵をカモフラージュ"/>
+	<seed id="5" name="物をカモフラージュ"/>
+	<seed id="6" name="全て　カモフラージュ"/>
+	<seed id="14" name="プレイヤー目に見えない"/>
+	<seed id="15" name="敵目に見えない"/>
+	<spacer />
+	
+	<seed id="46" name="ザ　ブランク"/>
+	<seed id="53" name="グレースケール"/>
+	<seed id="54" name="クリスマス"/>
+	<seed id="35" name="ビッグヘッド　モード"/>
+	<seed id="36" name="タイニーヘッド　モード"/>
+	<seed id="37" name="ブラックボディー"/>
+	<spacer />
+	
+	<seed id="38" name="輝く涙"/>
+	<seed id="23" name="もっとグロテスクに"/>
+	<spacer />
+
+	<seed id="8" name="カソード　レイ"/>
+	<seed id="9" name="ディスレクシア" implemented="0"/>
+	<seed id="10" name="HUD無し"/>
+	<seed id="29" name="謎のピル"/>
+	<seed id="30" name="謎のカード"/>
+	<spacer />
+
+	<seed id="13" name="敵チャンピオン"/>
+	<seed id="17" name="敵チャーム"/>
+	<seed id="18" name="敵混乱"/>
+	<seed id="19" name="敵　恐怖"/>
+	<seed id="20" name="敵　驚き"/>
+	<seed id="21" name="アソーシャル　敵"/>
+	<spacer />
+	
+	<seed id="7" name="おならっぽい音"/>
+	<spacer />
+
+	<seed id="1" name="ムーブメントテンポ"/>
+	<seed id="2" name="ヘルステンポ"/>
+	<seed id="41" name="ダウンテンポ"/>
+	<seed id="42" name="ダウンテンポ - -"/>
+	<seed id="43" name="アップテンポ"/>
+	<seed id="44" name="アップテンポ + +"/>
+	
+	
+	<!-- Changing the "implemented" flag won't make these seeds 
+	do anything, by the way. They don't have codes to unlock 
+	them or any game logic. They are just here for technical 
+	reasons. Just thought I'd save you some time. -->
+	<seed id="22" name="NOT IMPLEMENTED" implemented="0"/>
+	<seed id="31" name="NOT IMPLEMENTED" implemented="0"/>
+	<seed id="34" name="NOT IMPLEMENTED" implemented="0"/>
+	<seed id="39" name="NOT IMPLEMENTED" implemented="0"/>
+	<seed id="40" name="NOT IMPLEMENTED" implemented="0"/>
+	<seed id="45" name="NOT IMPLEMENTED" implemented="0"/>
+	<seed id="49" name="NOT IMPLEMENTED" implemented="0"/>
+	<seed id="50" name="NOT IMPLEMENTED" implemented="0"/>
+	<seed id="51" name="NOT IMPLEMENTED" implemented="0"/>
+	<seed id="69" name="NOT IMPLEMENTED" implemented="0"/>
+</seedmenu>
