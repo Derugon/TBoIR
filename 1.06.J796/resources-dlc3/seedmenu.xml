@@ -1,0 +1,120 @@
+<!-- Protip: Go to the easter eggs menu and press Q+E+Tab or LB+RB+X 
+     if you want to remove an unlocked easter egg from the menu. 
+     Retype the code in the seed entry to get it back. -->
+
+<entryDialog unlock="Found Easter Egg!" enable="Easter Egg enabled"/>
+
+<seedmenu>
+	<confirm name="Confirm ({numseeds} enabled)"/>
+	<reset name="Deselect all"/>
+	<spacer />
+	
+	<seed id="16" name="Infinite Basements"/>
+	<seed id="11" name="Tricky pickups"/>
+	<seed id="72" name="Pickups time out"/>
+	<seed id="33" name="F2P version"/>
+	<seed id="25" name="Pacifism"/>
+	<seed id="32" name="Enemies respawn"/>
+	<seed id="71" name="Point of no return"/>
+	<seed id="24" name="Poopy Trail"/>
+	<seed id="73" name="Dog Mode"/>
+	<seed id="55" name="Kids' co-op mode"/>
+	<spacer />
+	
+	<seed id="56" name="Permanent Darkness"/>
+	<seed id="57" name="Inescapable Labyrinth"/>
+	<seed id="58" name="Hopelessly Lost"/>
+	<seed id="59" name="Forever Unknown"/>
+	<seed id="60" name="Unending Maze"/>
+	<seed id="61" name="Incurable Blindness"/>
+	<seed id="62" name="Horrible Curse"/>
+	<spacer />
+	
+	<seed id="63" name="Illuminate Darkness"/>
+	<seed id="64" name="Escape the Labyrinth"/>
+	<seed id="65" name="I once was Lost"/>
+	<seed id="66" name="Know the Unknown"/>
+	<seed id="67" name="Stay out of the Maze"/>
+	<seed id="68" name="Heal the Blind"/>
+	<seed id="70" name="Total curse Immunity"/>
+	<spacer />
+	
+	<seed id="47" name="Full heart damage"/>
+	<seed id="48" name="Twelve heart damage"/>
+	<seed id="26" name="Don't stop moving"/>
+	<seed id="27" name="Damage on a timer"/>
+	<seed id="28" name="30 minute limit"/>
+	<spacer />
+	
+	<seed id="52" name="Ice Physics" />
+	<seed id="74" name="Bravery"/>
+	<seed id="75" name="Cowardice"/>
+	<seed id="12" name="Reversed controls"/>
+	<seed id="76" name="Axis aligned controls"/>
+	<spacer />
+	
+	<seed id="3" name="Camouflage player"/>
+	<seed id="4" name="Camouflage enemies"/>
+	<seed id="5" name="Camouflage stuff"/>
+	<seed id="6" name="Camouflage EVERYTHING!"/>
+	<seed id="14" name="Invisible player"/>
+	<seed id="15" name="Invisible enemies"/>
+	<spacer />
+	
+	<seed id="46" name="The Blank"/>
+	<seed id="53" name="Grayscale"/>
+	<seed id="54" name="Christmas"/>
+	<seed id="35" name="Big head mode"/>
+	<seed id="36" name="Tiny head mode"/>
+	<seed id="37" name="Black body"/>
+	<spacer />
+	
+	<seed id="38" name="Glowing tears"/>
+	<seed id="23" name="Extra Gore"/>
+	<spacer />
+
+	<seed id="8" name="Cathode rays!"/>
+	<seed id="9" name="Dyslexia"/>
+	<seed id="10" name="No HUD"/>
+	<seed id="29" name="Mystery pills"/>
+	<seed id="30" name="Mystery cards"/>
+	<spacer />
+
+	<seed id="13" name="Champion enemies"/>
+	<seed id="17" name="Charmed enemies"/>
+	<seed id="18" name="Confused enemies"/>
+	<seed id="19" name="Scaredy enemies"/>
+	<seed id="20" name="Skittish enemies"/>
+	<seed id="21" name="Asocial enemies"/>
+	<spacer />
+	
+	<seed id="7" name="Farty sounds"/>
+	<spacer />
+
+	<seed id="1" name="Movement tempo"/>
+	<seed id="2" name="Health tempo"/>
+	<seed id="41" name="Downtempo"/>
+	<seed id="42" name="Downtempo--"/>
+	<seed id="43" name="Uptempo"/>
+	<seed id="44" name="Uptempo++"/>
+	
+	<spacer />
+	
+	<seed id="77" name="Super Hot"/>
+	<seed id="78" name="Retro Vision"/>
+	
+	<!-- Changing the "implemented" flag won't make these seeds 
+	do anything, by the way. They don't have codes to unlock 
+	them or any game logic. They are just here for technical 
+	reasons. Just thought I'd save you some time. -->
+	<seed id="22" name="NOT IMPLEMENTED" implemented="0"/>
+	<seed id="31" name="NOT IMPLEMENTED" implemented="0"/>
+	<seed id="34" name="NOT IMPLEMENTED" implemented="0"/>
+	<seed id="39" name="NOT IMPLEMENTED" implemented="0"/>
+	<seed id="40" name="NOT IMPLEMENTED" implemented="0"/>
+	<seed id="45" name="NOT IMPLEMENTED" implemented="0"/>
+	<seed id="49" name="NOT IMPLEMENTED" implemented="0"/>
+	<seed id="50" name="NOT IMPLEMENTED" implemented="0"/>
+	<seed id="51" name="NOT IMPLEMENTED" implemented="0"/>
+	<seed id="69" name="NOT IMPLEMENTED" implemented="0"/>
+</seedmenu>
