@@ -14,3 +14,4 @@ The compiled files are not included.
 * 1.06.J787 (Repentance)
 * 1.06.J791 (Repentance patch 1)
 * 1.06.J796 (Repentance patch 2)
+* 1.06.J813 (Repentance patch 3)
