@@ -1,0 +1,25 @@
+Follow these steps to extract The Binding of Isaac: Afterbirth+'s resources:
+
+A.	Open the folder containing ResourceExtractor in one Finder window and 
+	leave it open.
+
+B.	1.	In Steam, right-click on The Binding of Isaac: Rebirth, and select 
+		Properties.
+	2.	Click the Local Files tab
+	3.	Click Browse Local Files
+	4.	Right-click the app and select View Package Contents
+	5.	Browse to Contents/Resources/
+	6.	Leave this window open.
+
+C.	Create a new folder "Extracted Resources" (you can name it whatever you 
+	want) in the location where you want to extract the resources, and open 
+	its location in a third Finder window. You'll need roughly 600 MB of free 
+	space in this location.
+
+D.	Now, open the app "Terminal," located in Applications/Utilities.
+
+E.	1.	Drag "ResourceExtractor" onto the terminal window
+	2.	Drag "Resources" (the parent folder, not the "resources" folder inside)
+		onto the terminal window
+	3.	Drag "Extracted Resources" onto the terminal window
+	4.	Click on the terminal window and press return or enter to start the extraction
