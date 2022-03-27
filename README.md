@@ -17,3 +17,4 @@ The compiled files are not included.
 * 1.06.J813 (Repentance patch 3)
 * 1.06.J820 (Repentance patch 4)
 * 1.7.5.0000 (Repentance, localizations patch)
+* 1.7.6.0000 (Repentance)
