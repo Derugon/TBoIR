@@ -1,0 +1,37 @@
+﻿<AnimatedActor>
+  <Content>
+    <Spritesheets>
+      <Spritesheet Path="hudstats2.png" Id="0" />
+    </Spritesheets>
+    <Layers>
+      <Layer Name="" Id="0" SpritesheetId="0" />
+    </Layers>
+    <Nulls />
+    <Events />
+  </Content>
+  <Animations DefaultAnimation="Idle">
+    <Animation Name="Idle" FrameNum="11" Loop="True">
+      <RootAnimation>
+        <Frame XPosition="0" YPosition="0" Delay="11" Visible="True" XScale="100" YScale="100" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
+      </RootAnimation>
+      <LayerAnimations>
+        <LayerAnimation LayerId="0" Visible="True">
+          <Frame XPosition="0" YPosition="0" XPivot="0" YPivot="0" Width="16" Height="16" XScale="100" YScale="100" Delay="1" Visible="True" XCrop="16" YCrop="0"  RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
+          <Frame XPosition="0" YPosition="0" XPivot="0" YPivot="0" Width="16" Height="16" XScale="100" YScale="100" Delay="1" Visible="True" XCrop="32" YCrop="0"  RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
+          <Frame XPosition="0" YPosition="0" XPivot="0" YPivot="0" Width="16" Height="16" XScale="100" YScale="100" Delay="1" Visible="True" XCrop="0"  YCrop="0"  RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
+          <Frame XPosition="0" YPosition="0" XPivot="0" YPivot="0" Width="16" Height="16" XScale="100" YScale="100" Delay="1" Visible="True" XCrop="0"  YCrop="16" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
+          <Frame XPosition="0" YPosition="0" XPivot="0" YPivot="0" Width="16" Height="16" XScale="100" YScale="100" Delay="1" Visible="True" XCrop="16" YCrop="16" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
+          <Frame XPosition="0" YPosition="0" XPivot="0" YPivot="0" Width="16" Height="16" XScale="100" YScale="100" Delay="1" Visible="True" XCrop="32" YCrop="16" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
+          <Frame XPosition="0" YPosition="0" XPivot="0" YPivot="0" Width="16" Height="16" XScale="100" YScale="100" Delay="1" Visible="True" XCrop="48" YCrop="0"  RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
+          <Frame XPosition="0" YPosition="0" XPivot="0" YPivot="0" Width="16" Height="16" XScale="100" YScale="100" Delay="1" Visible="True" XCrop="48" YCrop="16" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
+          <Frame XPosition="0" YPosition="0" XPivot="0" YPivot="0" Width="16" Height="16" XScale="100" YScale="100" Delay="1" Visible="True" XCrop="0"  YCrop="32" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
+          <Frame XPosition="0" YPosition="0" XPivot="0" YPivot="0" Width="16" Height="16" XScale="100" YScale="100" Delay="1" Visible="True" XCrop="16" YCrop="32" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
+          <Frame XPosition="0" YPosition="0" XPivot="0" YPivot="0" Width="16" Height="16" XScale="100" YScale="100" Delay="1" Visible="True" XCrop="48" YCrop="48" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="False" />
+        </LayerAnimation>
+      </LayerAnimations>
+      <NullAnimations />
+      <Triggers />
+    </Animation>
+  </Animations>
+</AnimatedActor>
+
