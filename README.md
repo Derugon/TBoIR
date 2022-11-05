@@ -21,3 +21,4 @@ The compiled files are not included.
 * 1.7.7.0000 (Repentance)
 * 1.7.8.0000 (Repentance)
 * 1.7.8a.0000 (Repentance)
+* 1.7.8a.J819 (Repentance, 1.7.9 patch)
