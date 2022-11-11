@@ -24,6 +24,13 @@
 		</Layers>
 		<Nulls>
 			<Null Name="ChallengeButton" Id="0" ShowRect="false"/>
+			<Null Id="1" Name="Area1" />
+			<Null Id="2" Name="Area2" />
+			<Null Id="3" Name="Area3" />
+			<Null Id="4" Name="Area4" />
+			<Null Id="5" Name="Area5" />
+			<Null Id="6" Name="Area6" />
+			<Null Id="7" Name="AreaDailyRun" />
 		</Nulls>
 		<Events/>
 	</Content>
@@ -39,7 +46,7 @@
 				<LayerAnimation LayerId="10" Visible="true">
 					<Frame XPosition="316" YPosition="13" XPivot="16" YPivot="16" XCrop="192" YCrop="368" Width="176" Height="160" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="200" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
 				</LayerAnimation>
-				<LayerAnimation LayerId="11" Visible="true">
+				<LayerAnimation LayerId="11" Visible="false">
 					<Frame XPosition="96" YPosition="112" XPivot="16" YPivot="16" XCrop="192" YCrop="0" Width="64" Height="67" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
 				</LayerAnimation>
 				<LayerAnimation LayerId="1" Visible="true">
@@ -85,6 +92,27 @@
 			<NullAnimations>
 				<NullAnimation NullId="0" Visible="true">
 					<Frame XPosition="406" YPosition="59" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false"/>
+				</NullAnimation>
+				<NullAnimation NullId="1" Visible="true">
+					<Frame XPosition="231" YPosition="57" Delay="1" Visible="true" XScale="1421" YScale="344" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="-8" Interpolated="false" />
+				</NullAnimation>
+				<NullAnimation NullId="2" Visible="true">
+					<Frame XPosition="235" YPosition="84" Delay="1" Visible="true" XScale="1421" YScale="344" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="-8" Interpolated="false" />
+				</NullAnimation>
+				<NullAnimation NullId="3" Visible="true">
+					<Frame XPosition="239" YPosition="112" Delay="1" Visible="true" XScale="1421" YScale="344" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="-8" Interpolated="false" />
+				</NullAnimation>
+				<NullAnimation NullId="4" Visible="true">
+					<Frame XPosition="228" YPosition="143" Delay="1" Visible="true" XScale="1217" YScale="354" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="-9" Interpolated="false" />
+				</NullAnimation>
+				<NullAnimation NullId="5" Visible="true">
+					<Frame XPosition="245" YPosition="204" Delay="1" Visible="true" XScale="1327" YScale="373" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="-8" Interpolated="false" />
+				</NullAnimation>
+				<NullAnimation NullId="6" Visible="true">
+					<Frame XPosition="237" YPosition="173" Delay="1" Visible="true" XScale="1327" YScale="373" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="-8" Interpolated="false" />
+				</NullAnimation>
+				<NullAnimation NullId="7" Visible="true">
+					<Frame XPosition="398" YPosition="70" Delay="1" Visible="true" XScale="1466" YScale="638" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="11" Interpolated="false" />
 				</NullAnimation>
 			</NullAnimations>
 			<Triggers/>

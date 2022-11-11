@@ -1,0 +1,40 @@
+<AnimatedActor>
+	<Info CreatedBy="trtv" CreatedOn="05.15.2020 17:07:10" Fps="30" Version="59" />
+	<Content>
+		<Spritesheets>
+			<Spritesheet Id="0" Path="bosses/repentance/ball_of_flies.png" />
+		</Spritesheets>
+		<Layers>
+			<Layer Id="0" Name="main" SpritesheetId="0" />
+		</Layers>
+		<Nulls>
+			<Null Id="0" Name="OverlayEffect" />
+		</Nulls>
+		<Events />
+	</Content>
+	<Animations DefaultAnimation="Idle">
+		<Animation Name="Idle" FrameNum="8" Loop="true">
+			<RootAnimation>
+				<Frame XPosition="0" YPosition="0" Delay="8" Visible="true" XScale="100" YScale="100" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false" />
+			</RootAnimation>
+			<LayerAnimations>
+				<LayerAnimation LayerId="0" Visible="true">
+					<Frame XPosition="0" YPosition="-10" XPivot="24" YPivot="24" XCrop="0"  YCrop="0" Width="48" Height="48" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="true" />
+					<Frame XPosition="0" YPosition="-10" XPivot="24" YPivot="24" XCrop="48" YCrop="0" Width="48" Height="48" XScale="106" YScale="94" Delay="1" Visible="true" RedTint="400" GreenTint="400" BlueTint="400" AlphaTint="255" RedOffset="10" GreenOffset="40" BlueOffset="0" Rotation="0" Interpolated="true" />
+					<Frame XPosition="0" YPosition="-10" XPivot="24" YPivot="24" XCrop="0"  YCrop="0" Width="48" Height="48" XScale="110" YScale="90" Delay="1" Visible="true" RedTint="128" GreenTint="128" BlueTint="128" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="true" />
+					<Frame XPosition="0" YPosition="-10" XPivot="24" YPivot="24" XCrop="48" YCrop="0" Width="48" Height="48" XScale="106" YScale="94" Delay="1" Visible="true" RedTint="20"  GreenTint="20"  BlueTint="20"  AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="true" />
+					<Frame XPosition="0" YPosition="-10" XPivot="24" YPivot="24" XCrop="0"  YCrop="0" Width="48" Height="48" XScale="100" YScale="100" Delay="1" Visible="true" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="true" />
+					<Frame XPosition="0" YPosition="-10" XPivot="24" YPivot="24" XCrop="48" YCrop="0" Width="48" Height="48" XScale="94" YScale="106" Delay="1" Visible="true" RedTint="400" GreenTint="400" BlueTint="400" AlphaTint="255" RedOffset="10" GreenOffset="40" BlueOffset="0" Rotation="0" Interpolated="true" />
+					<Frame XPosition="0" YPosition="-10" XPivot="24" YPivot="24" XCrop="0"  YCrop="0" Width="48" Height="48" XScale="90" YScale="110" Delay="1" Visible="true" RedTint="128" GreenTint="128" BlueTint="128" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="true" />
+					<Frame XPosition="0" YPosition="-10" XPivot="24" YPivot="24" XCrop="48" YCrop="0" Width="48" Height="48" XScale="94" YScale="106" Delay="1" Visible="true" RedTint="20"  GreenTint="20"  BlueTint="20"  AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="true" />
+				</LayerAnimation>
+			</LayerAnimations>
+			<NullAnimations>
+				<NullAnimation NullId="0" Visible="true">
+					<Frame XPosition="0" YPosition="-24" Delay="1" Visible="true" XScale="100" YScale="100" RedTint="255" GreenTint="255" BlueTint="255" AlphaTint="255" RedOffset="0" GreenOffset="0" BlueOffset="0" Rotation="0" Interpolated="false" />
+				</NullAnimation>
+			</NullAnimations>
+			<Triggers />
+		</Animation>
+	</Animations>
+</AnimatedActor>

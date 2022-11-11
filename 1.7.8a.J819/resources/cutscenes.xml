@@ -1,6 +1,6 @@
 <cutscenes root="gfx/cutscenes/">
 	<cutscene id="1" name="Intro" fadeout="true" fadecolor="white">
-		<anm2part anm2="intro.anm2" anim="Scene" music="100" musicDelay="0" width="427" height="240" />
+		<anm2part anm2="intro.anm2" subtitles="intro.srt" anim="Scene" music="100" musicDelay="0" width="427" height="240" />
 	</cutscene>
 	<cutscene id="2" name="Credits">
 		<!--
@@ -9,7 +9,7 @@
 		<anm2part anm2="Credits.anm2" anim="Credits" music="60" width="480" height="270" letterbox="true" />
 	</cutscene>
 	<cutscene id="3" name="Epilogue">
-		<anm2part anm2="Epilogue.anm2" anim="Scene" music="101" musicDelay="0" width="427" height="240" />
+		<anm2part anm2="Epilogue.anm2" subtitles="epilogue.srt" anim="Scene" music="101" musicDelay="0" width="427" height="240" />
 		<videopart file="001_Epilogue.ogv" keepMusic="true" />
 		<anm2part anm2="Credits.anm2" anim="Credits" music="60" width="480" height="270" letterbox="true" />
 	</cutscene>
@@ -129,15 +129,14 @@
 	</cutscene>
 	
 	<cutscene id="24" name="Mother">
-		<videopart file="Krystal_Mother_Ending.ogv" />
+		<videopart file="Krystal_Mother_Ending.ogv" subtitles="Krystal_Mother_Ending.srt" />
 		<anm2part anm2="Credits.anm2" anim="Credits" music="60" width="480" height="270" letterbox="true" />
 	</cutscene>
 	<cutscene id="25" name="Dogma">
 		<videopart file="Krystal_Dogma_Ending.ogv" />
-		<anm2part anm2="Credits.anm2" anim="Credits" music="60" width="480" height="270" letterbox="true" />
 	</cutscene>
 	<cutscene id="26" name="The Beast">
-		<anm2part anm2="Final.anm2" anim="Scene" music="113" musicDelay="0" width="427" height="240" />
+		<anm2part anm2="Final.anm2" subtitles="final.srt" anim="Scene" music="113" musicDelay="0" width="427" height="240" />
 		<anm2part anm2="Credits.anm2" anim="Credits" music="60" width="480" height="270" letterbox="true" />
 	</cutscene>
 </cutscenes>
